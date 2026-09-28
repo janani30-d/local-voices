@@ -1,0 +1,1933 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="The Local Voice - Local Newspaper and Community News Portal"
+    >
+
+    <meta
+        name="keywords"
+        content="local news, community news, newspaper, events, classifieds"
+    >
+
+    <meta
+        name="author"
+        content="The Local Voice"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>
+        The Local Voice | Local News & Community
+    </title>
+<link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+>
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER START
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="home1.html"
+                class="site-logo"
+                aria-label="The Local Voice Home"
+            >
+
+                <!-- Light Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-light"
+                >
+
+
+                <!-- Dark Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-dark"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                id="desktopNavigation"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NORMAL NAVIGATION LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="nav-link active"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+    <button
+        type="button"
+        class="header-action-btn rtl-toggle"
+        id="rtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="header-action-btn dark-toggle"
+        id="darkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="login-btn"
+    >
+        Login
+    </a>
+
+</div>
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE NAVIGATION
+        ====================================================== -->
+
+        <div
+            class="mobile-navigation"
+            id="mobileNavigation"
+        >
+
+            <div class="mobile-navigation-inner">
+
+
+                <!-- =============================================
+                     MOBILE HOME DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NORMAL LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="mobile-nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="mobile-nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="mobile-nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="mobile-nav-link active"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE ACTIONS
+                ============================================== -->
+
+                <div class="mobile-actions">
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileRtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileDarkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="mobile-login-btn"
+    >
+        Login
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HEADER END
+    ====================================================== -->
+
+
+    <!-- =====================================================
+         MAIN CONTENT START
+         We will add this later.
+    ====================================================== -->
+
+    <main>
+<!-- =========================================================
+     CONTACT PAGE — SECTION 1
+     CONTACT HERO
+========================================================= -->
+
+<section class="contact-hero" id="contactHero">
+
+    <div class="contact-hero-overlay"></div>
+
+    <div class="contact-hero-container">
+
+        <div class="contact-hero-content">
+
+            <!-- HERO LABEL -->
+
+            <div class="contact-hero-label">
+
+                <span class="contact-hero-eyebrow">
+                    CONTACT US
+                </span>
+
+                <span class="contact-hero-line"></span>
+
+            </div>
+
+
+            <!-- HERO TITLE -->
+
+            <h1 class="contact-hero-title">
+                We're Here to Hear From You
+            </h1>
+
+
+            <!-- HERO DESCRIPTION -->
+
+            <p class="contact-hero-description">
+                Have a question, story idea, advertising enquiry,
+                classified notice, or community event to share?
+                Get in touch with The Local Voice team.
+            </p>
+
+
+            <!-- HERO META -->
+
+            <div class="contact-hero-meta">
+
+                <span>
+                    <i
+                        class="fa-solid fa-envelope"
+                        aria-hidden="true"
+                    ></i>
+
+                    General Enquiries
+                </span>
+
+                <span>
+                    <i
+                        class="fa-solid fa-location-dot"
+                        aria-hidden="true"
+                    ></i>
+
+                    Local Community Office
+                </span>
+
+            </div>
+
+
+            <!-- HERO BUTTON -->
+
+            <a
+                href="#contactForm"
+                class="contact-hero-button"
+            >
+
+                <span>
+                    Send Us a Message
+                </span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CONTACT SECTION 2
+     CONTACT INFORMATION
+========================================================= -->
+
+<section class="contact-information" id="contactInformation">
+
+    <div class="contact-information-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="contact-information-header">
+
+            <div class="contact-information-title-wrap">
+
+                <span class="contact-information-eyebrow">
+                    GET IN TOUCH
+                </span>
+
+                <span class="contact-information-line"></span>
+
+                <h2 class="contact-information-title">
+                    Contact The Local Voice
+                </h2>
+
+            </div>
+
+            <p class="contact-information-description">
+                Whether you have a question, story idea, advertising
+                enquiry, classified notice, or community event to
+                share, our team is ready to hear from you.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             CONTACT INFORMATION GRID
+        ================================================== -->
+
+        <div class="contact-information-grid">
+
+
+            <!-- =============================================
+                 GENERAL ENQUIRIES
+            ============================================== -->
+
+            <article class="contact-information-card">
+
+                <div class="contact-information-card-icon">
+                    <i class="fa-solid fa-envelope"
+                       aria-hidden="true"></i>
+                </div>
+
+                <div class="contact-information-card-content">
+
+                    <span class="contact-information-card-label">
+                        GENERAL ENQUIRIES
+                    </span>
+
+                    <h3 class="contact-information-card-title">
+                        Get in Touch With Us
+                    </h3>
+
+                    <p class="contact-information-card-text">
+                        For general questions, feedback, story
+                        suggestions, and information about
+                        The Local Voice.
+                    </p>
+
+                    <a href="mailto:info@localvoice.com"
+                       class="contact-information-card-link">
+
+                        <span>
+                            info@localvoice.com
+                        </span>
+
+                        <i class="fa-solid fa-arrow-right"
+                           aria-hidden="true"></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 PHONE
+            ============================================== -->
+
+            <article class="contact-information-card">
+
+                <div class="contact-information-card-icon">
+                    <i class="fa-solid fa-phone"
+                       aria-hidden="true"></i>
+                </div>
+
+                <div class="contact-information-card-content">
+
+                    <span class="contact-information-card-label">
+                        PHONE
+                    </span>
+
+                    <h3 class="contact-information-card-title">
+                        Speak With Our Team
+                    </h3>
+
+                    <p class="contact-information-card-text">
+                        Contact our office during working hours
+                        for enquiries, assistance, and
+                        community-related information.
+                    </p>
+
+                    <a href="tel:+910000000000"
+                       class="contact-information-card-link">
+
+                        <span>
+                            +91 00000 00000
+                        </span>
+
+                        <i class="fa-solid fa-arrow-right"
+                           aria-hidden="true"></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 OFFICE
+            ============================================== -->
+
+            <article class="contact-information-card">
+
+                <div class="contact-information-card-icon">
+                    <i class="fa-solid fa-location-dot"
+                       aria-hidden="true"></i>
+                </div>
+
+                <div class="contact-information-card-content">
+
+                    <span class="contact-information-card-label">
+                        OUR OFFICE
+                    </span>
+
+                    <h3 class="contact-information-card-title">
+                        Visit Our Community
+                    </h3>
+
+                    <p class="contact-information-card-text">
+                        Visit The Local Voice office for local
+                        enquiries, advertising discussions,
+                        and community submissions.
+                    </p>
+
+                    <a href="#visitOffice"
+                       class="contact-information-card-link">
+
+                        <span>
+                            View Office Location
+                        </span>
+
+                        <i class="fa-solid fa-arrow-right"
+                           aria-hidden="true"></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 OFFICE HOURS
+            ============================================== -->
+
+            <article class="contact-information-card">
+
+                <div class="contact-information-card-icon">
+                    <i class="fa-regular fa-clock"
+                       aria-hidden="true"></i>
+                </div>
+
+                <div class="contact-information-card-content">
+
+                    <span class="contact-information-card-label">
+                        OFFICE HOURS
+                    </span>
+
+                    <h3 class="contact-information-card-title">
+                        When You Can Reach Us
+                    </h3>
+
+                    <p class="contact-information-card-text">
+                        Our team is available during regular
+                        office hours to assist with enquiries
+                        and submissions.
+                    </p>
+
+                    <div class="contact-information-hours">
+
+                        <div class="contact-information-hours-row">
+                            <span>
+                                Monday – Saturday
+                            </span>
+
+                            <strong>
+                                9:00 AM – 6:00 PM
+                            </strong>
+                        </div>
+
+                        <div class="contact-information-hours-row">
+                            <span>
+                                Sunday
+                            </span>
+
+                            <strong>
+                                Closed
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CONTACT SECTION 3
+     CONTACT FORM + LOCATION
+========================================================= -->
+
+<section class="contact-form-location" id="contactForm">
+
+    <div class="contact-form-location-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="contact-form-location-header">
+
+            <div class="contact-form-location-title-wrap">
+
+                <span class="contact-form-location-eyebrow">
+                    SEND US A MESSAGE
+                </span>
+
+                <span class="contact-form-location-line"></span>
+
+                <h2 class="contact-form-location-title">
+                    We'd Love to Hear From You
+                </h2>
+
+            </div>
+
+            <p class="contact-form-location-description">
+                Send us your question, feedback, story idea,
+                advertising enquiry, classified notice, or
+                community event information.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN FORM + LOCATION LAYOUT
+        ================================================== -->
+
+        <div class="contact-form-location-layout">
+
+
+            <!-- =============================================
+                 CONTACT FORM
+            ============================================== -->
+
+            <div class="contact-form-wrapper">
+
+                <div class="contact-form-heading">
+
+                    <span class="contact-form-eyebrow">
+                        CONTACT FORM
+                    </span>
+
+                    <h3 class="contact-form-title">
+                        Send Your Enquiry
+                    </h3>
+
+                    <p class="contact-form-description">
+                        Fill in the form below and our team will
+                        get back to you with the appropriate
+                        information.
+                    </p>
+
+                </div>
+
+
+                <form class="contact-form" id="contactEnquiryForm">
+
+                    <!-- NAME -->
+
+                    <div class="contact-form-row">
+
+                        <div class="contact-form-field">
+
+                            <label for="contactName">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="contactName"
+                                name="name"
+                                placeholder="Enter your full name"
+                                autocomplete="name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+
+                        <div class="contact-form-field">
+
+                            <label for="contactEmail">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="contactEmail"
+                                name="email"
+                                placeholder="Enter your email address"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHONE + SUBJECT -->
+
+                    <div class="contact-form-row">
+
+                        <div class="contact-form-field">
+
+                            <label for="contactPhone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="contactPhone"
+                                name="phone"
+                                placeholder="Enter your phone number"
+                                autocomplete="tel"
+                            >
+
+                        </div>
+
+
+                        <div class="contact-form-field">
+
+                            <label for="contactSubject">
+                                Subject
+                            </label>
+
+                            <select
+                                id="contactSubject"
+                                name="subject"
+                                required
+                            >
+
+                                <option value="" selected disabled>
+                                    Select an enquiry type
+                                </option>
+
+                                <option value="general">
+                                    General Enquiry
+                                </option>
+
+                                <option value="story">
+                                    Story / News Tip
+                                </option>
+
+                                <option value="advertising">
+                                    Advertising Enquiry
+                                </option>
+
+                                <option value="classifieds">
+                                    Classifieds
+                                </option>
+
+                                <option value="events">
+                                    Community Event
+                                </option>
+
+                                <option value="feedback">
+                                    Feedback
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- MESSAGE -->
+
+                    <div class="contact-form-field contact-form-message-field">
+
+                        <label for="contactMessage">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="contactMessage"
+                            name="message"
+                            rows="7"
+                            placeholder="Write your message here..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- FORM ACTION -->
+
+                    <div class="contact-form-action">
+
+                        <button
+                            type="submit"
+                            class="contact-form-submit"
+                        >
+
+                            <span>
+                                Send Message
+                            </span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <!-- =============================================
+                 LOCATION / OFFICE DETAILS
+            ============================================== -->
+
+            <aside class="contact-location">
+
+                <div class="contact-location-header">
+
+                    <span class="contact-location-eyebrow">
+                        OUR LOCATION
+                    </span>
+
+                    <h3 class="contact-location-title">
+                        Visit The Local Voice
+                    </h3>
+
+                    <p class="contact-location-description">
+                        Our community office is available for
+                        local enquiries, advertising discussions,
+                        submissions, and other communication
+                        with our team.
+                    </p>
+
+                </div>
+
+
+                <!-- OFFICE DETAILS -->
+
+                <div class="contact-location-details">
+
+
+                    <!-- ADDRESS -->
+
+                    <div class="contact-location-detail">
+
+                        <div class="contact-location-detail-icon">
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="contact-location-detail-content">
+
+                            <span>ADDRESS</span>
+
+                            <strong>
+                                The Local Voice Community Office
+                            </strong>
+
+                            <p>
+                                Main Town, Local District,
+                                Tamil Nadu, India
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHONE -->
+
+                    <div class="contact-location-detail">
+
+                        <div class="contact-location-detail-icon">
+                            <i
+                                class="fa-solid fa-phone"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="contact-location-detail-content">
+
+                            <span>PHONE</span>
+
+                            <a href="tel:+910000000000">
+                                +91 00000 00000
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="contact-location-detail">
+
+                        <div class="contact-location-detail-icon">
+                            <i
+                                class="fa-solid fa-envelope"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="contact-location-detail-content">
+
+                            <span>EMAIL</span>
+
+                            <a href="mailto:info@localvoice.com">
+                                info@localvoice.com
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- OFFICE HOURS -->
+
+                    <div class="contact-location-detail">
+
+                        <div class="contact-location-detail-icon">
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="contact-location-detail-content">
+
+                            <span>OFFICE HOURS</span>
+
+                            <strong>
+                                Monday – Saturday
+                            </strong>
+
+                            <p>
+                                9:00 AM – 6:00 PM
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MAP / LOCATION AREA -->
+
+                <div class="contact-location-map">
+
+                    <div class="contact-location-map-overlay">
+
+                        <div class="contact-location-map-icon">
+
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                        </div>
+
+                        <span>
+                            The Local Voice Community Office
+                        </span>
+
+                        <small>
+                            Main Town, Local District
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CONTACT SECTION 4
+     HOW CAN WE HELP?
+========================================================= -->
+
+<section class="contact-help" id="contactHelp">
+
+    <div class="contact-help-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="contact-help-header">
+
+            <div class="contact-help-title-wrap">
+
+                <span class="contact-help-eyebrow">
+                    HOW CAN WE HELP?
+                </span>
+
+                <span class="contact-help-line"></span>
+
+                <h2 class="contact-help-title">
+                    Find the Right Way to Reach Us
+                </h2>
+
+            </div>
+
+            <p class="contact-help-description">
+                Choose the type of enquiry you have and connect
+                with the appropriate area of The Local Voice.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             HELP OPTIONS
+        ================================================== -->
+
+        <div class="contact-help-grid">
+
+
+            <!-- =============================================
+                 NEWS & STORY TIPS
+            ============================================== -->
+
+            <article class="contact-help-card">
+
+                <div class="contact-help-card-top">
+
+                    <div class="contact-help-icon">
+                        <i
+                            class="fa-solid fa-newspaper"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                    <span class="contact-help-number">
+                        01
+                    </span>
+
+                </div>
+
+                <div class="contact-help-card-content">
+
+                    <span class="contact-help-category">
+                        NEWS &amp; STORIES
+                    </span>
+
+                    <h3 class="contact-help-card-title">
+                        News &amp; Story Tips
+                    </h3>
+
+                    <p class="contact-help-card-description">
+                        Have a local story, community update,
+                        public notice, or news tip to share?
+                        Send the details to our editorial team.
+                    </p>
+
+                    <a
+                        href="#contactForm"
+                        class="contact-help-card-link"
+                    >
+                        <span>Send a Story Tip</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 ADVERTISING
+            ============================================== -->
+
+            <article class="contact-help-card">
+
+                <div class="contact-help-card-top">
+
+                    <div class="contact-help-icon">
+                        <i
+                            class="fa-solid fa-bullhorn"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                    <span class="contact-help-number">
+                        02
+                    </span>
+
+                </div>
+
+                <div class="contact-help-card-content">
+
+                    <span class="contact-help-category">
+                        ADVERTISING
+                    </span>
+
+                    <h3 class="contact-help-card-title">
+                        Advertising Enquiries
+                    </h3>
+
+                    <p class="contact-help-card-description">
+                        Ask about newspaper advertising, digital
+                        advertising, event promotion, or other
+                        opportunities to reach local readers.
+                    </p>
+
+                    <a
+                        href="advertise.html"
+                        class="contact-help-card-link"
+                    >
+                        <span>Explore Advertising</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 CLASSIFIEDS
+            ============================================== -->
+
+            <article class="contact-help-card">
+
+                <div class="contact-help-card-top">
+
+                    <div class="contact-help-icon">
+                        <i
+                            class="fa-solid fa-rectangle-list"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                    <span class="contact-help-number">
+                        03
+                    </span>
+
+                </div>
+
+                <div class="contact-help-card-content">
+
+                    <span class="contact-help-category">
+                        CLASSIFIEDS
+                    </span>
+
+                    <h3 class="contact-help-card-title">
+                        Classifieds
+                    </h3>
+
+                    <p class="contact-help-card-description">
+                        Submit a property listing, job opportunity,
+                        vehicle advertisement, service listing,
+                        or community notice for growth.
+                    </p>
+
+                    <a
+                        href="classifieds.html"
+                        class="contact-help-card-link"
+                    >
+                        <span>View Classifieds</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 COMMUNITY EVENTS
+            ============================================== -->
+
+            <article class="contact-help-card">
+
+                <div class="contact-help-card-top">
+
+                    <div class="contact-help-icon">
+                        <i
+                            class="fa-regular fa-calendar-check"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                    <span class="contact-help-number">
+                        04
+                    </span>
+
+                </div>
+
+                <div class="contact-help-card-content">
+
+                    <span class="contact-help-category">
+                        COMMUNITY EVENTS
+                    </span>
+
+                    <h3 class="contact-help-card-title">
+                        Share Your Event
+                    </h3>
+
+                    <p class="contact-help-card-description">
+                        Tell local residents about an upcoming
+                        community gathering, workshop, sports
+                        event, cultural activity, or public program.
+                    </p>
+
+                    <a
+                        href="events.html"
+                        class="contact-help-card-link"
+                    >
+                        <span>Explore Events</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CONTACT SECTION 5
+     VISIT OUR OFFICE
+========================================================= -->
+
+<section class="contact-office" id="visitOffice">
+
+    <div class="contact-office-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="contact-office-header">
+
+            <div class="contact-office-title-wrap">
+
+                <span class="contact-office-eyebrow">
+                    VISIT OUR OFFICE
+                </span>
+
+                <span class="contact-office-line"></span>
+
+                <h2 class="contact-office-title">
+                    Come Visit The Local Voice
+                </h2>
+
+            </div>
+
+            <p class="contact-office-description">
+                Our community office is available for local enquiries,
+                advertising discussions, submissions, and communication
+                with The Local Voice team.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             OFFICE LAYOUT
+        ================================================== -->
+
+        <div class="contact-office-layout">
+
+
+            <!-- =============================================
+                 OFFICE INFORMATION
+            ============================================== -->
+
+            <div class="contact-office-content">
+
+                <span class="contact-office-content-eyebrow">
+                    OUR COMMUNITY OFFICE
+                </span>
+
+                <h3 class="contact-office-content-title">
+                    Meet Us at The Local Voice
+                </h3>
+
+                <p class="contact-office-content-description">
+                    Visit our office if you would like to discuss
+                    a local story, advertising opportunity,
+                    classified submission, community event,
+                    or other enquiry in person.
+                </p>
+
+
+                <!-- =========================================
+                     OFFICE DETAILS
+                ========================================== -->
+
+                <div class="contact-office-details">
+
+
+                    <!-- ADDRESS -->
+
+                    <div class="contact-office-detail">
+
+                        <div class="contact-office-detail-icon">
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="contact-office-detail-content">
+
+                            <span>ADDRESS</span>
+
+                            <strong>
+                                The Local Voice Community Office
+                            </strong>
+
+                            <p>
+                                Main Town, Local District,
+                                Tamil Nadu, India
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHONE -->
+
+                    <div class="contact-office-detail">
+
+                        <div class="contact-office-detail-icon">
+                            <i
+                                class="fa-solid fa-phone"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="contact-office-detail-content">
+
+                            <span>PHONE</span>
+
+                            <a href="tel:+910000000000">
+                                +91 00000 00000
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- OFFICE HOURS -->
+
+                    <div class="contact-office-detail">
+
+                        <div class="contact-office-detail-icon">
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="contact-office-detail-content">
+
+                            <span>OFFICE HOURS</span>
+
+                            <strong>
+                                Monday – Saturday
+                            </strong>
+
+                            <p>
+                                9:00 AM – 6:00 PM
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================================
+                     GET DIRECTIONS
+                ========================================== -->
+
+                <a
+                    href="https://www.google.com/maps?q=Tamil%20Nadu%2C%20India"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-office-directions"
+                >
+
+                    <span>
+                        Get Directions
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- =============================================
+                 GOOGLE MAP
+            ============================================== -->
+
+            <div class="contact-office-map">
+
+                <iframe
+                    src="https://www.google.com/maps?q=Tamil%20Nadu%2C%20India&output=embed"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="The Local Voice Community Office location"
+                ></iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+         </main>
+<! =========================================================
+   FOOTER
+========================================================= !>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =============================================
+             FOOTER BRAND
+        ============================================== -->
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="footer-logo-light"
+                >
+
+                
+            </a>
+
+            <p class="footer-description">
+                Your trusted source for local news, community stories,
+                events, classifieds, and everything happening around you.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             QUICK LINKS
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="news.html">All News</a>
+                </li>
+
+                <li>
+                    <a href="classifieds.html">Classifieds</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="advertise.html">Advertise With Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             NEWS CATEGORIES
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                News Categories
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="civic.html">Civic</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">Sports</a>
+                </li>
+
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="news.html">Latest News</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             CONTACT
+        ============================================== -->
+
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <p>
+                    Your Local Community,<br>
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <a href="tel:+910000000000">
+                    +91 00000 00000
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:info@thelocalvoice.com">
+                    info@thelocalvoice.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         FOOTER BOTTOM
+    ============================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 The Local Voice. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+         We will add the header JS later.
+    ====================================================== -->
+<!-- =========================================================
+     SCROLL TO TOP BUTTON
+========================================================= -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

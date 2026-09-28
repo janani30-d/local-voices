@@ -1,0 +1,3331 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="The Local Voice - Local Newspaper and Community News Portal"
+    >
+
+    <meta
+        name="keywords"
+        content="local news, community news, newspaper, events, classifieds"
+    >
+
+    <meta
+        name="author"
+        content="The Local Voice"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>
+        The Local Voice | Local News & Community
+    </title>
+<link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+>
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER START
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="home1.html"
+                class="site-logo"
+                aria-label="The Local Voice Home"
+            >
+
+                <!-- Light Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-light"
+                >
+
+
+                <!-- Dark Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-dark"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                id="desktopNavigation"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle active"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html"class="active">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NORMAL NAVIGATION LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+    <button
+        type="button"
+        class="header-action-btn rtl-toggle"
+        id="rtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="header-action-btn dark-toggle"
+        id="darkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="login-btn"
+    >
+        Login
+    </a>
+
+</div>
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE NAVIGATION
+        ====================================================== -->
+
+        <div
+            class="mobile-navigation"
+            id="mobileNavigation"
+        >
+
+            <div class="mobile-navigation-inner">
+
+
+                <!-- =============================================
+                     MOBILE HOME DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle active"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html"class="active">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NORMAL LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="mobile-nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="mobile-nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="mobile-nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="mobile-nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE ACTIONS
+                ============================================== -->
+
+                <div class="mobile-actions">
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileRtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileDarkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="mobile-login-btn"
+    >
+        Login
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HEADER END
+    ====================================================== -->
+
+
+    <!-- =====================================================
+         MAIN CONTENT START
+         We will add this later.
+    ====================================================== -->
+
+    <main>
+<!-- =========================================================
+     BUSINESS SECTION 1 — HERO
+========================================================= -->
+
+<section class="business-hero" id="businessHero">
+
+    <div class="business-hero-overlay"></div>
+
+    <div class="business-hero-container">
+
+        <div class="business-hero-content">
+
+            <span class="business-hero-eyebrow">
+                BUSINESS NEWS
+            </span>
+
+            <span class="business-hero-line"></span>
+
+            <h1>
+                Local Business & Economic Affairs
+            </h1>
+
+            <p>
+                Stay informed about local businesses, markets,
+                entrepreneurs, new opportunities, retail activity,
+                and important economic developments in the community.
+            </p>
+
+            <div class="business-hero-meta">
+
+                <span>
+                    <i
+                        class="fa-regular fa-clock"
+                        aria-hidden="true"
+                    ></i>
+                    Latest Business Updates
+                </span>
+
+                <span>
+                    <i
+                        class="fa-solid fa-location-dot"
+                        aria-hidden="true"
+                    ></i>
+                    Local Community
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     BUSINESS SECTION 2 — BREAKING BUSINESS NEWS
+========================================================= -->
+
+<section class="business-breaking" id="businessBreaking">
+
+    <div class="business-breaking-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="business-breaking-header">
+
+            <div class="business-breaking-title-wrap">
+
+                <span class="business-breaking-eyebrow">
+                    BREAKING BUSINESS NEWS
+                </span>
+
+                <span class="business-breaking-line"></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BREAKING NEWS CARD
+        ================================================== -->
+
+        <article class="business-breaking-card">
+
+            <!-- MAIN CONTENT -->
+
+            <div class="business-breaking-content">
+
+                <span class="business-breaking-category">
+                    BUSINESS UPDATE
+                </span>
+
+                <h2 class="business-breaking-title">
+                    Local Businesses Prepare for New Growth Opportunities
+                </h2>
+
+                <p class="business-breaking-description">
+                    Local businesses and entrepreneurs are preparing
+                    for new opportunities as commercial activity
+                    continues to develop across the community.
+                </p>
+
+
+                <!-- META -->
+
+                <div class="business-breaking-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+
+                        24 September 2026
+                    </span>
+
+                    <span>
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                        10:30 AM
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- READ ACTION -->
+
+            <div class="business-breaking-action">
+
+                <a
+                    href="news.html"
+                    class="business-breaking-read"
+                >
+
+                    <span>
+                        Read Full Story
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     BUSINESS SECTION 3 — FEATURED BUSINESS STORY
+========================================================= -->
+
+<section class="business-featured" id="businessFeatured">
+
+    <div class="business-featured-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="business-featured-header">
+
+            <div class="business-featured-title-wrap">
+
+                <span class="business-featured-eyebrow">
+                    FEATURED BUSINESS STORY
+                </span>
+
+                <span class="business-featured-line"></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             FEATURED STORY
+        ================================================== -->
+
+        <article class="business-featured-story">
+
+
+            <!-- =================================================
+                 STORY CONTENT
+            ================================================== -->
+
+            <div class="business-featured-content">
+
+                <span class="business-featured-category">
+                    BUSINESS AFFAIRS
+                </span>
+
+                <h2 class="business-featured-title">
+                    Local Businesses Expand Services as Community
+                    Demand Continues to Grow
+                </h2>
+
+                <p class="business-featured-description">
+                    Local businesses are adapting their services and
+                    expanding their offerings as changing customer
+                    needs create new opportunities across the
+                    community.
+                </p>
+
+
+                <!-- META -->
+
+                <div class="business-featured-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+
+                        24 September 2026
+                    </span>
+
+                    <span>
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+
+                        Local Voice Business Desk
+                    </span>
+
+                </div>
+
+
+                <!-- READ BUTTON -->
+
+                <a
+                    href="news.html"
+                    class="business-featured-read"
+                >
+
+                    <span>
+                        Read Full Story
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- =================================================
+                 STORY IMAGE
+            ================================================== -->
+
+            <div class="business-featured-image">
+
+                <img
+                    src="images/business-featured.jpg"
+                    alt="Local businesses and community commerce"
+                >
+
+            </div>
+
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     BUSINESS SECTION 4 — LATEST BUSINESS NEWS
+========================================================= -->
+
+<section class="business-latest" id="businessLatest">
+
+    <div class="business-latest-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="business-latest-header">
+
+            <div class="business-latest-title-wrap">
+
+                <span class="business-latest-eyebrow">
+                    LATEST BUSINESS NEWS
+                </span>
+
+                <span class="business-latest-line"></span>
+
+            </div>
+
+            <a
+                href="news.html"
+                class="business-latest-view-all"
+            >
+                <span>View All News</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             NEWS GRID
+        ================================================== -->
+
+        <div class="business-latest-grid">
+
+
+            <!-- =================================================
+                 NEWS CARD 01
+            ================================================== -->
+
+            <article class="business-latest-card">
+
+                <a
+                    href="news.html"
+                    class="business-latest-image"
+                >
+
+                    <img
+                        src="images/business-news-1.jpg"
+                        alt="Local business development"
+                        loading="lazy"
+                    >
+
+                </a>
+
+                <div class="business-latest-content">
+
+                    <span class="business-latest-category">
+                        BUSINESS
+                    </span>
+
+                    <h3 class="business-latest-title">
+                        Local Businesses Introduce New Services
+                        for Growing Customer
+                    </h3>
+
+                    <p class="business-latest-description">
+                        Local businesses are expanding their services
+                        to meet changing customer needs across the
+                        community.
+                    </p>
+
+                    <div class="business-latest-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            24 September 2026
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            09:45 AM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="business-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 02
+            ================================================== -->
+
+            <article class="business-latest-card">
+
+                <a
+                    href="news.html"
+                    class="business-latest-image"
+                >
+
+                    <img
+                        src="images/business-news-2.jpg"
+                        alt="Local market activity"
+                        loading="lazy"
+                    >
+
+                </a>
+
+                <div class="business-latest-content">
+
+                    <span class="business-latest-category">
+                        MARKETS
+                    </span>
+
+                    <h3 class="business-latest-title">
+                        Local Market Activity Shows Signs of
+                        Continued Growth level
+                    </h3>
+
+                    <p class="business-latest-description">
+                        Retailers and traders report steady activity
+                        as customers continue to support local markets owners.
+                    </p>
+
+                    <div class="business-latest-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            23 September 2026
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            04:20 PM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="business-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 03
+            ================================================== -->
+
+            <article class="business-latest-card">
+
+                <a
+                    href="news.html"
+                    class="business-latest-image"
+                >
+
+                    <img
+                        src="images/business-news-3.jpg"
+                        alt="Local entrepreneurs"
+                        loading="lazy"
+                    >
+
+                </a>
+
+                <div class="business-latest-content">
+
+                    <span class="business-latest-category">
+                        ENTREPRENEURS
+                    </span>
+
+                    <h3 class="business-latest-title">
+                        Young Entrepreneurs Build New Businesses
+                        Around Local Needs
+                    </h3>
+
+                    <p class="business-latest-description">
+                        New entrepreneurs are developing small
+                        businesses focused on services for the local
+                        community.
+                    </p>
+
+                    <div class="business-latest-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            23 September 2026
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            11:15 AM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="business-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 04
+            ================================================== -->
+
+            <article class="business-latest-card">
+
+                <a
+                    href="news.html"
+                    class="business-latest-image"
+                >
+
+                    <img
+                        src="images/business-news-4.jpg"
+                        alt="Local retail businesses"
+                        loading="lazy"
+                    >
+
+                </a>
+
+                <div class="business-latest-content">
+
+                    <span class="business-latest-category">
+                        RETAIL
+                    </span>
+
+                    <h3 class="business-latest-title">
+                        Retailers Prepare for Upcoming Seasonal
+                        Shopping Activity Work
+                    </h3>
+
+                    <p class="business-latest-description">
+                        Shops across the community are preparing
+                        special offers and new collections for the
+                        upcoming season.
+                    </p>
+
+                    <div class="business-latest-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            22 September 2026
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            03:30 PM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="business-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 05
+            ================================================== -->
+
+            <article class="business-latest-card">
+
+                <a
+                    href="news.html"
+                    class="business-latest-image"
+                >
+
+                    <img
+                        src="images/business-news-5.jpg"
+                        alt="Local business event"
+                        loading="lazy"
+                    >
+
+                </a>
+
+                <div class="business-latest-content">
+
+                    <span class="business-latest-category">
+                        BUSINESS EVENTS
+                    </span>
+
+                    <h3 class="business-latest-title">
+                        Local Business Meet Brings Entrepreneurs
+                        Together Process
+                    </h3>
+
+                    <p class="business-latest-description">
+                        Business owners and entrepreneurs gathered
+                        to discuss opportunities, partnerships, and
+                        future.
+                    </p>
+
+                    <div class="business-latest-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            21 September 2026
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            01:00 PM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="business-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 06
+            ================================================== -->
+
+            <article class="business-latest-card">
+
+                <a
+                    href="news.html"
+                    class="business-latest-image"
+                >
+
+                    <img
+                        src="images/business-news-6.jpg"
+                        alt="Small business owners"
+                        loading="lazy"
+                    >
+
+                </a>
+
+                <div class="business-latest-content">
+
+                    <span class="business-latest-category">
+                        SMALL BUSINESS
+                    </span>
+
+                    <h3 class="business-latest-title">
+                        Small Businesses Explore Digital Tools to
+                        Reach More Customers
+                    </h3>
+
+                    <p class="business-latest-description">
+                        Local business owners are increasingly using
+                        digital tools to improve customer engagement
+                        support.
+                    </p>
+
+                    <div class="business-latest-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            20 September 2026
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            10:10 AM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="business-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     BUSINESS SECTION 5 — BUSINESS CATEGORY NEWS
+========================================================= -->
+
+<section class="business-category" id="businessCategory">
+
+    <div class="business-category-container">
+
+
+        <!-- =================================================
+             CATEGORY 01 — LOCAL BUSINESS
+        ================================================== -->
+
+        <article class="business-category-block">
+
+            <!-- CATEGORY HEADER -->
+
+            <div class="business-category-header">
+
+                <div class="business-category-title-wrap">
+
+                    <span class="business-category-eyebrow">
+                        LOCAL BUSINESS
+                    </span>
+
+                    <span class="business-category-line"></span>
+
+                </div>
+
+            </div>
+
+
+            <!-- MAIN STORY -->
+
+            <a
+                href="news.html"
+                class="business-category-main-image"
+            >
+
+                <img
+                    src="images/business-category-local.jpg"
+                    alt="Local business activity"
+                    loading="lazy"
+                >
+
+            </a>
+
+            <div class="business-category-main-content">
+
+                <span class="business-category-main-label">
+                    BUSINESS
+                </span>
+
+                <h2 class="business-category-main-title">
+                    Local Businesses Expand Services to Meet
+                    Growing Community Demand
+                </h2>
+
+                <div class="business-category-main-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+                        24 September 2026
+                    </span>
+
+                    <span>
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+                        Local Voice Business Desk
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RELATED STORIES -->
+
+            <div class="business-category-related">
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-local-1.jpg"
+                            alt="Local shop"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>LOCAL BUSINESS</span>
+
+                        <h3>
+                            New Shops and Services Open
+                            Across the Community works
+                        </h3>
+
+                        <small>
+                            23 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-local-2.jpg"
+                            alt="Local business owners"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>BUSINESS UPDATE</span>
+
+                        <h3>
+                            Local Business Owners Prepare
+                            for New Opportunities
+                        </h3>
+
+                        <small>
+                            22 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-local-3.jpg"
+                            alt="Community retail activity"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>COMMUNITY COMMERCE</span>
+
+                        <h3>
+                            Community Spending Supports
+                            Local Businesses activity
+                        </h3>
+
+                        <small>
+                            21 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- CATEGORY LINK -->
+
+            <a
+                href="business.html"
+                class="business-category-more"
+            >
+                <span>Go to Local Business</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </article>
+
+
+
+        <!-- =================================================
+             CATEGORY 02 — MARKETS
+        ================================================== -->
+
+        <article class="business-category-block">
+
+            <!-- CATEGORY HEADER -->
+
+            <div class="business-category-header">
+
+                <div class="business-category-title-wrap">
+
+                    <span class="business-category-eyebrow">
+                        MARKETS
+                    </span>
+
+                    <span class="business-category-line"></span>
+
+                </div>
+
+            </div>
+
+
+            <!-- MAIN STORY -->
+
+            <a
+                href="news.html"
+                class="business-category-main-image"
+            >
+
+                <img
+                    src="images/business-category-markets.jpg"
+                    alt="Local market activity"
+                    loading="lazy"
+                >
+
+            </a>
+
+            <div class="business-category-main-content">
+
+                <span class="business-category-main-label">
+                    MARKETS
+                </span>
+
+                <h2 class="business-category-main-title">
+                    Local Market Activity Shows Steady
+                    Growth Across the Area growing
+                </h2>
+
+                <div class="business-category-main-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+                        24 September 2026
+                    </span>
+
+                    <span>
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+                        Local Voice Business Desk
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RELATED STORIES -->
+
+            <div class="business-category-related">
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-markets-1.jpg"
+                            alt="Local market traders"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>MARKETS</span>
+
+                        <h3>
+                            Retailers Report Stable Activity
+                            in Local Markets nears
+                        </h3>
+
+                        <small>
+                            23 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-markets-2.jpg"
+                            alt="Market shopping activity"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>RETAIL</span>
+
+                        <h3>
+                            Customer Activity Remains Strong
+                            at Local Shopping Areas
+                        </h3>
+
+                        <small>
+                            22 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-markets-3.jpg"
+                            alt="Local commerce"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>BUSINESS</span>
+
+                        <h3>
+                            Local Commerce Continues to Support
+                            Community Economic
+                        </h3>
+
+                        <small>
+                            21 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- CATEGORY LINK -->
+
+            <a
+                href="business.html"
+                class="business-category-more"
+            >
+                <span>Go to Markets</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </article>
+
+
+
+        <!-- =================================================
+             CATEGORY 03 — ENTREPRENEURS
+        ================================================== -->
+
+        <article class="business-category-block">
+
+            <!-- CATEGORY HEADER -->
+
+            <div class="business-category-header">
+
+                <div class="business-category-title-wrap">
+
+                    <span class="business-category-eyebrow">
+                        ENTREPRENEURS
+                    </span>
+
+                    <span class="business-category-line"></span>
+
+                </div>
+
+            </div>
+
+
+            <!-- MAIN STORY -->
+
+            <a
+                href="news.html"
+                class="business-category-main-image"
+            >
+
+                <img
+                    src="images/business-category-entrepreneurs.jpg"
+                    alt="Local entrepreneurs"
+                    loading="lazy"
+                >
+
+            </a>
+
+            <div class="business-category-main-content">
+
+                <span class="business-category-main-label">
+                    ENTREPRENEURS
+                </span>
+
+                <h2 class="business-category-main-title">
+                    Young Entrepreneurs Build New Businesses
+                    Around Local Opportunities
+                </h2>
+
+                <div class="business-category-main-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+                        23 September 2026
+                    </span>
+
+                    <span>
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+                        Local Voice Business Desk
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RELATED STORIES -->
+
+            <div class="business-category-related">
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-entrepreneurs-1.jpg"
+                            alt="Young business entrepreneur"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>STARTUPS</span>
+
+                        <h3>
+                            New Local Startups Explore
+                            Community-Focused Services
+                        </h3>
+
+                        <small>
+                            22 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-entrepreneurs-2.jpg"
+                            alt="Entrepreneur working"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>ENTREPRENEURS</span>
+
+                        <h3>
+                            Local Business Owners Share
+                            New Growth Ideas for growth level
+                        </h3>
+
+                        <small>
+                            21 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-entrepreneurs-3.jpg"
+                            alt="Small business planning"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>BUSINESS IDEAS</span>
+
+                        <h3>
+                            Small Business Ideas Gain Interest
+                            Among Local Youth growth
+                        </h3>
+
+                        <small>
+                            20 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- CATEGORY LINK -->
+
+            <a
+                href="business.html"
+                class="business-category-more"
+            >
+                <span>Go to Entrepreneurs</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </article>
+
+
+
+        <!-- =================================================
+             CATEGORY 04 — RETAIL
+        ================================================== -->
+
+        <article class="business-category-block">
+
+            <!-- CATEGORY HEADER -->
+
+            <div class="business-category-header">
+
+                <div class="business-category-title-wrap">
+
+                    <span class="business-category-eyebrow">
+                        RETAIL
+                    </span>
+
+                    <span class="business-category-line"></span>
+
+                </div>
+
+            </div>
+
+
+            <!-- MAIN STORY -->
+
+            <a
+                href="news.html"
+                class="business-category-main-image"
+            >
+
+                <img
+                    src="images/business-category-retail.jpg"
+                    alt="Local retail businesses"
+                    loading="lazy"
+                >
+
+            </a>
+
+            <div class="business-category-main-content">
+
+                <span class="business-category-main-label">
+                    RETAIL
+                </span>
+
+                <h2 class="business-category-main-title">
+                    Local Retailers Prepare for Upcoming
+                    Seasonal Shopping Activity
+                </h2>
+
+                <div class="business-category-main-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+                        22 September 2026
+                    </span>
+
+                    <span>
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+                        Local Voice Business Desk
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RELATED STORIES -->
+
+            <div class="business-category-related">
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-retail-1.jpg"
+                            alt="Retail store"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>RETAIL</span>
+
+                        <h3>
+                            Local Stores Prepare New Offers
+                            for Customers demand
+                        </h3>
+
+                        <small>
+                            21 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-retail-2.jpg"
+                            alt="Local shopping"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>SHOPPING</span>
+
+                        <h3>
+                            Shopping Areas See Increased
+                            Customer Activity interest
+                        </h3>
+
+                        <small>
+                            20 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+
+                <article class="business-category-related-item">
+
+                    <a
+                        href="news.html"
+                        class="business-category-related-image"
+                    >
+                        <img
+                            src="images/business-category-retail-3.jpg"
+                            alt="Local retail activity"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-category-related-content">
+
+                        <span>BUSINESS</span>
+
+                        <h3>
+                            Retail Businesses Adapt to
+                            Changing Customer Needs wanted
+                        </h3>
+
+                        <small>
+                            19 Sep 2026
+                        </small>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- CATEGORY LINK -->
+
+            <a
+                href="business.html"
+                class="business-category-more"
+            >
+                <span>Go to Retail</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </article>
+
+
+    </div>
+
+</section>
+<!-- =========================================================
+     BUSINESS SECTION 6 — BUSINESS UPDATES
+========================================================= -->
+
+<section class="business-updates" id="businessUpdates">
+
+    <div class="business-updates-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="business-updates-header">
+
+            <div class="business-updates-title-wrap">
+
+                <span class="business-updates-eyebrow">
+                    BUSINESS UPDATES
+                </span>
+
+                <span class="business-updates-line"></span>
+
+            </div>
+
+            <a
+                href="news.html"
+                class="business-updates-view-all"
+            >
+                <span>View All Updates</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             UPDATES LIST
+        ================================================== -->
+
+        <div class="business-updates-list">
+
+
+            <!-- =================================================
+                 UPDATE 01
+            ================================================== -->
+
+            <article class="business-update-item">
+
+                <div class="business-update-date">
+
+                    <span class="business-update-day">
+                        24
+                    </span>
+
+                    <span class="business-update-month">
+                        SEP
+                    </span>
+
+                </div>
+
+
+                <div class="business-update-content">
+
+                    <span class="business-update-category">
+                        BUSINESS UPDATE
+                    </span>
+
+                    <h3 class="business-update-title">
+                        Local Business Development Initiative
+                        Creates New Opportunities
+                    </h3>
+
+                    <p class="business-update-description">
+                        New initiatives are being introduced to
+                        support local businesses and encourage
+                        continued commercial activity across the
+                        community.
+                    </p>
+
+                    <div class="business-update-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+                            Local Business District
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            10:30 AM
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="business-update-action"
+                    aria-label="View Local Business Development Initiative update"
+                >
+                    <span>
+                        View Update
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 UPDATE 02
+            ================================================== -->
+
+            <article class="business-update-item">
+
+                <div class="business-update-date">
+
+                    <span class="business-update-day">
+                        28
+                    </span>
+
+                    <span class="business-update-month">
+                        SEP
+                    </span>
+
+                </div>
+
+
+                <div class="business-update-content">
+
+                    <span class="business-update-category">
+                        MARKET UPDATE
+                    </span>
+
+                    <h3 class="business-update-title">
+                        Local Market Activity Continues
+                        Across Key Shopping Areas
+                    </h3>
+
+                    <p class="business-update-description">
+                        Traders and retailers are reporting steady
+                        customer activity as local markets continue
+                        to serve the surrounding community.
+                    </p>
+
+                    <div class="business-update-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+                            Main Market Area
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            09:45 AM
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="business-update-action"
+                    aria-label="View Local Market Activity update"
+                >
+                    <span>
+                        View Update
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 UPDATE 03
+            ================================================== -->
+
+            <article class="business-update-item">
+
+                <div class="business-update-date">
+
+                    <span class="business-update-day">
+                        02
+                    </span>
+
+                    <span class="business-update-month">
+                        OCT
+                    </span>
+
+                </div>
+
+
+                <div class="business-update-content">
+
+                    <span class="business-update-category">
+                        ENTREPRENEUR UPDATE
+                    </span>
+
+                    <h3 class="business-update-title">
+                        Local Entrepreneurs Prepare for
+                        New Business Opportunities
+                    </h3>
+
+                    <p class="business-update-description">
+                        Entrepreneurs across the area are exploring
+                        new ideas, partnerships, and services aimed
+                        at meeting changing community needs.
+                    </p>
+
+                    <div class="business-update-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+                            Community Business Centre
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            02:00 PM
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="business-update-action"
+                    aria-label="View Entrepreneur Business Opportunities update"
+                >
+                    <span>
+                        View Update
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 UPDATE 04
+            ================================================== -->
+
+            <article class="business-update-item">
+
+                <div class="business-update-date">
+
+                    <span class="business-update-day">
+                        08
+                    </span>
+
+                    <span class="business-update-month">
+                        OCT
+                    </span>
+
+                </div>
+
+
+                <div class="business-update-content">
+
+                    <span class="business-update-category">
+                        RETAIL UPDATE
+                    </span>
+
+                    <h3 class="business-update-title">
+                        Retail Businesses Prepare for
+                        Upcoming Seasonal Activity
+                    </h3>
+
+                    <p class="business-update-description">
+                        Local retailers are preparing new offers
+                        and services ahead of the upcoming seasonal
+                        shopping period.
+                    </p>
+
+                    <div class="business-update-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+                            Central Shopping Area
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            11:00 AM
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="business-update-action"
+                    aria-label="View Retail Business Seasonal Activity update"
+                >
+                    <span>
+                        View Update
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     BUSINESS SECTION 7 — MOST READ BUSINESS STORIES
+========================================================= -->
+
+<section class="business-most-read" id="businessMostRead">
+
+    <div class="business-most-read-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="business-most-read-header">
+
+            <div class="business-most-read-title-wrap">
+
+                <span class="business-most-read-eyebrow">
+                    MOST READ BUSINESS STORIES
+                </span>
+
+                <span class="business-most-read-line"></span>
+
+            </div>
+
+            <a
+                href="news.html"
+                class="business-most-read-view-all"
+            >
+                <span>View All Stories</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN LAYOUT
+        ================================================== -->
+
+        <div class="business-most-read-layout">
+
+
+            <!-- =================================================
+                 LEFT — RANKED STORIES
+            ================================================== -->
+
+            <div class="business-most-read-list">
+
+
+                <!-- STORY 01 -->
+
+                <article class="business-most-read-item">
+
+                    <span class="business-most-read-number">
+                        01
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="business-most-read-thumb"
+                    >
+                        <img
+                            src="images/business-most-read-1.jpg"
+                            alt="Local business activity"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-most-read-content">
+
+                        <span class="business-most-read-category">
+                            BUSINESS
+                        </span>
+
+                        <h3>
+                            Local Businesses Expand Services
+                            to Meet Growing Demand
+                        </h3>
+
+                        <div class="business-most-read-meta">
+
+                            <span>
+                                24 Sep 2026
+                            </span>
+
+                            <span>
+                                1.8K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 02 -->
+
+                <article class="business-most-read-item">
+
+                    <span class="business-most-read-number">
+                        02
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="business-most-read-thumb"
+                    >
+                        <img
+                            src="images/business-most-read-2.jpg"
+                            alt="Local market activity"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-most-read-content">
+
+                        <span class="business-most-read-category">
+                            MARKETS
+                        </span>
+
+                        <h3>
+                            Local Market Activity Shows
+                            Steady Growth Across the Area
+                        </h3>
+
+                        <div class="business-most-read-meta">
+
+                            <span>
+                                23 Sep 2026
+                            </span>
+
+                            <span>
+                                1.6K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 03 -->
+
+                <article class="business-most-read-item">
+
+                    <span class="business-most-read-number">
+                        03
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="business-most-read-thumb"
+                    >
+                        <img
+                            src="images/business-most-read-3.jpg"
+                            alt="Local entrepreneurs"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-most-read-content">
+
+                        <span class="business-most-read-category">
+                            ENTREPRENEURS
+                        </span>
+
+                        <h3>
+                            Young Entrepreneurs Build New
+                            Businesses Around Local Needs
+                        </h3>
+
+                        <div class="business-most-read-meta">
+
+                            <span>
+                                23 Sep 2026
+                            </span>
+
+                            <span>
+                                1.5K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 04 -->
+
+                <article class="business-most-read-item">
+
+                    <span class="business-most-read-number">
+                        04
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="business-most-read-thumb"
+                    >
+                        <img
+                            src="images/business-most-read-4.jpg"
+                            alt="Local retail businesses"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-most-read-content">
+
+                        <span class="business-most-read-category">
+                            RETAIL
+                        </span>
+
+                        <h3>
+                            Retailers Prepare for Upcoming
+                            Seasonal Shopping Activity
+                        </h3>
+
+                        <div class="business-most-read-meta">
+
+                            <span>
+                                22 Sep 2026
+                            </span>
+
+                            <span>
+                                1.4K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 05 -->
+
+                <article class="business-most-read-item">
+
+                    <span class="business-most-read-number">
+                        05
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="business-most-read-thumb"
+                    >
+                        <img
+                            src="images/business-most-read-5.jpg"
+                            alt="Small business owners"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-most-read-content">
+
+                        <span class="business-most-read-category">
+                            SMALL BUSINESS
+                        </span>
+
+                        <h3>
+                            Small Businesses Explore New
+                            Ways to Reach Local Customers
+                        </h3>
+
+                        <div class="business-most-read-meta">
+
+                            <span>
+                                21 Sep 2026
+                            </span>
+
+                            <span>
+                                1.3K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 06 -->
+
+                <article class="business-most-read-item">
+
+                    <span class="business-most-read-number">
+                        06
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="business-most-read-thumb"
+                    >
+                        <img
+                            src="images/business-most-read-6.jpg"
+                            alt="Community business event"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="business-most-read-content">
+
+                        <span class="business-most-read-category">
+                            BUSINESS EVENTS
+                        </span>
+
+                        <h3>
+                            Local Business Meet Brings
+                            Entrepreneurs Together
+                        </h3>
+
+                        <div class="business-most-read-meta">
+
+                            <span>
+                                20 Sep 2026
+                            </span>
+
+                            <span>
+                                1.1K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- =================================================
+                 RIGHT — FEATURED MOST READ STORY
+            ================================================== -->
+
+            <article class="business-most-read-featured">
+
+                <a
+                    href="news.html"
+                    class="business-most-read-featured-image"
+                >
+
+                    <img
+                        src="images/business-most-read-featured.jpg"
+                        alt="Local business community activity"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="business-most-read-featured-content">
+
+                    <span class="business-most-read-featured-category">
+                        BUSINESS COMMUNITY
+                    </span>
+
+                    <h2>
+                        New Business Initiative Creates
+                        More Opportunities for Local Entrepreneurs
+                    </h2>
+
+                    <p>
+                        A new community-focused business initiative
+                        is bringing local entrepreneurs together and
+                        creating opportunities for collaboration,
+                        services, and future growth.
+                    </p>
+
+                    <div class="business-most-read-featured-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            24 September 2026
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-eye"
+                                aria-hidden="true"
+                            ></i>
+                            2.1K Views
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="news.html"
+                        class="business-most-read-featured-read"
+                    >
+
+                        <span>
+                            Read Full Story
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     BUSINESS SECTION 8 — NEWSLETTER + STAY CONNECTED
+========================================================= -->
+
+<section class="business-connect-section" id="businessConnect">
+
+    <div class="business-connect-container">
+
+
+        <!-- =================================================
+             LEFT — NEWSLETTER
+        ================================================== -->
+
+        <div class="business-newsletter">
+
+            <div class="business-connect-heading">
+
+                <span class="business-connect-eyebrow">
+                    NEWSLETTER
+                </span>
+
+                <span class="business-connect-line"></span>
+
+            </div>
+
+
+            <h2 class="business-newsletter-title">
+                Stay Informed With The Local Voice
+            </h2>
+
+
+            <p class="business-newsletter-description">
+                Get the latest local business news, market updates,
+                entrepreneur stories, retail developments, and
+                important community business stories delivered
+                directly to your inbox.
+            </p>
+
+
+            <!-- NEWSLETTER FORM -->
+
+            <form
+                class="business-newsletter-form"
+                id="businessNewsletterForm"
+            >
+
+                <div class="business-newsletter-input-wrap">
+
+                    <i
+                        class="fa-regular fa-envelope"
+                        aria-hidden="true"
+                    ></i>
+
+                    <input
+                        type="email"
+                        id="businessNewsletterEmail"
+                        name="email"
+                        placeholder="Enter your email address"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="business-newsletter-button"
+                >
+
+                    <span>
+                        Subscribe
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </button>
+
+            </form>
+
+
+            <p class="business-newsletter-note">
+                By subscribing, you agree to receive news and
+                updates from The Local Voice.
+            </p>
+
+        </div>
+
+
+
+        <!-- =================================================
+             RIGHT — STAY CONNECTED
+        ================================================== -->
+
+        <div class="business-stay-connected">
+
+            <div class="business-connect-heading">
+
+                <span class="business-connect-eyebrow">
+                    STAY CONNECTED
+                </span>
+
+                <span class="business-connect-line"></span>
+
+            </div>
+
+
+            <h2 class="business-connected-title">
+                Follow The Local Voice
+            </h2>
+
+
+            <p class="business-connected-description">
+                Follow us on social media for breaking business
+                updates, local stories, market developments,
+                community news, and important updates.
+            </p>
+
+
+            <!-- SOCIAL LINKS -->
+
+            <div class="business-social-links">
+
+
+                <!-- FACEBOOK -->
+
+                <a
+                    href="#"
+                    class="business-social-link business-social-facebook"
+                    aria-label="Follow The Local Voice on Facebook"
+                >
+
+                    <i
+                        class="fa-brands fa-facebook-f"
+                        aria-hidden="true"
+                    ></i>
+
+                    <span>
+                        Facebook
+                    </span>
+
+                </a>
+
+
+                <!-- INSTAGRAM -->
+
+                <a
+                    href="#"
+                    class="business-social-link business-social-instagram"
+                    aria-label="Follow The Local Voice on Instagram"
+                >
+
+                    <i
+                        class="fa-brands fa-instagram"
+                        aria-hidden="true"
+                    ></i>
+
+                    <span>
+                        Instagram
+                    </span>
+
+                </a>
+
+
+                <!-- YOUTUBE -->
+
+                <a
+                    href="#"
+                    class="business-social-link business-social-youtube"
+                    aria-label="Follow The Local Voice on YouTube"
+                >
+
+                    <i
+                        class="fa-brands fa-youtube"
+                        aria-hidden="true"
+                    ></i>
+
+                    <span>
+                        YouTube
+                    </span>
+
+                </a>
+
+
+                <!-- X -->
+
+                <a
+                    href="#"
+                    class="business-social-link business-social-x"
+                    aria-label="Follow The Local Voice on X"
+                >
+
+                    <i
+                        class="fa-brands fa-x-twitter"
+                        aria-hidden="true"
+                    ></i>
+
+                    <span>
+                        X
+                    </span>
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     BUSINESS SECTION 9 — ADVERTISE WITH US
+========================================================= -->
+
+<section class="business-advertise" id="businessAdvertise">
+
+    <div class="business-advertise-overlay"></div>
+
+    <div class="business-advertise-container">
+
+        <div class="business-advertise-content">
+
+            <!-- SECTION LABEL -->
+
+            <div class="business-advertise-label">
+
+                <span>
+                    ADVERTISE WITH US
+                </span>
+
+                <span class="business-advertise-label-line"></span>
+
+            </div>
+
+
+            <!-- TITLE -->
+
+            <h2 class="business-advertise-title">
+                Put Your Business in the Local Spotlight
+            </h2>
+
+
+            <!-- DESCRIPTION -->
+
+            <p class="business-advertise-description">
+                Promote your business, service, event, or community
+                initiative through The Local Voice and connect your
+                message with local readers who follow the stories
+                and activities happening around them.
+            </p>
+
+
+            <!-- CTA -->
+
+            <a
+                href="advertise.html"
+                class="business-advertise-cta"
+            >
+
+                <span>
+                    Explore Advertising
+                </span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+          </main>
+<! =========================================================
+   FOOTER
+========================================================= !>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =============================================
+             FOOTER BRAND
+        ============================================== -->
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="footer-logo-light"
+                >
+
+                
+            </a>
+
+            <p class="footer-description">
+                Your trusted source for local news, community stories,
+                events, classifieds, and everything happening around you.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             QUICK LINKS
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="news.html">All News</a>
+                </li>
+
+                <li>
+                    <a href="classifieds.html">Classifieds</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="advertise.html">Advertise With Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             NEWS CATEGORIES
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                News Categories
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="civic.html">Civic</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">Sports</a>
+                </li>
+
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="news.html">Latest News</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             CONTACT
+        ============================================== -->
+
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <p>
+                    Your Local Community,<br>
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <a href="tel:+910000000000">
+                    +91 00000 00000
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:info@thelocalvoice.com">
+                    info@thelocalvoice.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         FOOTER BOTTOM
+    ============================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 The Local Voice. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+         We will add the header JS later.
+    ====================================================== -->
+<!-- =========================================================
+     SCROLL TO TOP BUTTON
+========================================================= -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

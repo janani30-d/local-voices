@@ -1,0 +1,3754 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="The Local Voice - Local Newspaper and Community News Portal"
+    >
+
+    <meta
+        name="keywords"
+        content="local news, community news, newspaper, events, classifieds"
+    >
+
+    <meta
+        name="author"
+        content="The Local Voice"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>
+        The Local Voice | Local News & Community
+    </title>
+<link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+>
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER START
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="home1.html"
+                class="site-logo"
+                aria-label="The Local Voice Home"
+            >
+
+                <!-- Light Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-light"
+                >
+
+
+                <!-- Dark Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-dark"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                id="desktopNavigation"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NORMAL NAVIGATION LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="nav-link active"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+    <button
+        type="button"
+        class="header-action-btn rtl-toggle"
+        id="rtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="header-action-btn dark-toggle"
+        id="darkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="login-btn"
+    >
+        Login
+    </a>
+
+</div>
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE NAVIGATION
+        ====================================================== -->
+
+        <div
+            class="mobile-navigation"
+            id="mobileNavigation"
+        >
+
+            <div class="mobile-navigation-inner">
+
+
+                <!-- =============================================
+                     MOBILE HOME DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NORMAL LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="mobile-nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="mobile-nav-link active"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="mobile-nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="mobile-nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE ACTIONS
+                ============================================== -->
+
+                <div class="mobile-actions">
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileRtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileDarkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="mobile-login-btn"
+    >
+        Login
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HEADER END
+    ====================================================== -->
+
+
+    <!-- =====================================================
+         MAIN CONTENT START
+         We will add this later.
+    ====================================================== -->
+
+    <main>
+<!-- =========================================================
+     EVENTS SECTION 1 — HERO
+========================================================= -->
+
+<section class="events-hero" id="eventsHero">
+
+    <div class="events-hero-overlay"></div>
+
+    <div class="events-hero-container">
+
+        <div class="events-hero-content">
+
+            <!-- =================================================
+                 HERO LABEL
+            ================================================== -->
+
+            <div class="events-hero-label">
+
+                <span class="events-hero-eyebrow">
+                    COMMUNITY EVENTS
+                </span>
+
+                <span class="events-hero-line"></span>
+
+            </div>
+
+
+            <!-- =================================================
+                 HERO TITLE
+            ================================================== -->
+
+            <h1 class="events-hero-title">
+                Discover What's Happening in Your Local Community
+            </h1>
+
+
+            <!-- =================================================
+                 HERO DESCRIPTION
+            ================================================== -->
+
+            <p class="events-hero-description">
+                Stay informed about upcoming community gatherings,
+                sports activities, educational programs, workshops,
+                cultural events, and important local happenings.
+            </p>
+
+
+            <!-- =================================================
+                 HERO META
+            ================================================== -->
+
+            <div class="events-hero-meta">
+
+                <span>
+                    <i class="fa-regular fa-calendar"></i>
+                    Upcoming Events
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Local Community
+                </span>
+
+            </div>
+
+
+            <!-- =================================================
+                 HERO ACTION
+            ================================================== -->
+
+            <a
+                href="#upcomingEvents"
+                class="events-hero-button"
+            >
+                <span>Explore Events</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EVENTS SECTION 2 — FEATURED EVENT
+========================================================= -->
+
+<section class="events-featured" id="featuredEvent">
+
+    <div class="events-featured-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="events-featured-header">
+
+            <div class="events-featured-title-wrap">
+
+                <span class="events-featured-eyebrow">
+                    FEATURED EVENT
+                </span>
+
+                <span class="events-featured-line"></span>
+
+            </div>
+
+            <a
+                href="events.html"
+                class="events-featured-view-all"
+            >
+                <span>View All Events</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             FEATURED EVENT LAYOUT
+        ================================================== -->
+
+        <article class="events-featured-card">
+
+
+            <!-- =================================================
+                 EVENT IMAGE
+            ================================================== -->
+
+            <div class="events-featured-image">
+
+                <img
+                    src="images/events-featured.jpg"
+                    alt="Featured community event"
+                >
+
+                <span class="events-featured-badge">
+                    FEATURED
+                </span>
+
+            </div>
+
+
+            <!-- =================================================
+                 EVENT CONTENT
+            ================================================== -->
+
+            <div class="events-featured-content">
+
+                <span class="events-featured-category">
+                    COMMUNITY EVENT
+                </span>
+
+
+                <h2 class="events-featured-title">
+                    Local Community Gathering Brings Residents Together
+                </h2>
+
+
+                <p class="events-featured-description">
+                    Residents are invited to take part in an upcoming
+                    community gathering featuring local activities,
+                    discussions, entertainment, and opportunities to
+                    connect with people from across the community.
+                </p>
+
+
+                <!-- =================================================
+                     EVENT INFORMATION
+                ================================================== -->
+
+                <div class="events-featured-info">
+
+
+                    <!-- DATE -->
+
+                    <div class="events-featured-info-item">
+
+                        <div class="events-featured-info-icon">
+                            <i class="fa-regular fa-calendar"></i>
+                        </div>
+
+                        <div class="events-featured-info-text">
+
+                            <span>
+                                DATE
+                            </span>
+
+                            <strong>
+                                24 September 2026
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TIME -->
+
+                    <div class="events-featured-info-item">
+
+                        <div class="events-featured-info-icon">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+
+                        <div class="events-featured-info-text">
+
+                            <span>
+                                TIME
+                            </span>
+
+                            <strong>
+                                10:00 AM – 4:00 PM
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- VENUE -->
+
+                    <div class="events-featured-info-item">
+
+                        <div class="events-featured-info-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div class="events-featured-info-text">
+
+                            <span>
+                                VENUE
+                            </span>
+
+                            <strong>
+                                Community Hall
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- =================================================
+                     EVENT ACTION
+                ================================================== -->
+
+                <div class="events-featured-action">
+
+                    <a
+                        href="#"
+                        class="events-featured-button"
+                    >
+                        <span>View Event Details</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EVENTS SECTION 3 — UPCOMING EVENTS
+========================================================= -->
+
+<section class="events-upcoming" id="upcomingEvents">
+
+    <div class="events-upcoming-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="events-upcoming-header">
+
+            <div class="events-upcoming-title-wrap">
+
+                <span class="events-upcoming-eyebrow">
+                    UPCOMING EVENTS
+                </span>
+
+                <span class="events-upcoming-line"></span>
+
+                <h2 class="events-upcoming-title">
+                    What's Happening Next
+                </h2>
+
+                <p class="events-upcoming-description">
+                    Explore upcoming events, activities, workshops,
+                    and community programs happening across the local area.
+                </p>
+
+            </div>
+
+            <a href="events.html" class="events-upcoming-view-all">
+                <span>View All Events</span>
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             UPCOMING EVENTS GRID
+        ================================================== -->
+
+        <div class="events-upcoming-grid">
+
+
+            <!-- =================================================
+                 EVENT 1 — COMMUNITY
+            ================================================== -->
+
+            <article class="events-upcoming-card">
+
+                <div class="events-upcoming-image">
+
+                    <img
+                        src="images/events-upcoming-community.jpg"
+                        alt="Local community gathering"
+                    >
+
+                    <div class="events-upcoming-date">
+
+                        <span class="events-upcoming-date-day">
+                            24
+                        </span>
+
+                        <span class="events-upcoming-date-month">
+                            SEP
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-upcoming-content">
+
+                    <span class="events-upcoming-category">
+                        COMMUNITY
+                    </span>
+
+                    <h3 class="events-upcoming-card-title">
+                        Local Community Gathering
+                    </h3>
+
+                    <div class="events-upcoming-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            10:00 AM – 4:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Community Hall
+                        </span>
+
+                    </div>
+
+                    <a href="#" class="events-upcoming-link">
+                        <span>View Event</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 EVENT 2 — SPORTS
+            ================================================== -->
+
+            <article class="events-upcoming-card">
+
+                <div class="events-upcoming-image">
+
+                    <img
+                        src="images/events-upcoming-sports.jpg"
+                        alt="Local cricket tournament"
+                    >
+
+                    <div class="events-upcoming-date">
+
+                        <span class="events-upcoming-date-day">
+                            28
+                        </span>
+
+                        <span class="events-upcoming-date-month">
+                            SEP
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-upcoming-content">
+
+                    <span class="events-upcoming-category">
+                        SPORTS
+                    </span>
+
+                    <h3 class="events-upcoming-card-title">
+                        Local Cricket Tournament
+                    </h3>
+
+                    <div class="events-upcoming-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            9:00 AM – 5:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Municipal Ground
+                        </span>
+
+                    </div>
+
+                    <a href="#" class="events-upcoming-link">
+                        <span>View Event</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 EVENT 3 — EDUCATION
+            ================================================== -->
+
+            <article class="events-upcoming-card">
+
+                <div class="events-upcoming-image">
+
+                    <img
+                        src="images/events-upcoming-education.jpg"
+                        alt="Learning workshop for students"
+                    >
+
+                    <div class="events-upcoming-date">
+
+                        <span class="events-upcoming-date-day">
+                            02
+                        </span>
+
+                        <span class="events-upcoming-date-month">
+                            OCT
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-upcoming-content">
+
+                    <span class="events-upcoming-category">
+                        EDUCATION
+                    </span>
+
+                    <h3 class="events-upcoming-card-title">
+                        Learning Workshop for Students
+                    </h3>
+
+                    <div class="events-upcoming-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            10:30 AM – 2:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Town Library
+                        </span>
+
+                    </div>
+
+                    <a href="#" class="events-upcoming-link">
+                        <span>View Event</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 EVENT 4 — CULTURAL
+            ================================================== -->
+
+            <article class="events-upcoming-card">
+
+                <div class="events-upcoming-image">
+
+                    <img
+                        src="images/events-upcoming-cultural.jpg"
+                        alt="Local cultural evening"
+                    >
+
+                    <div class="events-upcoming-date">
+
+                        <span class="events-upcoming-date-day">
+                            05
+                        </span>
+
+                        <span class="events-upcoming-date-month">
+                            OCT
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-upcoming-content">
+
+                    <span class="events-upcoming-category">
+                        CULTURAL
+                    </span>
+
+                    <h3 class="events-upcoming-card-title">
+                        Local Cultural Evening
+                    </h3>
+
+                    <div class="events-upcoming-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            5:00 PM – 8:30 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Community Center
+                        </span>
+
+                    </div>
+
+                    <a href="#" class="events-upcoming-link">
+                        <span>View Event</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 EVENT 5 — BUSINESS
+            ================================================== -->
+
+            <article class="events-upcoming-card">
+
+                <div class="events-upcoming-image">
+
+                    <img
+                        src="images/events-upcoming-business.jpg"
+                        alt="Local business networking meeting"
+                    >
+
+                    <div class="events-upcoming-date">
+
+                        <span class="events-upcoming-date-day">
+                            08
+                        </span>
+
+                        <span class="events-upcoming-date-month">
+                            OCT
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-upcoming-content">
+
+                    <span class="events-upcoming-category">
+                        BUSINESS
+                    </span>
+
+                    <h3 class="events-upcoming-card-title">
+                        Local Business Networking Meet
+                    </h3>
+
+                    <div class="events-upcoming-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            10:00 AM – 1:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Town Hall
+                        </span>
+
+                    </div>
+
+                    <a href="#" class="events-upcoming-link">
+                        <span>View Event</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 EVENT 6 — PUBLIC
+            ================================================== -->
+
+            <article class="events-upcoming-card">
+
+                <div class="events-upcoming-image">
+
+                    <img
+                        src="images/events-upcoming-public.jpg"
+                        alt="Community awareness program"
+                    >
+
+                    <div class="events-upcoming-date">
+
+                        <span class="events-upcoming-date-day">
+                            12
+                        </span>
+
+                        <span class="events-upcoming-date-month">
+                            OCT
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-upcoming-content">
+
+                    <span class="events-upcoming-category">
+                        PUBLIC
+                    </span>
+
+                    <h3 class="events-upcoming-card-title">
+                        Community Awareness Program
+                    </h3>
+
+                    <div class="events-upcoming-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            9:30 AM – 1:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Municipal Hall
+                        </span>
+
+                    </div>
+
+                    <a href="#" class="events-upcoming-link">
+                        <span>View Event</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EVENTS SECTION 4 — EVENTS CALENDAR
+========================================================= -->
+
+<section class="events-calendar" id="eventsCalendar">
+
+    <div class="events-calendar-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="events-calendar-header">
+
+            <div class="events-calendar-title-wrap">
+
+                <span class="events-calendar-eyebrow">
+                    EVENT CALENDAR
+                </span>
+
+                <span class="events-calendar-line"></span>
+
+                <h2 class="events-calendar-title">
+                    Find Events by Date
+                </h2>
+
+                <p class="events-calendar-description">
+                    Browse the local events calendar to discover
+                    community gatherings, sports activities,
+                    workshops, and upcoming programs.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             CALENDAR LAYOUT
+        ================================================== -->
+
+        <div class="events-calendar-layout">
+
+
+            <!-- =================================================
+                 CALENDAR PANEL
+            ================================================== -->
+
+            <div class="events-calendar-panel">
+
+                <!-- CALENDAR HEADER -->
+
+                <div class="events-calendar-top">
+
+                    <button
+                        type="button"
+                        class="events-calendar-nav events-calendar-prev"
+                        id="eventsCalendarPrev"
+                        aria-label="Previous month"
+                    >
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+
+
+                    <div class="events-calendar-month-wrap">
+
+                        <span
+                            class="events-calendar-month"
+                            id="eventsCalendarMonth"
+                        >
+                            September
+                        </span>
+
+                        <span
+                            class="events-calendar-year"
+                            id="eventsCalendarYear"
+                        >
+                            2026
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        class="events-calendar-nav events-calendar-next"
+                        id="eventsCalendarNext"
+                        aria-label="Next month"
+                    >
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                </div>
+
+
+                <!-- CALENDAR WEEKDAYS -->
+
+                <div class="events-calendar-weekdays">
+
+                    <span>Sun</span>
+                    <span>Mon</span>
+                    <span>Tue</span>
+                    <span>Wed</span>
+                    <span>Thu</span>
+                    <span>Fri</span>
+                    <span>Sat</span>
+
+                </div>
+
+
+                <!-- CALENDAR DAYS -->
+
+                <div
+                    class="events-calendar-days"
+                    id="eventsCalendarDays"
+                >
+
+                    <!-- Previous month -->
+
+                    <button
+                        type="button"
+                        class="events-calendar-day is-muted"
+                        disabled
+                    >
+                        30
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day is-muted"
+                        disabled
+                    >
+                        31
+                    </button>
+
+
+                    <!-- September 2026 -->
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-01"
+                    >
+                        1
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-02"
+                    >
+                        2
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-03"
+                    >
+                        3
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-04"
+                    >
+                        4
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-05"
+                    >
+                        5
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-06"
+                    >
+                        6
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-07"
+                    >
+                        7
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-08"
+                    >
+                        8
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-09"
+                    >
+                        9
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-10"
+                    >
+                        10
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-11"
+                    >
+                        11
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-12"
+                    >
+                        12
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-13"
+                    >
+                        13
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-14"
+                    >
+                        14
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-15"
+                    >
+                        15
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-16"
+                    >
+                        16
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-17"
+                    >
+                        17
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-18"
+                    >
+                        18
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-19"
+                    >
+                        19
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-20"
+                    >
+                        20
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-21"
+                    >
+                        21
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-22"
+                    >
+                        22
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-23"
+                    >
+                        23
+                    </button>
+
+                    <!-- EVENT DATE -->
+
+                    <button
+                        type="button"
+                        class="events-calendar-day has-event is-selected"
+                        data-date="2026-09-24"
+                        data-event="community"
+                    >
+                        <span>24</span>
+                        <i class="events-calendar-dot"></i>
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-25"
+                    >
+                        25
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-26"
+                    >
+                        26
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-27"
+                    >
+                        27
+                    </button>
+
+                    <!-- EVENT DATE -->
+
+                    <button
+                        type="button"
+                        class="events-calendar-day has-event"
+                        data-date="2026-09-28"
+                        data-event="sports"
+                    >
+                        <span>28</span>
+                        <i class="events-calendar-dot"></i>
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-29"
+                    >
+                        29
+                    </button>
+
+                    <button
+                        type="button"
+                        class="events-calendar-day"
+                        data-date="2026-09-30"
+                    >
+                        30
+                    </button>
+
+                </div>
+
+
+                <!-- CALENDAR LEGEND -->
+
+                <div class="events-calendar-legend">
+
+                    <span class="events-calendar-legend-item">
+
+                        <span class="events-calendar-legend-dot"></span>
+
+                        Event Available
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 EVENT DETAILS PANEL
+            ================================================== -->
+
+            <aside class="events-calendar-details">
+
+                <div class="events-calendar-details-header">
+
+                    <span class="events-calendar-details-eyebrow">
+                        SELECTED EVENT
+                    </span>
+
+                    <span class="events-calendar-details-line"></span>
+
+                </div>
+
+
+                <!-- EVENT CATEGORY -->
+
+                <span
+                    class="events-calendar-details-category"
+                    id="eventsCalendarCategory"
+                >
+                    COMMUNITY EVENT
+                </span>
+
+
+                <!-- EVENT TITLE -->
+
+                <h3
+                    class="events-calendar-details-title"
+                    id="eventsCalendarTitle"
+                >
+                    Local Community Gathering
+                </h3>
+
+
+                <!-- EVENT DATE -->
+
+                <div class="events-calendar-details-item">
+
+                    <div class="events-calendar-details-icon">
+
+                        <i class="fa-regular fa-calendar"></i>
+
+                    </div>
+
+                    <div class="events-calendar-details-text">
+
+                        <span>DATE</span>
+
+                        <strong id="eventsCalendarDate">
+                            24 September 2026
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EVENT TIME -->
+
+                <div class="events-calendar-details-item">
+
+                    <div class="events-calendar-details-icon">
+
+                        <i class="fa-regular fa-clock"></i>
+
+                    </div>
+
+                    <div class="events-calendar-details-text">
+
+                        <span>TIME</span>
+
+                        <strong id="eventsCalendarTime">
+                            10:00 AM – 4:00 PM
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EVENT VENUE -->
+
+                <div class="events-calendar-details-item">
+
+                    <div class="events-calendar-details-icon">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                    </div>
+
+                    <div class="events-calendar-details-text">
+
+                        <span>VENUE</span>
+
+                        <strong id="eventsCalendarVenue">
+                            Community Hall
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EVENT DESCRIPTION -->
+
+                <p
+                    class="events-calendar-details-description"
+                    id="eventsCalendarDescription"
+                >
+                    Residents are invited to take part in a local
+                    community gathering featuring activities,
+                    discussions, entertainment, and opportunities
+                    to connect with people from across the community.
+                </p>
+
+
+                <!-- EVENT BUTTON -->
+
+                <a
+                    href="#"
+                    class="events-calendar-details-button"
+                    id="eventsCalendarDetailsButton"
+                >
+                    <span>View Event Details</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </aside>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EVENTS SECTION 5 — COMMUNITY EVENTS
+========================================================= -->
+
+<section class="events-community" id="communityEvents">
+
+    <div class="events-community-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="events-community-header">
+
+            <div class="events-community-title-wrap">
+
+                <span class="events-community-eyebrow">
+                    COMMUNITY EVENTS
+                </span>
+
+                <span class="events-community-line"></span>
+
+                <h2 class="events-community-title">
+                    Connect With Your Community
+                </h2>
+
+                <p class="events-community-description">
+                    Discover local gatherings, neighborhood activities,
+                    public meetings, and community programs happening
+                    across the local area.
+                </p>
+
+            </div>
+
+            <a
+                href="events.html"
+                class="events-community-view-all"
+            >
+                <span>View All Community Events</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             COMMUNITY EVENTS LAYOUT
+        ================================================== -->
+
+        <div class="events-community-layout">
+
+
+            <!-- =================================================
+                 FEATURED COMMUNITY EVENT
+            ================================================== -->
+
+            <article class="events-community-featured">
+
+                <div class="events-community-featured-image">
+
+                    <img
+                        src="images/events-community-featured.jpg"
+                        alt="Neighborhood community day"
+                    >
+
+                    <span class="events-community-featured-badge">
+                        FEATURED
+                    </span>
+
+                </div>
+
+
+                <div class="events-community-featured-content">
+
+                    <span class="events-community-category">
+                        COMMUNITY
+                    </span>
+
+                    <h3 class="events-community-featured-title">
+                        Neighborhood Community Day
+                    </h3>
+
+                    <p class="events-community-featured-description">
+                        Residents and families are invited to join
+                        a community day featuring local activities,
+                        neighborhood conversations, family programs,
+                        and opportunities to connect with others.
+                    </p>
+
+
+                    <!-- EVENT INFORMATION -->
+
+                    <div class="events-community-info">
+
+                        <div class="events-community-info-item">
+
+                            <div class="events-community-info-icon">
+                                <i class="fa-regular fa-calendar"></i>
+                            </div>
+
+                            <div class="events-community-info-text">
+
+                                <span>DATE</span>
+
+                                <strong>
+                                    15 October 2026
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="events-community-info-item">
+
+                            <div class="events-community-info-icon">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+
+                            <div class="events-community-info-text">
+
+                                <span>TIME</span>
+
+                                <strong>
+                                    10:00 AM – 5:00 PM
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="events-community-info-item">
+
+                            <div class="events-community-info-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div class="events-community-info-text">
+
+                                <span>VENUE</span>
+
+                                <strong>
+                                    Community Park
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <a
+                        href="#"
+                        class="events-community-featured-button"
+                    >
+                        <span>View Event</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 COMMUNITY EVENT LIST
+            ================================================== -->
+
+            <div class="events-community-list">
+
+
+                <!-- =================================================
+                     COMMUNITY EVENT 1
+                ================================================== -->
+
+                <article class="events-community-card">
+
+                    <div class="events-community-card-image">
+
+                        <img
+                            src="images/events-community-1.jpg"
+                            alt="Residents association meeting"
+                        >
+
+                        <div class="events-community-date">
+
+                            <span class="events-community-date-day">
+                                18
+                            </span>
+
+                            <span class="events-community-date-month">
+                                OCT
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="events-community-card-content">
+
+                        <span class="events-community-category">
+                            COMMUNITY
+                        </span>
+
+                        <h3 class="events-community-card-title">
+                            Residents' Association Meeting
+                        </h3>
+
+                        <p class="events-community-card-description">
+                            Local residents can attend the meeting
+                            to discuss neighborhood updates,
+                            community activities, and upcoming plans.
+                        </p>
+
+                        <div class="events-community-card-meta">
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                6:00 PM
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Town Hall
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="#"
+                            class="events-community-card-link"
+                        >
+                            <span>View Event</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     COMMUNITY EVENT 2
+                ================================================== -->
+
+                <article class="events-community-card">
+
+                    <div class="events-community-card-image">
+
+                        <img
+                            src="images/events-community-2.jpg"
+                            alt="Local clean-up drive"
+                        >
+
+                        <div class="events-community-date">
+
+                            <span class="events-community-date-day">
+                                21
+                            </span>
+
+                            <span class="events-community-date-month">
+                                OCT
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="events-community-card-content">
+
+                        <span class="events-community-category">
+                            COMMUNITY
+                        </span>
+
+                        <h3 class="events-community-card-title">
+                            Local Clean-Up Drive
+                        </h3>
+
+                        <p class="events-community-card-description">
+                            Volunteers are invited to participate
+                            in a community clean-up activity and
+                            help improve shared local spaces.
+                        </p>
+
+                        <div class="events-community-card-meta">
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                7:30 AM
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Main Street
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="#"
+                            class="events-community-card-link"
+                        >
+                            <span>View Event</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     COMMUNITY EVENT 3
+                ================================================== -->
+
+                <article class="events-community-card">
+
+                    <div class="events-community-card-image">
+
+                        <img
+                            src="images/events-community-3.jpg"
+                            alt="Community family day"
+                        >
+
+                        <div class="events-community-date">
+
+                            <span class="events-community-date-day">
+                                25
+                            </span>
+
+                            <span class="events-community-date-month">
+                                OCT
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="events-community-card-content">
+
+                        <span class="events-community-category">
+                            COMMUNITY
+                        </span>
+
+                        <h3 class="events-community-card-title">
+                            Community Family Day
+                        </h3>
+
+                        <p class="events-community-card-description">
+                            Families can enjoy a day of community
+                            activities, games, local performances,
+                            and programs for residents of all ages.
+                        </p>
+
+                        <div class="events-community-card-meta">
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                10:00 AM – 4:00 PM
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Community Center
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="#"
+                            class="events-community-card-link"
+                        >
+                            <span>View Event</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EVENTS SECTION 6 — SPORTS & RECREATION
+========================================================= -->
+
+<section class="events-sports" id="sportsRecreation">
+
+    <div class="events-sports-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="events-sports-header">
+
+            <div class="events-sports-title-wrap">
+
+                <span class="events-sports-eyebrow">
+                    SPORTS &amp; RECREATION
+                </span>
+
+                <span class="events-sports-line"></span>
+
+                <h2 class="events-sports-title">
+                    Stay Active, Stay Connected
+                </h2>
+
+                <p class="events-sports-description">
+                    Discover local tournaments, sporting activities,
+                    training programs, and recreational events for
+                    people of all ages.
+                </p>
+
+            </div>
+
+            <a
+                href="events.html"
+                class="events-sports-view-all"
+            >
+                <span>View All Sports Events</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             SPORTS FEATURED EVENT
+        ================================================== -->
+
+        <article class="events-sports-featured">
+
+            <div class="events-sports-featured-image">
+
+                <img
+                    src="images/events-sports-featured.jpg"
+                    alt="Local sports festival"
+                >
+
+                <span class="events-sports-featured-badge">
+                    FEATURED SPORTS EVENT
+                </span>
+
+            </div>
+
+
+            <div class="events-sports-featured-content">
+
+                <span class="events-sports-category">
+                    SPORTS &amp; RECREATION
+                </span>
+
+                <h3 class="events-sports-featured-title">
+                    Local Sports Festival
+                </h3>
+
+                <p class="events-sports-featured-description">
+                    A community sports festival bringing together
+                    local athletes, families, and sports enthusiasts
+                    for a full day of friendly competition, activities,
+                    and recreation.
+                </p>
+
+
+                <!-- EVENT INFORMATION -->
+
+                <div class="events-sports-info">
+
+                    <div class="events-sports-info-item">
+
+                        <div class="events-sports-info-icon">
+                            <i class="fa-regular fa-calendar"></i>
+                        </div>
+
+                        <div class="events-sports-info-text">
+
+                            <span>DATE</span>
+
+                            <strong>
+                                28 October 2026
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="events-sports-info-item">
+
+                        <div class="events-sports-info-icon">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+
+                        <div class="events-sports-info-text">
+
+                            <span>TIME</span>
+
+                            <strong>
+                                8:00 AM – 6:00 PM
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="events-sports-info-item">
+
+                        <div class="events-sports-info-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div class="events-sports-info-text">
+
+                            <span>VENUE</span>
+
+                            <strong>
+                                Municipal Sports Ground
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="#"
+                    class="events-sports-featured-button"
+                >
+                    <span>View Event</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             SPORTS EVENT GRID
+        ================================================== -->
+
+        <div class="events-sports-grid">
+
+
+            <!-- =================================================
+                 SPORTS EVENT 1 — FOOTBALL
+            ================================================== -->
+
+            <article class="events-sports-card">
+
+                <div class="events-sports-card-image">
+
+                    <img
+                        src="images/events-sports-1.jpg"
+                        alt="Community football match"
+                    >
+
+                    <div class="events-sports-date">
+
+                        <span class="events-sports-date-day">
+                            30
+                        </span>
+
+                        <span class="events-sports-date-month">
+                            OCT
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-sports-card-content">
+
+                    <span class="events-sports-category">
+                        FOOTBALL
+                    </span>
+
+                    <h3 class="events-sports-card-title">
+                        Community Football Match
+                    </h3>
+
+                    <p class="events-sports-card-description">
+                        Local teams meet for a friendly football
+                        match with community supporters welcome
+                        to attend.
+                    </p>
+
+                    <div class="events-sports-card-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            4:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Town Sports Ground
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="#"
+                        class="events-sports-card-link"
+                    >
+                        <span>View Event</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 SPORTS EVENT 2 — ATHLETICS
+            ================================================== -->
+
+            <article class="events-sports-card">
+
+                <div class="events-sports-card-image">
+
+                    <img
+                        src="images/events-sports-2.jpg"
+                        alt="Athletics training camp"
+                    >
+
+                    <div class="events-sports-date">
+
+                        <span class="events-sports-date-day">
+                            02
+                        </span>
+
+                        <span class="events-sports-date-month">
+                            NOV
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-sports-card-content">
+
+                    <span class="events-sports-category">
+                        ATHLETICS
+                    </span>
+
+                    <h3 class="events-sports-card-title">
+                        Athletics Training Camp
+                    </h3>
+
+                    <p class="events-sports-card-description">
+                        A local training program for young athletes
+                        focusing on fitness, running techniques,
+                        and sports preparation.
+                    </p>
+
+                    <div class="events-sports-card-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            6:30 AM – 9:00 AM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Municipal Stadium
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="#"
+                        class="events-sports-card-link"
+                    >
+                        <span>View Event</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 SPORTS EVENT 3 — BADMINTON
+            ================================================== -->
+
+            <article class="events-sports-card">
+
+                <div class="events-sports-card-image">
+
+                    <img
+                        src="images/events-sports-3.jpg"
+                        alt="Weekend badminton tournament"
+                    >
+
+                    <div class="events-sports-date">
+
+                        <span class="events-sports-date-day">
+                            05
+                        </span>
+
+                        <span class="events-sports-date-month">
+                            NOV
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-sports-card-content">
+
+                    <span class="events-sports-category">
+                        RECREATION
+                    </span>
+
+                    <h3 class="events-sports-card-title">
+                        Weekend Badminton games
+                    </h3>
+
+                    <p class="events-sports-card-description">
+                        A friendly badminton tournament for local
+                        players with matches organised across
+                        different age groups.
+                    </p>
+
+                    <div class="events-sports-card-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            9:00 AM – 3:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Indoor Sports Hall
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="#"
+                        class="events-sports-card-link"
+                    >
+                        <span>View Event</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EVENTS SECTION 7 — EDUCATION & WORKSHOPS
+========================================================= -->
+
+<section class="events-education" id="educationWorkshops">
+
+    <div class="events-education-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="events-education-header">
+
+            <div class="events-education-title-wrap">
+
+                <span class="events-education-eyebrow">
+                    EDUCATION &amp; WORKSHOPS
+                </span>
+
+                <span class="events-education-line"></span>
+
+                <h2 class="events-education-title">
+                    Learn, Grow &amp; Build New Skills
+                </h2>
+
+                <p class="events-education-description">
+                    Explore educational programs, skill development
+                    workshops, learning sessions, and training
+                    opportunities available in the local community.
+                </p>
+
+            </div>
+
+            <a
+                href="events.html"
+                class="events-education-view-all"
+            >
+                <span>View All Education Events</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             FEATURED EDUCATION EVENT
+        ================================================== -->
+
+        <article class="events-education-featured">
+
+            <div class="events-education-featured-content">
+
+                <span class="events-education-category">
+                    FEATURED WORKSHOP
+                </span>
+
+                <h3 class="events-education-featured-title">
+                    Digital Skills Workshop for Local Students
+                </h3>
+
+                <p class="events-education-featured-description">
+                    A practical learning session designed to help
+                    students explore digital tools, technology skills,
+                    and useful resources for their academic and
+                    professional development.
+                </p>
+
+
+                <!-- EVENT INFORMATION -->
+
+                <div class="events-education-info">
+
+                    <div class="events-education-info-item">
+
+                        <div class="events-education-info-icon">
+                            <i class="fa-regular fa-calendar"></i>
+                        </div>
+
+                        <div class="events-education-info-text">
+
+                            <span>DATE</span>
+
+                            <strong>
+                                15 November 2026
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="events-education-info-item">
+
+                        <div class="events-education-info-icon">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+
+                        <div class="events-education-info-text">
+
+                            <span>TIME</span>
+
+                            <strong>
+                                10:00 AM – 2:00 PM
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="events-education-info-item">
+
+                        <div class="events-education-info-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div class="events-education-info-text">
+
+                            <span>VENUE</span>
+
+                            <strong>
+                                Town Library
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="#"
+                    class="events-education-featured-button"
+                >
+                    <span>View Workshop</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </div>
+
+
+            <div class="events-education-featured-image">
+
+                <img
+                    src="images/events-education-featured.jpg"
+                    alt="Digital skills workshop for local students"
+                >
+
+                <span class="events-education-featured-badge">
+                    EDUCATION
+                </span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             EDUCATION EVENT GRID
+        ================================================== -->
+
+        <div class="events-education-grid">
+
+
+            <!-- =================================================
+                 EDUCATION EVENT 1
+            ================================================== -->
+
+            <article class="events-education-card">
+
+                <div class="events-education-card-image">
+
+                    <img
+                        src="images/events-education-1.jpg"
+                        alt="Career guidance session"
+                    >
+
+                    <div class="events-education-date">
+
+                        <span class="events-education-date-day">
+                            18
+                        </span>
+
+                        <span class="events-education-date-month">
+                            NOV
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-education-card-content">
+
+                    <span class="events-education-category">
+                        CAREER
+                    </span>
+
+                    <h3 class="events-education-card-title">
+                        Career Guidance Session
+                    </h3>
+
+                    <p class="events-education-card-description">
+                        Students can attend a career guidance session
+                        covering higher education options, skills,
+                        and career preparation.
+                    </p>
+
+                    <div class="events-education-card-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            10:30 AM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Community Hall
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="#"
+                        class="events-education-card-link"
+                    >
+                        <span>View Event</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 EDUCATION EVENT 2
+            ================================================== -->
+
+            <article class="events-education-card">
+
+                <div class="events-education-card-image">
+
+                    <img
+                        src="images/events-education-2.jpg"
+                        alt="Computer learning workshop"
+                    >
+
+                    <div class="events-education-date">
+
+                        <span class="events-education-date-day">
+                            21
+                        </span>
+
+                        <span class="events-education-date-month">
+                            NOV
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-education-card-content">
+
+                    <span class="events-education-category">
+                        TECHNOLOGY
+                    </span>
+
+                    <h3 class="events-education-card-title">
+                        Computer Learning Workshop
+                    </h3>
+
+                    <p class="events-education-card-description">
+                        A hands-on workshop introducing participants
+                        to essential computer skills and useful
+                        digital tools activities
+                    </p>
+
+                    <div class="events-education-card-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            9:30 AM – 1:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Digital Learning Center
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="#"
+                        class="events-education-card-link"
+                    >
+                        <span>View Event</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 EDUCATION EVENT 3
+            ================================================== -->
+
+            <article class="events-education-card">
+
+                <div class="events-education-card-image">
+
+                    <img
+                        src="images/events-education-3.jpg"
+                        alt="Skill development training"
+                    >
+
+                    <div class="events-education-date">
+
+                        <span class="events-education-date-day">
+                            25
+                        </span>
+
+                        <span class="events-education-date-month">
+                            NOV
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="events-education-card-content">
+
+                    <span class="events-education-category">
+                        SKILLS
+                    </span>
+
+                    <h3 class="events-education-card-title">
+                        Skill Development Training
+                    </h3>
+
+                    <p class="events-education-card-description">
+                        A community training program focused on
+                        practical skills, learning opportunities,
+                        and personal development.
+                    </p>
+
+                    <div class="events-education-card-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            10:00 AM – 3:00 PM
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Training Center
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="#"
+                        class="events-education-card-link"
+                    >
+                        <span>View Event</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EVENTS SECTION 8 — EVENT HIGHLIGHTS
+========================================================= -->
+
+<section class="events-highlights" id="eventHighlights">
+
+    <div class="events-highlights-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="events-highlights-header">
+
+            <div class="events-highlights-title-wrap">
+
+                <span class="events-highlights-eyebrow">
+                    EVENT HIGHLIGHTS
+                </span>
+
+                <span class="events-highlights-line"></span>
+
+                <h2 class="events-highlights-title">
+                    Moments From Our Community
+                </h2>
+
+                <p class="events-highlights-description">
+                    Catch up on memorable moments, community activities,
+                    local competitions, learning programs, and events
+                    that brought people together.
+                </p>
+
+            </div>
+
+            <a
+                href="events.html"
+                class="events-highlights-view-all"
+            >
+                <span>View All Highlights</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             HIGHLIGHTS LAYOUT
+        ================================================== -->
+
+        <div class="events-highlights-layout">
+
+
+            <!-- =================================================
+                 FEATURED HIGHLIGHT
+            ================================================== -->
+
+            <article class="events-highlights-featured">
+
+                <div class="events-highlights-featured-image">
+
+                    <img
+                        src="images/events-highlights-featured.jpg"
+                        alt="Local community event gathering"
+                    >
+
+                    <span class="events-highlights-featured-category">
+                        COMMUNITY
+                    </span>
+
+                </div>
+
+
+                <div class="events-highlights-featured-content">
+
+                    <span class="events-highlights-category">
+                        COMMUNITY EVENT
+                    </span>
+
+                    <h3 class="events-highlights-featured-title">
+                        Local Community Day Brings Residents Together
+                    </h3>
+
+                    <p class="events-highlights-featured-description">
+                        Residents came together for a day of community
+                        activities, local performances, family programs,
+                        and opportunities to connect with neighbors and
+                        community organizations.
+                    </p>
+
+
+                    <div class="events-highlights-meta">
+
+                        <span>
+                            <i class="fa-regular fa-calendar"></i>
+                            15 October 2026
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Community Park
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="#"
+                        class="events-highlights-featured-link"
+                    >
+                        <span>Read Event Story</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 SMALL HIGHLIGHTS
+            ================================================== -->
+
+            <div class="events-highlights-list">
+
+
+                <!-- =================================================
+                     HIGHLIGHT 1 — SPORTS
+                ================================================== -->
+
+                <article class="events-highlights-card">
+
+                    <div class="events-highlights-card-image">
+
+                        <img
+                            src="images/events-highlights-1.jpg"
+                            alt="Local sports competition"
+                        >
+
+                        <span class="events-highlights-card-category">
+                            SPORTS
+                        </span>
+
+                    </div>
+
+
+                    <div class="events-highlights-card-content">
+
+                        <span class="events-highlights-category">
+                            SPORTS EVENT
+                        </span>
+
+                        <h3 class="events-highlights-card-title">
+                            Local Sports Festival Attracts Community Teams
+                        </h3>
+
+                        <p class="events-highlights-card-description">
+                            Local teams and sports enthusiasts gathered
+                            for a day of matches, activities, and friendly
+                            community competition.
+                        </p>
+
+                        <div class="events-highlights-meta">
+
+                            <span>
+                                <i class="fa-regular fa-calendar"></i>
+                                28 October 2026
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Municipal Ground
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="#"
+                            class="events-highlights-card-link"
+                        >
+                            <span>Read Event Story</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     HIGHLIGHT 2 — EDUCATION
+                ================================================== -->
+
+                <article class="events-highlights-card">
+
+                    <div class="events-highlights-card-image">
+
+                        <img
+                            src="images/events-highlights-2.jpg"
+                            alt="Students attending an educational workshop"
+                        >
+
+                        <span class="events-highlights-card-category">
+                            EDUCATION
+                        </span>
+
+                    </div>
+
+
+                    <div class="events-highlights-card-content">
+
+                        <span class="events-highlights-category">
+                            EDUCATION EVENT
+                        </span>
+
+                        <h3 class="events-highlights-card-title">
+                            Students Take Part in New Learning Workshop
+                        </h3>
+
+                        <p class="events-highlights-card-description">
+                            Students participated in a practical learning
+                            session focused on digital skills, education,
+                            and future opportunities.
+                        </p>
+
+                        <div class="events-highlights-meta">
+
+                            <span>
+                                <i class="fa-regular fa-calendar"></i>
+                                15 November 2026
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Town Library
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="#"
+                            class="events-highlights-card-link"
+                        >
+                            <span>Read Event Story</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     HIGHLIGHT 3 — CULTURAL
+                ================================================== -->
+
+                <article class="events-highlights-card">
+
+                    <div class="events-highlights-card-image">
+
+                        <img
+                            src="images/events-highlights-3.jpg"
+                            alt="Local cultural event"
+                        >
+
+                        <span class="events-highlights-card-category">
+                            CULTURAL
+                        </span>
+
+                    </div>
+
+
+                    <div class="events-highlights-card-content">
+
+                        <span class="events-highlights-category">
+                            CULTURAL EVENT
+                        </span>
+
+                        <h3 class="events-highlights-card-title">
+                            Local Cultural Evening Celebrates Community Talent
+                        </h3>
+
+                        <p class="events-highlights-card-description">
+                            Local performers and community groups came
+                            together to showcase music, performances,
+                            and cultural activities.
+                        </p>
+
+                        <div class="events-highlights-meta">
+
+                            <span>
+                                <i class="fa-regular fa-calendar"></i>
+                                05 October 2026
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Community Center
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="#"
+                            class="events-highlights-card-link"
+                        >
+                            <span>Read Event Story</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EVENTS SECTION 9 — SUBMIT YOUR EVENT CTA
+========================================================= -->
+
+<section class="events-submit-cta" id="submitYourEvent">
+
+    <div class="events-submit-cta-overlay"></div>
+
+    <div class="events-submit-cta-container">
+
+        <!-- =================================================
+             CTA CONTENT
+        ================================================== -->
+
+        <div class="events-submit-cta-content">
+
+            <div class="events-submit-cta-label">
+
+                <span>
+                    SUBMIT YOUR EVENT
+                </span>
+
+                <span class="events-submit-cta-label-line"></span>
+
+            </div>
+
+
+            <h2 class="events-submit-cta-title">
+                Have an Event to Share With the Community?
+            </h2>
+
+
+            <p class="events-submit-cta-description">
+                Tell local residents about your upcoming community
+                gathering, sports event, educational program,
+                workshop, cultural activity, or public event through
+                The Local Voice.
+            </p>
+
+
+            <!-- CTA BUTTONS -->
+
+            <div class="events-submit-cta-actions">
+
+                <a
+                    href="contact.html"
+                    class="events-submit-cta-primary"
+                >
+                    <span>Submit Your Event</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="events-submit-cta-secondary"
+                >
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             CTA BENEFITS
+        ================================================== -->
+
+        <div class="events-submit-cta-benefits">
+
+
+            <!-- =================================================
+                 BENEFIT 1
+            ================================================== -->
+
+            <div class="events-submit-cta-benefit">
+
+                <div class="events-submit-cta-benefit-icon">
+                    <i
+                        class="fa-regular fa-calendar-check"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="events-submit-cta-benefit-content">
+
+                    <h3>
+                        Share Your Event
+                    </h3>
+
+                    <p>
+                        Tell the local community about your
+                        upcoming event and activities.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 BENEFIT 2
+            ================================================== -->
+
+            <div class="events-submit-cta-benefit">
+
+                <div class="events-submit-cta-benefit-icon">
+                    <i
+                        class="fa-solid fa-location-dot"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="events-submit-cta-benefit-content">
+
+                    <h3>
+                        Reach Local Readers
+                    </h3>
+
+                    <p>
+                        Connect your event with people
+                        across the local community.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 BENEFIT 3
+            ================================================== -->
+
+            <div class="events-submit-cta-benefit">
+
+                <div class="events-submit-cta-benefit-icon">
+                    <i
+                        class="fa-solid fa-users"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="events-submit-cta-benefit-content">
+
+                    <h3>
+                        Build Community Connections
+                    </h3>
+
+                    <p>
+                        Help residents discover activities,
+                        programs, and opportunities near them.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+         </main>
+<! =========================================================
+   FOOTER
+========================================================= !>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =============================================
+             FOOTER BRAND
+        ============================================== -->
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="footer-logo-light"
+                >
+
+                
+            </a>
+
+            <p class="footer-description">
+                Your trusted source for local news, community stories,
+                events, classifieds, and everything happening around you.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             QUICK LINKS
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="news.html">All News</a>
+                </li>
+
+                <li>
+                    <a href="classifieds.html">Classifieds</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="advertise.html">Advertise With Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             NEWS CATEGORIES
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                News Categories
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="civic.html">Civic</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">Sports</a>
+                </li>
+
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="news.html">Latest News</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             CONTACT
+        ============================================== -->
+
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <p>
+                    Your Local Community,<br>
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <a href="tel:+910000000000">
+                    +91 00000 00000
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:info@thelocalvoice.com">
+                    info@thelocalvoice.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         FOOTER BOTTOM
+    ============================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 The Local Voice. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+         We will add the header JS later.
+    ====================================================== -->
+<!-- =========================================================
+     SCROLL TO TOP BUTTON
+========================================================= -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

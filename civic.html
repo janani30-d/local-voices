@@ -1,0 +1,2920 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="The Local Voice - Local Newspaper and Community News Portal"
+    >
+
+    <meta
+        name="keywords"
+        content="local news, community news, newspaper, events, classifieds"
+    >
+
+    <meta
+        name="author"
+        content="The Local Voice"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>
+        The Local Voice | Local News & Community
+    </title>
+<link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+>
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER START
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="home1.html"
+                class="site-logo"
+                aria-label="The Local Voice Home"
+            >
+
+                <!-- Light Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-light"
+                >
+
+
+                <!-- Dark Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-dark"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                id="desktopNavigation"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle active"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        
+
+                        <a href="civic.html"class="active">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NORMAL NAVIGATION LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+    <button
+        type="button"
+        class="header-action-btn rtl-toggle"
+        id="rtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="header-action-btn dark-toggle"
+        id="darkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="login-btn"
+    >
+        Login
+    </a>
+
+</div>
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE NAVIGATION
+        ====================================================== -->
+
+        <div
+            class="mobile-navigation"
+            id="mobileNavigation"
+        >
+
+            <div class="mobile-navigation-inner">
+
+
+                <!-- =============================================
+                     MOBILE HOME DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle active"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        
+
+                        <a href="civic.html"class="active">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NORMAL LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="mobile-nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="mobile-nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="mobile-nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="mobile-nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE ACTIONS
+                ============================================== -->
+
+                <div class="mobile-actions">
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileRtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileDarkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="mobile-login-btn"
+    >
+        Login
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HEADER END
+    ====================================================== -->
+
+
+    <!-- =====================================================
+         MAIN CONTENT START
+         We will add this later.
+    ====================================================== -->
+
+    <main>
+<!-- =========================================================
+     CIVIC PAGE — HERO
+========================================================= -->
+
+<section
+    class="civic-hero"
+    id="civicHero"
+>
+
+    <!-- HERO BACKGROUND OVERLAY -->
+    <div class="civic-hero-overlay"></div>
+
+
+    <!-- HERO CONTENT -->
+    <div class="civic-hero-container">
+
+        <div class="civic-hero-content">
+
+            <!-- CATEGORY -->
+            <span class="civic-hero-eyebrow">
+                CIVIC NEWS
+            </span>
+
+
+            <!-- GOLD LINE -->
+            <span class="civic-hero-line"></span>
+
+
+            <!-- TITLE -->
+            <h1>
+                Local Government &
+                Community Affairs
+            </h1>
+
+
+            <!-- DESCRIPTION -->
+            <p>
+                Stay informed about public services,
+                local development, civic initiatives,
+                and important community decisions.
+            </p>
+
+
+            <!-- HERO META -->
+            <div class="civic-hero-meta">
+
+                <span>
+                    <i
+                        class="fa-regular fa-clock"
+                        aria-hidden="true"
+                    ></i>
+
+                    Latest Civic Updates
+                </span>
+
+                <span>
+                    <i
+                        class="fa-solid fa-location-dot"
+                        aria-hidden="true"
+                    ></i>
+
+                    Local Community
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CIVIC PAGE — SECTION 2
+     BREAKING CIVIC NEWS
+========================================================= -->
+
+<section
+    class="civic-breaking"
+    id="civicBreaking"
+>
+
+    <div class="civic-breaking-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="civic-breaking-header">
+
+            <div class="civic-breaking-title-wrap">
+
+                <span class="civic-breaking-eyebrow">
+                    BREAKING CIVIC NEWS
+                </span>
+
+                <span class="civic-breaking-line"></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BREAKING NEWS CONTENT
+        ================================================== -->
+
+        <article class="civic-breaking-card">
+
+            <!-- MAIN CONTENT -->
+
+            <div class="civic-breaking-content">
+
+                <span class="civic-breaking-category">
+                    CIVIC UPDATE
+                </span>
+
+                <h2 class="civic-breaking-title">
+                    New Community Development Plans Announced
+                </h2>
+
+                <p class="civic-breaking-description">
+                    Local authorities have announced new plans focused
+                    on improving public facilities, community services,
+                    and local infrastructure.
+                </p>
+
+
+                <!-- META INFORMATION -->
+
+                <div class="civic-breaking-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+                        24 September 2026
+                    </span>
+
+                    <span>
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+                        10:30 AM
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- ACTION -->
+
+            <div class="civic-breaking-action">
+
+                <a
+                    href="news.html"
+                    class="civic-breaking-read"
+                >
+                    <span>Read Full Story</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CIVIC PAGE — SECTION 3
+     FEATURED CIVIC STORY
+========================================================= -->
+
+<section
+    class="civic-featured"
+    id="civicFeatured"
+>
+
+    <div class="civic-featured-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="civic-featured-header">
+
+            <div class="civic-featured-title-wrap">
+
+                <span class="civic-featured-eyebrow">
+                    FEATURED CIVIC STORY
+                </span>
+
+                <span class="civic-featured-line"></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             FEATURED STORY
+        ================================================== -->
+
+        <article class="civic-featured-story">
+
+            <!-- =================================================
+                 STORY CONTENT
+            ================================================== -->
+
+            <div class="civic-featured-content">
+
+                <span class="civic-featured-category">
+                    CIVIC AFFAIRS
+                </span>
+
+                <h2 class="civic-featured-title">
+                    Local Development Project Brings
+                    New Improvements to the Community
+                </h2>
+
+                <p class="civic-featured-description">
+                    A new community development initiative is
+                    expected to improve public facilities,
+                    local infrastructure, and essential services
+                    for residents across the area.
+                </p>
+
+
+                <!-- STORY META -->
+
+                <div class="civic-featured-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+                        24 September 2026
+                    </span>
+
+                    <span>
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+                        Local Voice Team
+                    </span>
+
+                </div>
+
+
+                <!-- READ MORE -->
+
+                <a
+                    href="news.html"
+                    class="civic-featured-read"
+                >
+                    <span>Read Full Story</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- =================================================
+                 FEATURE IMAGE
+            ================================================== -->
+
+            <div class="civic-featured-image">
+
+                <img
+                    src="images/civic-featured.jpg"
+                    alt="Local community development project"
+                >
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CIVIC PAGE — SECTION 4
+     LATEST CIVIC NEWS
+========================================================= -->
+
+<section
+    class="civic-latest-news"
+    id="civicLatestNews"
+>
+
+    <div class="civic-latest-news-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="civic-latest-news-header">
+
+            <div class="civic-latest-news-title-wrap">
+
+                <span class="civic-latest-news-eyebrow">
+                    LATEST CIVIC NEWS
+                </span>
+
+                <span class="civic-latest-news-line"></span>
+
+            </div>
+
+            <a
+                href="news.html"
+                class="civic-latest-news-view-all"
+            >
+                <span>View All News</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             NEWS GRID
+        ================================================== -->
+
+        <div class="civic-latest-news-grid">
+
+
+            <!-- =================================================
+                 NEWS CARD 01
+            ================================================== -->
+
+            <article class="civic-news-card">
+
+                <a
+                    href="news.html"
+                    class="civic-news-card-image"
+                >
+                    <img
+                        src="images/civic-news-1.jpg"
+                        alt="Local civic development update"
+                    >
+                </a>
+
+                <div class="civic-news-card-content">
+
+                    <span class="civic-news-card-category">
+                        CIVIC
+                    </span>
+
+                    <h3 class="civic-news-card-title">
+                        Local Authorities Announce New
+                        Community Improvement Plans
+                    </h3>
+
+                    <p class="civic-news-card-description">
+                        New initiatives are being introduced
+                        to improve public facilities and
+                        community services.
+                    </p>
+
+                    <div class="civic-news-card-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            24 Sep 2026
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 02
+            ================================================== -->
+
+            <article class="civic-news-card">
+
+                <a
+                    href="news.html"
+                    class="civic-news-card-image"
+                >
+                    <img
+                        src="images/civic-news-2.jpg"
+                        alt="Local infrastructure project"
+                    >
+                </a>
+
+                <div class="civic-news-card-content">
+
+                    <span class="civic-news-card-category">
+                        INFRASTRUCTURE
+                    </span>
+
+                    <h3 class="civic-news-card-title">
+                        Road Improvement Work Begins
+                        Across Key Local Areas
+                    </h3>
+
+                    <p class="civic-news-card-description">
+                        Infrastructure work has started in
+                        several areas as part of a local
+                        improvement programme.
+                    </p>
+
+                    <div class="civic-news-card-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            23 Sep 2026
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 03
+            ================================================== -->
+
+            <article class="civic-news-card">
+
+                <a
+                    href="news.html"
+                    class="civic-news-card-image"
+                >
+                    <img
+                        src="images/civic-news-3.jpg"
+                        alt="Community service initiative"
+                    >
+                </a>
+
+                <div class="civic-news-card-content">
+
+                    <span class="civic-news-card-category">
+                        COMMUNITY
+                    </span>
+
+                    <h3 class="civic-news-card-title">
+                        New Community Services Expand
+                        Support for Local
+                    </h3>
+
+                    <p class="civic-news-card-description">
+                        New service initiatives aim to make
+                        essential community support more
+                        accessible to residents.
+                    </p>
+
+                    <div class="civic-news-card-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            23 Sep 2026
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 04
+            ================================================== -->
+
+            <article class="civic-news-card">
+
+                <a
+                    href="news.html"
+                    class="civic-news-card-image"
+                >
+                    <img
+                        src="images/civic-news-4.jpg"
+                        alt="Public service update"
+                    >
+                </a>
+
+                <div class="civic-news-card-content">
+
+                    <span class="civic-news-card-category">
+                        PUBLIC SERVICE
+                    </span>
+
+                    <h3 class="civic-news-card-title">
+                        Public Service Updates Announced
+                        for Communities
+                    </h3>
+
+                    <p class="civic-news-card-description">
+                        Residents have been informed about
+                        upcoming changes to selected public
+                        services.
+                    </p>
+
+                    <div class="civic-news-card-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            22 Sep 2026
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 05
+            ================================================== -->
+
+            <article class="civic-news-card">
+
+                <a
+                    href="news.html"
+                    class="civic-news-card-image"
+                >
+                    <img
+                        src="images/civic-news-5.jpg"
+                        alt="Local public meeting"
+                    >
+                </a>
+
+                <div class="civic-news-card-content">
+
+                    <span class="civic-news-card-category">
+                        CIVIC AFFAIRS
+                    </span>
+
+                    <h3 class="civic-news-card-title">
+                        Public Meeting Scheduled to Discuss
+                        Upcoming Local
+                    </h3>
+
+                    <p class="civic-news-card-description">
+                        Community members will have an
+                        opportunity to discuss upcoming
+                        civic initiatives and proposals.
+                    </p>
+
+                    <div class="civic-news-card-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            21 Sep 2026
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 NEWS CARD 06
+            ================================================== -->
+
+            <article class="civic-news-card">
+
+                <a
+                    href="news.html"
+                    class="civic-news-card-image"
+                >
+                    <img
+                        src="images/civic-news-6.jpg"
+                        alt="Community development project"
+                    >
+                </a>
+
+                <div class="civic-news-card-content">
+
+                    <span class="civic-news-card-category">
+                        DEVELOPMENT
+                    </span>
+
+                    <h3 class="civic-news-card-title">
+                        Community Development Project
+                        Enters Its Next Phase
+                    </h3>
+
+                    <p class="civic-news-card-description">
+                        The next phase of a local development
+                        project is set to focus on improving
+                        shared community spaces.
+                    </p>
+
+                    <div class="civic-news-card-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+                            20 Sep 2026
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CIVIC PAGE — SECTION 5
+     CIVIC CATEGORY NEWS
+========================================================= -->
+
+<section
+    class="civic-category-news"
+    id="civicCategoryNews"
+>
+
+    <div class="civic-category-news-container">
+
+        <!-- =================================================
+             CATEGORY COLUMN 01
+             MUNICIPAL SERVICES
+        ================================================== -->
+
+        <article class="civic-category-column">
+
+            <div class="civic-category-heading">
+
+                <h2>
+                    MUNICIPAL SERVICES
+                </h2>
+
+                <span></span>
+
+            </div>
+
+
+            <!-- MAIN STORY -->
+
+            <article class="civic-category-main">
+
+                <a
+                    href="news.html"
+                    class="civic-category-main-image"
+                >
+                    <img
+                        src="images/civic-category-municipal.jpg"
+                        alt="Municipal services and local administration"
+                    >
+                </a>
+
+                <h3>
+                    New Municipal Services Aim to Improve
+                    Everyday Community Facilities
+                </h3>
+
+                <div class="civic-category-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+                        September 24, 10:30 AM
+                    </span>
+
+                    <span>
+                        By Local Voice
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- RELATED STORIES -->
+
+            <div class="civic-category-related">
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        Local Administration Announces
+                        New Public Service Updates
+                    </h4>
+
+                    <a
+                        href="news.html"
+                        class="civic-category-related-image"
+                    >
+                        <img
+                            src="images/civic-category-municipal-1.jpg"
+                            alt="Local administration update"
+                        >
+                    </a>
+
+                </article>
+
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        Community Facilities Receive
+                        New Improvement Measures
+                    </h4>
+
+                </article>
+
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        New Civic Service Information
+                        Released for Local Residents
+                    </h4>
+
+                </article>
+
+            </div>
+
+
+            <!-- CATEGORY LINK -->
+
+            <a
+                href="civic.html"
+                class="civic-category-link"
+            >
+                <span>Go to Municipal Services</span>
+
+                <i
+                    class="fa-solid fa-chevron-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </article>
+
+
+
+        <!-- =================================================
+             CATEGORY COLUMN 02
+             PUBLIC SERVICES
+        ================================================== -->
+
+        <article class="civic-category-column">
+
+            <div class="civic-category-heading">
+
+                <h2>
+                    PUBLIC SERVICES
+                </h2>
+
+                <span></span>
+
+            </div>
+
+
+            <!-- MAIN STORY -->
+
+            <article class="civic-category-main">
+
+                <a
+                    href="news.html"
+                    class="civic-category-main-image"
+                >
+                    <img
+                        src="images/civic-category-public.jpg"
+                        alt="Public services and civic support"
+                    >
+                </a>
+
+                <h3>
+                    Public Services Receive New Updates
+                    for Local Communities
+                </h3>
+
+                <div class="civic-category-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+                        September 23, 3:15 PM
+                    </span>
+
+                    <span>
+                        By Local Voice
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- RELATED STORIES -->
+
+            <div class="civic-category-related">
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        Residents Receive Information
+                        on Essential Public Services
+                    </h4>
+
+                    <a
+                        href="news.html"
+                        class="civic-category-related-image"
+                    >
+                        <img
+                            src="images/civic-category-public-1.jpg"
+                            alt="Essential public services"
+                        >
+                    </a>
+
+                </article>
+
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        Community Support Services
+                        Expand Across Local Areas
+                    </h4>
+
+                </article>
+
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        New Public Service Guidelines
+                        Announced for Residents
+                    </h4>
+
+                </article>
+
+            </div>
+
+
+            <!-- CATEGORY LINK -->
+
+            <a
+                href="civic.html"
+                class="civic-category-link"
+            >
+                <span>Go to Public Services</span>
+
+                <i
+                    class="fa-solid fa-chevron-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </article>
+
+
+
+        <!-- =================================================
+             CATEGORY COLUMN 03
+             COMMUNITY DEVELOPMENT
+        ================================================== -->
+
+        <article class="civic-category-column">
+
+            <div class="civic-category-heading">
+
+                <h2>
+                    COMMUNITY DEVELOP
+                </h2>
+
+                <span></span>
+
+            </div>
+
+
+            <!-- MAIN STORY -->
+
+            <article class="civic-category-main">
+
+                <a
+                    href="news.html"
+                    class="civic-category-main-image"
+                >
+                    <img
+                        src="images/civic-category-community.jpg"
+                        alt="Community development project"
+                    >
+                </a>
+
+                <h3>
+                    Community Development Projects
+                    Enter a New Phase place
+                </h3>
+
+                <div class="civic-category-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+                        September 22, 11:20 AM
+                    </span>
+
+                    <span>
+                        By Local Voice
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- RELATED STORIES -->
+
+            <div class="civic-category-related">
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        New Community Spaces Planned
+                        for Local Residents
+                    </h4>
+
+                    <a
+                        href="news.html"
+                        class="civic-category-related-image"
+                    >
+                        <img
+                            src="images/civic-category-community-1.jpg"
+                            alt="Community spaces"
+                        >
+                    </a>
+
+                </article>
+
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        Local Development Initiative
+                        Supports Community Facilities
+                    </h4>
+
+                </article>
+
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        Community Projects Focus on
+                        Shared Public Spaces
+                    </h4>
+
+                </article>
+
+            </div>
+
+
+            <!-- CATEGORY LINK -->
+
+            <a
+                href="civic.html"
+                class="civic-category-link"
+            >
+                <span>Go to Community</span>
+
+                <i
+                    class="fa-solid fa-chevron-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </article>
+
+
+
+        <!-- =================================================
+             CATEGORY COLUMN 04
+             ROADS & INFRASTRUCTURE
+        ================================================== -->
+
+        <article class="civic-category-column">
+
+            <div class="civic-category-heading">
+
+                <h2>
+                    ROADS &amp; INFRASTRUCTURE
+                </h2>
+
+                <span></span>
+
+            </div>
+
+
+            <!-- MAIN STORY -->
+
+            <article class="civic-category-main">
+
+                <a
+                    href="news.html"
+                    class="civic-category-main-image"
+                >
+                    <img
+                        src="images/civic-category-infrastructure.jpg"
+                        alt="Road and infrastructure improvement"
+                    >
+                </a>
+
+                <h3>
+                    Infrastructure Improvements Begin
+                    Across Key Local Areas
+                </h3>
+
+                <div class="civic-category-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+                        September 21, 9:45 AM
+                    </span>
+
+                    <span>
+                        By Local Voice
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- RELATED STORIES -->
+
+            <div class="civic-category-related">
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        Road Improvement Work Begins
+                        in Several Local Areas
+                    </h4>
+
+                    <a
+                        href="news.html"
+                        class="civic-category-related-image"
+                    >
+                        <img
+                            src="images/civic-category-infrastructure-1.jpg"
+                            alt="Road improvement work"
+                        >
+                    </a>
+
+                </article>
+
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        Drainage and Street Improvements
+                        Scheduled for Local Areas
+                    </h4>
+
+                </article>
+
+
+                <article class="civic-category-related-item">
+
+                    <h4>
+                        Infrastructure Project Updates
+                        Shared With Residents
+                    </h4>
+
+                </article>
+
+            </div>
+
+
+            <!-- CATEGORY LINK -->
+
+            <a
+                href="civic.html"
+                class="civic-category-link"
+            >
+                <span>Go to Infrastructure</span>
+
+                <i
+                    class="fa-solid fa-chevron-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CIVIC PAGE — SECTION 6
+     PUBLIC NOTICES
+========================================================= -->
+
+<section
+    class="civic-public-notices"
+    id="civicPublicNotices"
+>
+
+    <div class="civic-public-notices-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="civic-public-notices-header">
+
+            <div class="civic-public-notices-title-wrap">
+
+                <span class="civic-public-notices-eyebrow">
+                    PUBLIC NOTICES
+                </span>
+
+                <span class="civic-public-notices-line"></span>
+
+            </div>
+
+            <a
+                href="news.html"
+                class="civic-public-notices-view-all"
+            >
+                <span>View All Notices</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             NOTICE LIST
+        ================================================== -->
+
+        <div class="civic-public-notices-list">
+
+
+            <!-- =================================================
+                 NOTICE 01
+            ================================================== -->
+
+            <article class="civic-notice-item">
+
+                <!-- DATE -->
+
+                <div class="civic-notice-date">
+
+                    <span class="civic-notice-day">
+                        24
+                    </span>
+
+                    <span class="civic-notice-month">
+                        SEP
+                    </span>
+
+                </div>
+
+
+                <!-- CONTENT -->
+
+                <div class="civic-notice-content">
+
+                    <span class="civic-notice-category">
+                        CIVIC NOTICE
+                    </span>
+
+                    <h3 class="civic-notice-title">
+                        Water Supply Maintenance Notice
+                    </h3>
+
+                    <p class="civic-notice-description">
+                        Scheduled maintenance may temporarily
+                        affect water supply in selected local
+                        areas.
+                    </p>
+
+                </div>
+
+
+                <!-- ACTION -->
+
+                <a
+                    href="news.html"
+                    class="civic-notice-action"
+                    aria-label="Read Water Supply Maintenance Notice"
+                >
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </article>
+
+
+            <!-- =================================================
+                 NOTICE 02
+            ================================================== -->
+
+            <article class="civic-notice-item">
+
+                <!-- DATE -->
+
+                <div class="civic-notice-date">
+
+                    <span class="civic-notice-day">
+                        26
+                    </span>
+
+                    <span class="civic-notice-month">
+                        SEP
+                    </span>
+
+                </div>
+
+
+                <!-- CONTENT -->
+
+                <div class="civic-notice-content">
+
+                    <span class="civic-notice-category">
+                        ROAD NOTICE
+                    </span>
+
+                    <h3 class="civic-notice-title">
+                        Public Road Closure Announcement
+                    </h3>
+
+                    <p class="civic-notice-description">
+                        Temporary traffic changes are expected
+                        in selected areas due to infrastructure
+                        improvement work.
+                    </p>
+
+                </div>
+
+
+                <!-- ACTION -->
+
+                <a
+                    href="news.html"
+                    class="civic-notice-action"
+                    aria-label="Read Public Road Closure Announcement"
+                >
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </article>
+
+
+            <!-- =================================================
+                 NOTICE 03
+            ================================================== -->
+
+            <article class="civic-notice-item">
+
+                <!-- DATE -->
+
+                <div class="civic-notice-date">
+
+                    <span class="civic-notice-day">
+                        28
+                    </span>
+
+                    <span class="civic-notice-month">
+                        SEP
+                    </span>
+
+                </div>
+
+
+                <!-- CONTENT -->
+
+                <div class="civic-notice-content">
+
+                    <span class="civic-notice-category">
+                        COMMUNITY NOTICE
+                    </span>
+
+                    <h3 class="civic-notice-title">
+                        Community Meeting Announcement
+                    </h3>
+
+                    <p class="civic-notice-description">
+                        Residents are invited to attend a
+                        community meeting covering upcoming
+                        local initiatives and development plans.
+                    </p>
+
+                </div>
+
+
+                <!-- ACTION -->
+
+                <a
+                    href="news.html"
+                    class="civic-notice-action"
+                    aria-label="Read Community Meeting Announcement"
+                >
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </article>
+
+
+            <!-- =================================================
+                 NOTICE 04
+            ================================================== -->
+
+            <article class="civic-notice-item">
+
+                <!-- DATE -->
+
+                <div class="civic-notice-date">
+
+                    <span class="civic-notice-day">
+                        02
+                    </span>
+
+                    <span class="civic-notice-month">
+                        OCT
+                    </span>
+
+                </div>
+
+
+                <!-- CONTENT -->
+
+                <div class="civic-notice-content">
+
+                    <span class="civic-notice-category">
+                        PUBLIC SERVICE
+                    </span>
+
+                    <h3 class="civic-notice-title">
+                        Updated Public Service Information
+                    </h3>
+
+                    <p class="civic-notice-description">
+                        Updated information regarding selected
+                        public services is now available for
+                        local residents.
+                    </p>
+
+                </div>
+
+
+                <!-- ACTION -->
+
+                <a
+                    href="news.html"
+                    class="civic-notice-action"
+                    aria-label="Read Updated Public Service Information"
+                >
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CIVIC PAGE — SECTION 7
+     MOST READ CIVIC STORIES
+========================================================= -->
+
+<section class="civic-most-read" id="civicMostRead">
+
+    <div class="civic-most-read-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="civic-most-read-header">
+
+            <div class="civic-most-read-title-wrap">
+
+                <span class="civic-most-read-eyebrow">
+                    MOST READ CIVIC STORIES
+                </span>
+
+                <span class="civic-most-read-line"></span>
+
+            </div>
+
+            <a href="news.html" class="civic-most-read-view-all">
+                <span>View All Stories</span>
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MOST READ STORIES
+        ================================================== -->
+
+        <div class="civic-most-read-layout">
+
+
+            <!-- =================================================
+                 LEFT — RANKED STORIES
+            ================================================== -->
+
+            <div class="civic-most-read-list">
+
+
+                <!-- STORY 01 -->
+                <article class="civic-most-read-item">
+
+                    <div class="civic-most-read-number">
+                        01
+                    </div>
+
+                    <a href="news.html" class="civic-most-read-image">
+                        <img
+                            src="images/civic-most-read-1.jpg"
+                            alt="Local development project"
+                        >
+                    </a>
+
+                    <div class="civic-most-read-content">
+
+                        <span class="civic-most-read-category">
+                            CIVIC AFFAIRS
+                        </span>
+
+                        <h3>
+                            Local Development Project Brings New Improvements to the Community
+                        </h3>
+
+                        <div class="civic-most-read-meta">
+
+                            <span>
+                                <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                                10:30 AM
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                24 September 2026
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 02 -->
+                <article class="civic-most-read-item">
+
+                    <div class="civic-most-read-number">
+                        02
+                    </div>
+
+                    <a href="news.html" class="civic-most-read-image">
+                        <img
+                            src="images/civic-most-read-2.jpg"
+                            alt="Public services update"
+                        >
+                    </a>
+
+                    <div class="civic-most-read-content">
+
+                        <span class="civic-most-read-category">
+                            PUBLIC SERVICES
+                        </span>
+
+                        <h3>
+                            New Public Service Updates Announced for Local Residents
+                        </h3>
+
+                        <div class="civic-most-read-meta">
+
+                            <span>
+                                <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                                09:45 AM
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                24 September 2026
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 03 -->
+                <article class="civic-most-read-item">
+
+                    <div class="civic-most-read-number">
+                        03
+                    </div>
+
+                    <a href="news.html" class="civic-most-read-image">
+                        <img
+                            src="images/civic-most-read-3.jpg"
+                            alt="Road infrastructure improvement"
+                        >
+                    </a>
+
+                    <div class="civic-most-read-content">
+
+                        <span class="civic-most-read-category">
+                            INFRASTRUCTURE
+                        </span>
+
+                        <h3>
+                            Road Improvement Works Begin Across Key Local Areas
+                        </h3>
+
+                        <div class="civic-most-read-meta">
+
+                            <span>
+                                <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                                09:15 AM
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                24 September 2026
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 04 -->
+                <article class="civic-most-read-item">
+
+                    <div class="civic-most-read-number">
+                        04
+                    </div>
+
+                    <a href="news.html" class="civic-most-read-image">
+                        <img
+                            src="images/civic-most-read-4.jpg"
+                            alt="Community development initiative"
+                        >
+                    </a>
+
+                    <div class="civic-most-read-content">
+
+                        <span class="civic-most-read-category">
+                            COMMUNITY
+                        </span>
+
+                        <h3>
+                            Community Development Initiative Creates New Local Opportunities
+                        </h3>
+
+                        <div class="civic-most-read-meta">
+
+                            <span>
+                                <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                                08:45 AM
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                24 September 2026
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 05 -->
+                <article class="civic-most-read-item">
+
+                    <div class="civic-most-read-number">
+                        05
+                    </div>
+
+                    <a href="news.html" class="civic-most-read-image">
+                        <img
+                            src="images/civic-most-read-5.jpg"
+                            alt="Municipal services announcement"
+                        >
+                    </a>
+
+                    <div class="civic-most-read-content">
+
+                        <span class="civic-most-read-category">
+                            MUNICIPAL SERVICES
+                        </span>
+
+                        <h3>
+                            Municipal Services Receive New Measures to Improve Daily Operations
+                        </h3>
+
+                        <div class="civic-most-read-meta">
+
+                            <span>
+                                <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                                08:15 AM
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                24 September 2026
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 06 -->
+                <article class="civic-most-read-item">
+
+                    <div class="civic-most-read-number">
+                        06
+                    </div>
+
+                    <a href="news.html" class="civic-most-read-image">
+                        <img
+                            src="images/civic-most-read-6.jpg"
+                            alt="Local civic meeting"
+                        >
+                    </a>
+
+                    <div class="civic-most-read-content">
+
+                        <span class="civic-most-read-category">
+                            CIVIC UPDATE
+                        </span>
+
+                        <h3>
+                            Local Authorities Share New Plans for Community Facilities
+                        </h3>
+
+                        <div class="civic-most-read-meta">
+
+                            <span>
+                                <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                                07:50 AM
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                24 September 2026
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- =================================================
+                 RIGHT — FEATURED MOST READ STORY
+            ================================================== -->
+
+            <article class="civic-most-read-featured">
+
+                <a href="news.html" class="civic-most-read-featured-image">
+
+                    <img
+                        src="images/civic-most-read-featured.jpg"
+                        alt="Featured civic community story"
+                    >
+
+                    <span class="civic-most-read-featured-badge">
+                        MOST READ
+                    </span>
+
+                </a>
+
+
+                <div class="civic-most-read-featured-content">
+
+                    <span class="civic-most-read-category">
+                        COMMUNITY DEVELOPMENT
+                    </span>
+
+                    <h2>
+                        New Community Initiative Focuses on Better Public Facilities and Services
+                    </h2>
+
+                    <p>
+                        Local authorities and community representatives are working on
+                        new initiatives aimed at improving public facilities and
+                        strengthening essential services for residents.
+                    </p>
+
+                    <div class="civic-most-read-featured-meta">
+
+                        <span>
+                            <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                            24 September 2026
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-eye" aria-hidden="true"></i>
+                            1.8K Views
+                        </span>
+
+                    </div>
+
+                    <a href="news.html" class="civic-most-read-featured-link">
+                        <span>Read Full Story</span>
+                        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CIVIC PAGE — SECTION 8
+     NEWSLETTER + STAY CONNECTED
+========================================================= -->
+
+<section class="civic-connect-section" id="civicConnect">
+
+    <div class="civic-connect-container">
+
+        <!-- =================================================
+             LEFT — NEWSLETTER
+        ================================================== -->
+
+        <div class="civic-newsletter">
+
+            <div class="civic-connect-heading">
+
+                <span class="civic-connect-eyebrow">
+                    NEWSLETTER
+                </span>
+
+                <span class="civic-connect-line"></span>
+
+            </div>
+
+            <h2 class="civic-newsletter-title">
+                Stay Informed With The Local Voice
+            </h2>
+
+            <p class="civic-newsletter-description">
+                Get the latest civic updates, community news, public
+                notices, and important local stories delivered directly
+                to your inbox.
+            </p>
+
+
+            <!-- NEWSLETTER FORM -->
+
+            <form
+                class="civic-newsletter-form"
+                id="civicNewsletterForm"
+            >
+
+                <div class="civic-newsletter-input-wrap">
+
+                    <i
+                        class="fa-regular fa-envelope"
+                        aria-hidden="true"
+                    ></i>
+
+                    <input
+                        type="email"
+                        id="civicNewsletterEmail"
+                        name="email"
+                        placeholder="Enter your email address"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="civic-newsletter-button"
+                >
+                    <span>Subscribe</span>
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </button>
+
+            </form>
+
+
+            <p class="civic-newsletter-note">
+                By subscribing, you agree to receive local news and
+                community updates from The Local Voice.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT — STAY CONNECTED
+        ================================================== -->
+
+        <div class="civic-stay-connected">
+
+            <div class="civic-connect-heading">
+
+                <span class="civic-connect-eyebrow">
+                    STAY CONNECTED
+                </span>
+
+                <span class="civic-connect-line"></span>
+
+            </div>
+
+            <h2 class="civic-connected-title">
+                Follow The Local Voice
+            </h2>
+
+            <p class="civic-connected-description">
+                Follow us on social media for breaking local updates,
+                community stories, events, and the latest civic news.
+            </p>
+
+
+            <!-- SOCIAL LINKS -->
+
+            <div class="civic-social-links">
+
+
+                <!-- FACEBOOK -->
+
+                <a
+                    href="#"
+                    class="civic-social-link civic-social-facebook"
+                    aria-label="Follow The Local Voice on Facebook"
+                >
+
+                    <span class="civic-social-icon">
+                        <i
+                            class="fa-brands fa-facebook-f"
+                            aria-hidden="true"
+                        ></i>
+                    </span>
+
+                    <span class="civic-social-info">
+                        <strong>Facebook</strong>
+                        <small>Follow our updates</small>
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right civic-social-arrow"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+
+                <!-- INSTAGRAM -->
+
+                <a
+                    href="#"
+                    class="civic-social-link civic-social-instagram"
+                    aria-label="Follow The Local Voice on Instagram"
+                >
+
+                    <span class="civic-social-icon">
+                        <i
+                            class="fa-brands fa-instagram"
+                            aria-hidden="true"
+                        ></i>
+                    </span>
+
+                    <span class="civic-social-info">
+                        <strong>Instagram</strong>
+                        <small>See our latest stories</small>
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right civic-social-arrow"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+
+                <!-- YOUTUBE -->
+
+                <a
+                    href="#"
+                    class="civic-social-link civic-social-youtube"
+                    aria-label="Follow The Local Voice on YouTube"
+                >
+
+                    <span class="civic-social-icon">
+                        <i
+                            class="fa-brands fa-youtube"
+                            aria-hidden="true"
+                        ></i>
+                    </span>
+
+                    <span class="civic-social-info">
+                        <strong>YouTube</strong>
+                        <small>Watch local coverage</small>
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right civic-social-arrow"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+
+                <!-- X -->
+
+                <a
+                    href="#"
+                    class="civic-social-link civic-social-x"
+                    aria-label="Follow The Local Voice on X"
+                >
+
+                    <span class="civic-social-icon">
+                        <i
+                            class="fa-brands fa-x-twitter"
+                            aria-hidden="true"
+                        ></i>
+                    </span>
+
+                    <span class="civic-social-info">
+                        <strong>X</strong>
+                        <small>Get quick local updates</small>
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right civic-social-arrow"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CIVIC PAGE — SECTION 9
+     ADVERTISE WITH US
+========================================================= -->
+
+<section class="civic-advertise" id="civicAdvertise">
+
+    <div class="civic-advertise-container">
+
+
+        <!-- =================================================
+             LEFT — EDITORIAL CTA
+        ================================================== -->
+
+        <div class="civic-advertise-main">
+
+            <div class="civic-advertise-label">
+                <span>ADVERTISE WITH US</span>
+                <span class="civic-advertise-label-line"></span>
+            </div>
+
+
+            <h2 class="civic-advertise-title">
+                Make Your Message Part of the Local Story
+            </h2>
+
+
+            <p class="civic-advertise-description">
+                Promote your business, event, service, or community
+                initiative through The Local Voice and connect your
+                message with people who care about what is happening
+                around them.
+            </p>
+
+
+            <a
+                href="advertise.html"
+                class="civic-advertise-cta"
+            >
+                <span>Explore Advertising</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT — ADVERTISING HIGHLIGHTS
+        ================================================== -->
+
+        <div class="civic-advertise-highlights">
+
+
+            <!-- HIGHLIGHT 01 -->
+
+            <div class="civic-advertise-highlight">
+
+                <span class="civic-advertise-highlight-number">
+                    01
+                </span>
+
+                <div class="civic-advertise-highlight-content">
+
+                    <h3>
+                        Tell Your Story
+                    </h3>
+
+                    <p>
+                        Give your brand, organization, or initiative
+                        a meaningful local presence.
+                    </p>
+
+                </div>
+
+                <i
+                    class="fa-solid fa-arrow-up-right-from-square civic-advertise-highlight-icon"
+                    aria-hidden="true"
+                ></i>
+
+            </div>
+
+
+            <!-- HIGHLIGHT 02 -->
+
+            <div class="civic-advertise-highlight">
+
+                <span class="civic-advertise-highlight-number">
+                    02
+                </span>
+
+                <div class="civic-advertise-highlight-content">
+
+                    <h3>
+                        Reach Local Readers
+                    </h3>
+
+                    <p>
+                        Put your message where community news and
+                        local conversations come together.
+                    </p>
+
+                </div>
+
+                <i
+                    class="fa-solid fa-arrow-up-right-from-square civic-advertise-highlight-icon"
+                    aria-hidden="true"
+                ></i>
+
+            </div>
+
+
+            <!-- HIGHLIGHT 03 -->
+
+            <div class="civic-advertise-highlight">
+
+                <span class="civic-advertise-highlight-number">
+                    03
+                </span>
+
+                <div class="civic-advertise-highlight-content">
+
+                    <h3>
+                        Grow With the Community
+                    </h3>
+
+                    <p>
+                        Build awareness by becoming part of the local
+                        stories and conversations readers follow.
+                    </p>
+
+                </div>
+
+                <i
+                    class="fa-solid fa-arrow-up-right-from-square civic-advertise-highlight-icon"
+                    aria-hidden="true"
+                ></i>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+         </main>
+<! =========================================================
+   FOOTER
+========================================================= !>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =============================================
+             FOOTER BRAND
+        ============================================== -->
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="footer-logo-light"
+                >
+
+                
+            </a>
+
+            <p class="footer-description">
+                Your trusted source for local news, community stories,
+                events, classifieds, and everything happening around you.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             QUICK LINKS
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="news.html">All News</a>
+                </li>
+
+                <li>
+                    <a href="classifieds.html">Classifieds</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="advertise.html">Advertise With Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             NEWS CATEGORIES
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                News Categories
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="civic.html">Civic</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">Sports</a>
+                </li>
+
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="news.html">Latest News</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             CONTACT
+        ============================================== -->
+
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <p>
+                    Your Local Community,<br>
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <a href="tel:+910000000000">
+                    +91 00000 00000
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:info@thelocalvoice.com">
+                    info@thelocalvoice.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         FOOTER BOTTOM
+    ============================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 The Local Voice. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+         We will add the header JS later.
+    ====================================================== -->
+<!-- =========================================================
+     SCROLL TO TOP BUTTON
+========================================================= -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

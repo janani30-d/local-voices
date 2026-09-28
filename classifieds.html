@@ -1,0 +1,3777 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="The Local Voice - Local Newspaper and Community News Portal"
+    >
+
+    <meta
+        name="keywords"
+        content="local news, community news, newspaper, events, classifieds"
+    >
+
+    <meta
+        name="author"
+        content="The Local Voice"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>
+        The Local Voice | Local News & Community
+    </title>
+<link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+>
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER START
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="home1.html"
+                class="site-logo"
+                aria-label="The Local Voice Home"
+            >
+
+                <!-- Light Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-light"
+                >
+
+
+                <!-- Dark Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-dark"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                id="desktopNavigation"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NORMAL NAVIGATION LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="nav-link active"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+    <button
+        type="button"
+        class="header-action-btn rtl-toggle"
+        id="rtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="header-action-btn dark-toggle"
+        id="darkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="login-btn"
+    >
+        Login
+    </a>
+
+</div>
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE NAVIGATION
+        ====================================================== -->
+
+        <div
+            class="mobile-navigation"
+            id="mobileNavigation"
+        >
+
+            <div class="mobile-navigation-inner">
+
+
+                <!-- =============================================
+                     MOBILE HOME DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NORMAL LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="mobile-nav-link active"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="mobile-nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="mobile-nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="mobile-nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE ACTIONS
+                ============================================== -->
+
+                <div class="mobile-actions">
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileRtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileDarkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="mobile-login-btn"
+    >
+        Login
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HEADER END
+    ====================================================== -->
+
+
+    <!-- =====================================================
+         MAIN CONTENT START
+         We will add this later.
+    ====================================================== -->
+
+    <main>
+<!-- =========================================================
+     CLASSIFIEDS PAGE — SECTION 1
+     CLASSIFIEDS HERO
+========================================================= -->
+
+<section class="classifieds-hero" id="classifiedsHero">
+
+    <!-- HERO OVERLAY -->
+    <div class="classifieds-hero-overlay"></div>
+
+
+    <!-- HERO CONTAINER -->
+    <div class="classifieds-hero-container">
+
+        <div class="classifieds-hero-content">
+
+
+            <!-- EYEBROW -->
+
+            <span class="classifieds-hero-eyebrow">
+                CLASSIFIEDS
+            </span>
+
+
+            <!-- GOLD LINE -->
+
+            <span class="classifieds-hero-line"></span>
+
+
+            <!-- TITLE -->
+
+            <h1>
+                Find What You Need in Your Local Community
+            </h1>
+
+
+            <!-- DESCRIPTION -->
+
+            <p>
+                Discover local property listings, job opportunities,
+                vehicles, services, and community advertisements
+                published through The Local Voice.
+            </p>
+
+
+            <!-- HERO META -->
+
+            <div class="classifieds-hero-meta">
+
+                <span>
+
+                    <i
+                        class="fa-solid fa-layer-group"
+                        aria-hidden="true"
+                    ></i>
+
+                    Local Classifieds
+
+                </span>
+
+
+                <span>
+
+                    <i
+                        class="fa-solid fa-location-dot"
+                        aria-hidden="true"
+                    ></i>
+
+                    Local Community
+
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CLASSIFIEDS SECTION 2 — FEATURED CLASSIFIEDS
+========================================================= -->
+
+<section class="classifieds-featured" id="classifiedsFeatured">
+
+    <div class="classifieds-featured-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="classifieds-featured-header">
+
+            <div class="classifieds-featured-title-wrap">
+
+                <span class="classifieds-featured-eyebrow">
+                    FEATURED CLASSIFIEDS
+                </span>
+
+                <span class="classifieds-featured-line"></span>
+
+            </div>
+
+
+            <a
+                href="classifieds.html"
+                class="classifieds-featured-view-all"
+            >
+
+                <span>
+                    View All Classifieds
+                </span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             FEATURED CARDS
+        ================================================== -->
+
+        <div class="classifieds-featured-grid">
+
+
+            <!-- =================================================
+                 CARD 01 — PROPERTY
+            ================================================== -->
+
+            <article class="classifieds-featured-card">
+
+                <a
+                    href="classifieds.html"
+                    class="classifieds-featured-image"
+                >
+
+                    <img
+                        src="images/classifieds-featured-property.jpg"
+                        alt="House available for rent"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="classifieds-featured-content">
+
+                    <span class="classifieds-featured-category">
+                        PROPERTY
+                    </span>
+
+
+                    <h2 class="classifieds-featured-title">
+                        2BHK House Available for Rent
+                    </h2>
+
+
+                    <div class="classifieds-featured-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Town Area
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+
+                            24 Sep 2026
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-featured-read"
+                    >
+
+                        <span>
+                            View Listing
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 02 — JOBS
+            ================================================== -->
+
+            <article class="classifieds-featured-card">
+
+                <a
+                    href="classifieds.html"
+                    class="classifieds-featured-image"
+                >
+
+                    <img
+                        src="images/classifieds-featured-job.jpg"
+                        alt="Office assistant job opportunity"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="classifieds-featured-content">
+
+                    <span class="classifieds-featured-category">
+                        JOBS
+                    </span>
+
+
+                    <h2 class="classifieds-featured-title">
+                        Office Assistant Required
+                    </h2>
+
+
+                    <div class="classifieds-featured-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Main Town
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+
+                            24 Sep 2026
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-featured-read"
+                    >
+
+                        <span>
+                            View Listing
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 03 — VEHICLES
+            ================================================== -->
+
+            <article class="classifieds-featured-card">
+
+                <a
+                    href="classifieds.html"
+                    class="classifieds-featured-image"
+                >
+
+                    <img
+                        src="images/classifieds-featured-vehicle.jpg"
+                        alt="Used scooter available for sale"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="classifieds-featured-content">
+
+                    <span class="classifieds-featured-category">
+                        VEHICLES
+                    </span>
+
+
+                    <h2 class="classifieds-featured-title">
+                        Used Scooter Available for Sale
+                    </h2>
+
+
+                    <div class="classifieds-featured-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Local Area
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+
+                            23 Sep 2026
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-featured-read"
+                    >
+
+                        <span>
+                            View Listing
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CLASSIFIEDS SECTION 3 — PROPERTY
+========================================================= -->
+
+<section class="classifieds-property" id="classifiedsProperty">
+
+    <div class="classifieds-property-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="classifieds-property-header">
+
+            <div class="classifieds-property-title-wrap">
+
+                <span class="classifieds-property-eyebrow">
+                    PROPERTY
+                </span>
+
+                <span class="classifieds-property-line"></span>
+
+            </div>
+
+
+            <a
+                href="classifieds.html"
+                class="classifieds-property-view-all"
+            >
+                <span>View All Property</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN PROPERTY LAYOUT
+        ================================================== -->
+
+        <div class="classifieds-property-layout">
+
+
+            <!-- =================================================
+                 PROPERTY STORIES
+            ================================================== -->
+
+            <div class="classifieds-property-stories">
+
+
+                <!-- =================================================
+                     PROPERTY STORY 01
+                ================================================== -->
+
+                <article class="classifieds-property-card">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-property-image"
+                    >
+
+                        <img
+                            src="images/classifieds-property-1.jpg"
+                            alt="2BHK house available for rent"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <div class="classifieds-property-content">
+
+                        <span class="classifieds-property-category">
+                            PROPERTY
+                        </span>
+
+
+                        <h2 class="classifieds-property-title">
+                            2BHK House Available for Rent
+                        </h2>
+
+
+                        <p class="classifieds-property-description">
+                            Spacious 2BHK house available for rent
+                            in a convenient local area with easy
+                            access to essential facilities.
+                        </p>
+
+
+                        <div class="classifieds-property-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Town Area
+                            </span>
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-calendar"
+                                    aria-hidden="true"
+                                ></i>
+
+                                24 Sep 2026
+                            </span>
+
+                        </div>
+
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-property-read"
+                        >
+
+                            <span>
+                                View Listing
+                            </span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     PROPERTY STORY 02
+                ================================================== -->
+
+                <article class="classifieds-property-card">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-property-image"
+                    >
+
+                        <img
+                            src="images/classifieds-property-2.jpg"
+                            alt="1BHK apartment near main road"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <div class="classifieds-property-content">
+
+                        <span class="classifieds-property-category">
+                            PROPERTY
+                        </span>
+
+
+                        <h2 class="classifieds-property-title">
+                            1BHK Apartment Near Main Road
+                        </h2>
+
+
+                        <p class="classifieds-property-description">
+                            Well-maintained 1BHK apartment available
+                            near the main road with convenient
+                            transport and services.
+                        </p>
+
+
+                        <div class="classifieds-property-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Main Road
+                            </span>
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-calendar"
+                                    aria-hidden="true"
+                                ></i>
+
+                                23 Sep 2026
+                            </span>
+
+                        </div>
+
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-property-read"
+                        >
+
+                            <span>
+                                View Listing
+                            </span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     PROPERTY STORY 03
+                ================================================== -->
+
+                <article class="classifieds-property-card">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-property-image"
+                    >
+
+                        <img
+                            src="images/classifieds-property-3.jpg"
+                            alt="Residential plot available for sale"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <div class="classifieds-property-content">
+
+                        <span class="classifieds-property-category">
+                            PROPERTY
+                        </span>
+
+
+                        <h2 class="classifieds-property-title">
+                            Residential Plot Flat Available Areas
+                        </h2>
+
+
+                        <p class="classifieds-property-description">
+                            Residential plot available in a developing
+                            neighborhood suitable for future home
+                            construction and investment.
+                        </p>
+
+
+                        <div class="classifieds-property-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Local Area
+                            </span>
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-calendar"
+                                    aria-hidden="true"
+                                ></i>
+
+                                22 Sep 2026
+                            </span>
+
+                        </div>
+
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-property-read"
+                        >
+
+                            <span>
+                                View Listing
+                            </span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 NEWSLETTER SIDEBAR
+            ================================================== -->
+
+            <aside class="classifieds-property-newsletter">
+
+
+                <div class="classifieds-property-newsletter-icon">
+
+                    <i
+                        class="fa-regular fa-envelope"
+                        aria-hidden="true"
+                    ></i>
+
+                </div>
+
+
+                <span class="classifieds-property-newsletter-label">
+                    THE LOCAL VOICE
+                </span>
+
+
+                <h2 class="classifieds-property-newsletter-title">
+                    Community Newsletter
+                </h2>
+
+
+                <p class="classifieds-property-newsletter-description">
+                    Get local stories, classified listings,
+                    community updates, and important news
+                    delivered to your inbox.
+                </p>
+
+
+                <form
+                    class="classifieds-property-newsletter-form"
+                    id="classifiedsPropertyNewsletterForm"
+                >
+
+                    <label
+                        for="classifiedsPropertyNewsletterEmail"
+                        class="sr-only"
+                    >
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="classifiedsPropertyNewsletterEmail"
+                        name="email"
+                        placeholder="Enter your email*"
+                        autocomplete="email"
+                        required
+                    >
+
+
+                    <button
+                        type="submit"
+                        class="classifieds-property-newsletter-button"
+                    >
+                        Sign Up
+                    </button>
+
+                </form>
+
+
+                <span class="classifieds-property-newsletter-note">
+                    No spam. Unsubscribe anytime.
+                </span>
+
+            </aside>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CLASSIFIEDS SECTION 5 — VEHICLES
+     PART 1 — HTML
+     DIFFERENT FEATURED NEWSPAPER LAYOUT
+========================================================= -->
+
+<section class="classifieds-vehicles" id="classifiedsVehicles">
+
+    <div class="classifieds-vehicles-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="classifieds-vehicles-header">
+
+            <div class="classifieds-vehicles-title-wrap">
+
+                <span class="classifieds-vehicles-eyebrow">
+                    VEHICLES
+                </span>
+
+                <span class="classifieds-vehicles-line"></span>
+
+            </div>
+
+            <a
+                href="classifieds.html"
+                class="classifieds-vehicles-view-all"
+            >
+                <span>View All Vehicles</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             VEHICLES MAIN LAYOUT
+        ================================================== -->
+
+        <div class="classifieds-vehicles-layout">
+
+
+            <!-- =============================================
+                 FEATURED VEHICLE
+            ============================================== -->
+
+            <article class="classifieds-vehicles-featured">
+
+                <a
+                    href="classifieds.html"
+                    class="classifieds-vehicles-featured-image"
+                >
+                    <img
+                        src="images/classifieds-vehicles-featured.jpg"
+                        alt="Used scooter available for sale"
+                        loading="lazy"
+                    >
+                </a>
+
+
+                <div class="classifieds-vehicles-featured-content">
+
+                    <span class="classifieds-vehicles-category">
+                        FEATURED VEHICLE
+                    </span>
+
+                    <h2 class="classifieds-vehicles-featured-title">
+                        Used Scooter Available for Sale
+                    </h2>
+
+                    <p class="classifieds-vehicles-featured-description">
+                        Well-maintained used scooter available for sale
+                        in the local area. Suitable for daily travel
+                        and convenient community transportation.
+                    </p>
+
+
+                    <div class="classifieds-vehicles-featured-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Local Area
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+
+                            23 Sep 2026
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-vehicles-featured-read"
+                    >
+                        <span>View Listing</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 SMALL VEHICLE STORIES
+            ============================================== -->
+
+            <div class="classifieds-vehicles-list">
+
+
+                <!-- =========================================
+                     VEHICLE STORY 2
+                ========================================== -->
+
+                <article class="classifieds-vehicles-card">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-vehicles-card-image"
+                    >
+                        <img
+                            src="images/classifieds-vehicles-2.jpg"
+                            alt="Used hatchback car available"
+                            loading="lazy"
+                        >
+                    </a>
+
+
+                    <div class="classifieds-vehicles-card-content">
+
+                        <span class="classifieds-vehicles-card-category">
+                            CARS
+                        </span>
+
+                        <h3 class="classifieds-vehicles-card-title">
+                            Used Hatchback Car Available
+                        </h3>
+
+                        <p class="classifieds-vehicles-card-description">
+                            Used hatchback car available for sale
+                            in good condition.
+                        </p>
+
+
+                        <div class="classifieds-vehicles-card-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Main Town
+                            </span>
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-calendar"
+                                    aria-hidden="true"
+                                ></i>
+
+                                22 Sep 2026
+                            </span>
+
+                        </div>
+
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-vehicles-card-read"
+                        >
+                            <span>View Listing</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =========================================
+                     VEHICLE STORY 3
+                ========================================== -->
+
+                <article class="classifieds-vehicles-card">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-vehicles-card-image"
+                    >
+                        <img
+                            src="images/classifieds-vehicles-3.jpg"
+                            alt="Motorcycle available for sale"
+                            loading="lazy"
+                        >
+                    </a>
+
+
+                    <div class="classifieds-vehicles-card-content">
+
+                        <span class="classifieds-vehicles-card-category">
+                            MOTORCYCLES
+                        </span>
+
+                        <h3 class="classifieds-vehicles-card-title">
+                            Motorcycle Available for Sale
+                        </h3>
+
+                        <p class="classifieds-vehicles-card-description">
+                            Reliable motorcycle available for sale
+                            in the local community.
+                        </p>
+
+
+                        <div class="classifieds-vehicles-card-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Town Area
+                            </span>
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-calendar"
+                                    aria-hidden="true"
+                                ></i>
+
+                                21 Sep 2026
+                            </span>
+
+                        </div>
+
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-vehicles-card-read"
+                        >
+                            <span>View Listing</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- =============================================
+                 NEWSLETTER
+            ============================================== -->
+
+            <aside class="classifieds-vehicles-newsletter">
+
+                <div class="classifieds-vehicles-newsletter-content">
+
+                    <div class="classifieds-vehicles-newsletter-icon">
+
+                        <i
+                            class="fa-regular fa-envelope"
+                            aria-hidden="true"
+                        ></i>
+
+                    </div>
+
+
+                    <span class="classifieds-vehicles-newsletter-label">
+                        THE LOCAL VOICE
+                    </span>
+
+
+                    <h2 class="classifieds-vehicles-newsletter-title">
+                        Community Newsletter
+                    </h2>
+
+
+                    <p class="classifieds-vehicles-newsletter-description">
+                        Get local stories, vehicle listings,
+                        community updates, and important news
+                        delivered to your inbox.
+                    </p>
+
+
+                    <form
+                        class="classifieds-vehicles-newsletter-form"
+                        id="classifiedsVehiclesNewsletterForm"
+                    >
+
+                        <label
+                            for="classifiedsVehiclesNewsletterEmail"
+                            class="sr-only"
+                        >
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="classifiedsVehiclesNewsletterEmail"
+                            name="email"
+                            placeholder="Enter your email*"
+                            autocomplete="email"
+                            required
+                        >
+
+                        <button
+                            type="submit"
+                            class="classifieds-vehicles-newsletter-button"
+                        >
+                            Sign Up
+                        </button>
+
+                    </form>
+
+
+                    <span class="classifieds-vehicles-newsletter-note">
+                        No spam. Unsubscribe anytime.
+                    </span>
+
+                </div>
+
+            </aside>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CLASSIFIEDS SECTION 4 — JOBS
+     PART 1 — HTML
+========================================================= -->
+
+<section class="classifieds-jobs" id="classifiedsJobs">
+
+    <div class="classifieds-jobs-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="classifieds-jobs-header">
+
+            <div class="classifieds-jobs-title-wrap">
+
+                <span class="classifieds-jobs-eyebrow">
+                    JOBS
+                </span>
+
+                <span class="classifieds-jobs-line"></span>
+
+            </div>
+
+            <a
+                href="classifieds.html"
+                class="classifieds-jobs-view-all"
+            >
+                <span>View All Jobs</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN JOBS LAYOUT
+        ================================================== -->
+
+        <div class="classifieds-jobs-layout">
+
+
+            <!-- =============================================
+                 JOB STORIES
+            ============================================== -->
+
+            <div class="classifieds-jobs-stories">
+
+
+                <!-- =========================================
+                     JOB CARD 1
+                ========================================== -->
+
+                <article class="classifieds-jobs-card">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-jobs-image"
+                    >
+                        <img
+                            src="images/classifieds-jobs-1.jpg"
+                            alt="Office assistant job opportunity"
+                            loading="lazy"
+                        >
+                    </a>
+
+
+                    <div class="classifieds-jobs-content">
+
+                        <span class="classifieds-jobs-category">
+                            JOBS
+                        </span>
+
+                        <h2 class="classifieds-jobs-title">
+                            Office Assistant Work Required
+                        </h2>
+
+                        <p class="classifieds-jobs-description">
+                            Local organization is looking for an
+                            office assistant to support daily
+                            administrative work and office
+                            operations.
+                        </p>
+
+
+                        <div class="classifieds-jobs-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Main Town
+                            </span>
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-calendar"
+                                    aria-hidden="true"
+                                ></i>
+
+                                24 Sep 2026
+                            </span>
+
+                        </div>
+
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-jobs-read"
+                        >
+                            <span>View Job</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =========================================
+                     JOB CARD 2
+                ========================================== -->
+
+                <article class="classifieds-jobs-card">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-jobs-image"
+                    >
+                        <img
+                            src="images/classifieds-jobs-2.jpg"
+                            alt="Front office executive job opportunity"
+                            loading="lazy"
+                        >
+                    </a>
+
+
+                    <div class="classifieds-jobs-content">
+
+                        <span class="classifieds-jobs-category">
+                            JOBS
+                        </span>
+
+                        <h2 class="classifieds-jobs-title">
+                            Front Office Executive Wanted
+                        </h2>
+
+                        <p class="classifieds-jobs-description">
+                            A local business is seeking a
+                            front office executive to manage
+                            customer communication and daily.
+                        </p>
+
+
+                        <div class="classifieds-jobs-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Town Area
+                            </span>
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-calendar"
+                                    aria-hidden="true"
+                                ></i>
+
+                                23 Sep 2026
+                            </span>
+
+                        </div>
+
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-jobs-read"
+                        >
+                            <span>View Job</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =========================================
+                     JOB CARD 3
+                ========================================== -->
+
+                <article class="classifieds-jobs-card">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-jobs-image"
+                    >
+                        <img
+                            src="images/classifieds-jobs-3.jpg"
+                            alt="Data entry operator job opportunity"
+                            loading="lazy"
+                        >
+                    </a>
+
+
+                    <div class="classifieds-jobs-content">
+
+                        <span class="classifieds-jobs-category">
+                            JOBS
+                        </span>
+
+                        <h2 class="classifieds-jobs-title">
+                            Data Entry Operator Required
+                        </h2>
+
+                        <p class="classifieds-jobs-description">
+                            Local company is looking for a
+                            data entry operator with basic
+                            computer knowledge and accurate
+                            typing skills.
+                        </p>
+
+
+                        <div class="classifieds-jobs-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Local Area
+                            </span>
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-calendar"
+                                    aria-hidden="true"
+                                ></i>
+
+                                22 Sep 2026
+                            </span>
+
+                        </div>
+
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-jobs-read"
+                        >
+                            <span>View Job</span>
+
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- =============================================
+                 NEWSLETTER SIDEBAR
+            ============================================== -->
+
+            <aside class="classifieds-jobs-newsletter">
+
+                <!-- NEWSLETTER ICON -->
+
+                <div class="classifieds-jobs-newsletter-icon">
+
+                    <i
+                        class="fa-regular fa-envelope"
+                        aria-hidden="true"
+                    ></i>
+
+                </div>
+
+
+                <!-- NEWSLETTER LABEL -->
+
+                <span class="classifieds-jobs-newsletter-label">
+                    THE LOCAL VOICE
+                </span>
+
+
+                <!-- NEWSLETTER TITLE -->
+
+                <h2 class="classifieds-jobs-newsletter-title">
+                    Community Newsletter
+                </h2>
+
+
+                <!-- NEWSLETTER DESCRIPTION -->
+
+                <p class="classifieds-jobs-newsletter-description">
+                    Get local stories, job opportunities,
+                    classified listings, community updates,
+                    and important news delivered to your inbox.
+                </p>
+
+
+                <!-- NEWSLETTER FORM -->
+
+                <form
+                    class="classifieds-jobs-newsletter-form"
+                    id="classifiedsJobsNewsletterForm"
+                >
+
+                    <label
+                        for="classifiedsJobsNewsletterEmail"
+                        class="sr-only"
+                    >
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="classifiedsJobsNewsletterEmail"
+                        name="email"
+                        placeholder="Enter your email*"
+                        autocomplete="email"
+                        required
+                    >
+
+                    <button
+                        type="submit"
+                        class="classifieds-jobs-newsletter-button"
+                    >
+                        Sign Up
+                    </button>
+
+                </form>
+
+
+                <!-- NEWSLETTER NOTE -->
+
+                <span class="classifieds-jobs-newsletter-note">
+                    No spam. Unsubscribe anytime.
+                </span>
+
+            </aside>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CLASSIFIEDS SECTION 6 — SERVICES
+     PART 1 — HTML
+========================================================= -->
+
+<section class="classifieds-services" id="classifiedsServices">
+
+    <div class="classifieds-services-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="classifieds-services-header">
+
+            <div class="classifieds-services-title-wrap">
+
+                <span class="classifieds-services-eyebrow">
+                    SERVICES
+                </span>
+
+                <span class="classifieds-services-line"></span>
+
+            </div>
+
+            <a
+                href="classifieds.html"
+                class="classifieds-services-view-all"
+            >
+                <span>View All Services</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             SERVICES MAIN LAYOUT
+        ================================================== -->
+
+        <div class="classifieds-services-layout">
+
+
+            <!-- =============================================
+                 SERVICE CATEGORIES
+            ============================================== -->
+
+            <aside class="classifieds-services-categories">
+
+                <span class="classifieds-services-categories-label">
+                    SERVICE DIRECTORY
+                </span>
+
+                <h2 class="classifieds-services-categories-title">
+                    Find Local Services
+                </h2>
+
+                <p class="classifieds-services-categories-description">
+                    Discover useful services offered by
+                    local businesses and professionals
+                    in your community.
+                </p>
+
+
+                <nav
+                    class="classifieds-services-category-list"
+                    aria-label="Service categories"
+                >
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-category active"
+                    >
+                        <span>
+                            <i
+                                class="fa-solid fa-house"
+                                aria-hidden="true"
+                            ></i>
+
+                            Home Services
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-category"
+                    >
+                        <span>
+                            <i
+                                class="fa-solid fa-screwdriver-wrench"
+                                aria-hidden="true"
+                            ></i>
+
+                            Repair & Maintenance
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-category"
+                    >
+                        <span>
+                            <i
+                                class="fa-solid fa-laptop"
+                                aria-hidden="true"
+                            ></i>
+
+                            Computer Services
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-category"
+                    >
+                        <span>
+                            <i
+                                class="fa-solid fa-utensils"
+                                aria-hidden="true"
+                            ></i>
+
+                            Catering Services
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-category"
+                    >
+                        <span>
+                            <i
+                                class="fa-solid fa-graduation-cap"
+                                aria-hidden="true"
+                            ></i>
+
+                            Tuition & Training
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </nav>
+
+            </aside>
+
+
+            <!-- =============================================
+                 FEATURED SERVICE
+            ============================================== -->
+
+            <article class="classifieds-services-featured">
+
+                <a
+                    href="classifieds.html"
+                    class="classifieds-services-featured-image"
+                >
+                    <img
+                        src="images/classifieds-services-featured.jpg"
+                        alt="Home cleaning service"
+                        loading="lazy"
+                    >
+                </a>
+
+
+                <div class="classifieds-services-featured-content">
+
+                    <span class="classifieds-services-featured-category">
+                        HOME SERVICES
+                    </span>
+
+                    <h2 class="classifieds-services-featured-title">
+                        Professional Home Cleaning Services
+                    </h2>
+
+                    <p class="classifieds-services-featured-description">
+                        Local professionals offering reliable
+                        home cleaning services for houses,
+                        apartments, and small offices.
+                    </p>
+
+
+                    <div class="classifieds-services-featured-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Town Area
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+
+                            24 Sep 2026
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-featured-read"
+                    >
+                        <span>View Service</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 LATEST SERVICES
+            ============================================== -->
+
+            <div class="classifieds-services-latest">
+
+                <div class="classifieds-services-latest-header">
+
+                    <span>
+                        LATEST SERVICES
+                    </span>
+
+                </div>
+
+
+                <!-- SERVICE ITEM 1 -->
+
+                <article class="classifieds-services-item">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-item-image"
+                    >
+                        <img
+                            src="images/classifieds-services-1.jpg"
+                            alt="Electrical and plumbing service"
+                            loading="lazy"
+                        >
+                    </a>
+
+
+                    <div class="classifieds-services-item-content">
+
+                        <span class="classifieds-services-item-category">
+                            REPAIR & MAINTENANCE
+                        </span>
+
+                        <h3 class="classifieds-services-item-title">
+                            Electrical & Plumbing Services
+                        </h3>
+
+                        <div class="classifieds-services-item-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Main Town
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-services-item-read"
+                        >
+                            View Service
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SERVICE ITEM 2 -->
+
+                <article class="classifieds-services-item">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-item-image"
+                    >
+                        <img
+                            src="images/classifieds-services-2.jpg"
+                            alt="Computer repair service"
+                            loading="lazy"
+                        >
+                    </a>
+
+
+                    <div class="classifieds-services-item-content">
+
+                        <span class="classifieds-services-item-category">
+                            COMPUTER SERVICES
+                        </span>
+
+                        <h3 class="classifieds-services-item-title">
+                            Computer Repair & Support
+                        </h3>
+
+                        <div class="classifieds-services-item-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Local Area
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-services-item-read"
+                        >
+                            View Service
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SERVICE ITEM 3 -->
+
+                <article class="classifieds-services-item">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-item-image"
+                    >
+                        <img
+                            src="images/classifieds-services-3.jpg"
+                            alt="Local catering service"
+                            loading="lazy"
+                        >
+                    </a>
+
+
+                    <div class="classifieds-services-item-content">
+
+                        <span class="classifieds-services-item-category">
+                            CATERING
+                        </span>
+
+                        <h3 class="classifieds-services-item-title">
+                            Local Catering Services
+                        </h3>
+
+                        <div class="classifieds-services-item-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Town Area
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-services-item-read"
+                        >
+                            View Service
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SERVICE ITEM 4 -->
+
+                <article class="classifieds-services-item">
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-services-item-image"
+                    >
+                        <img
+                            src="images/classifieds-services-4.jpg"
+                            alt="Tuition and training service"
+                            loading="lazy"
+                        >
+                    </a>
+
+
+                    <div class="classifieds-services-item-content">
+
+                        <span class="classifieds-services-item-category">
+                            TUITION & TRAINING
+                        </span>
+
+                        <h3 class="classifieds-services-item-title">
+                            Home Tuition & Training
+                        </h3>
+
+                        <div class="classifieds-services-item-meta">
+
+                            <span>
+                                <i
+                                    class="fa-solid fa-location-dot"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Local Area
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="classifieds.html"
+                            class="classifieds-services-item-read"
+                        >
+                            View Service
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- =================================================
+             SERVICE CTA
+        ================================================== -->
+
+        <div class="classifieds-services-cta">
+
+            <div class="classifieds-services-cta-content">
+
+                <span class="classifieds-services-cta-label">
+                    LOCAL BUSINESS
+                </span>
+
+                <h2 class="classifieds-services-cta-title">
+                    Offer a Service in Your Community?
+                </h2>
+
+                <p class="classifieds-services-cta-description">
+                    Reach local customers by publishing
+                    your service through The Local Voice.
+                </p>
+
+            </div>
+
+
+            <a
+                href="classifieds.html"
+                class="classifieds-services-cta-button"
+            >
+                <span>Post Your Service</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CLASSIFIEDS SECTION 7 — COMMUNITY & PERSONAL
+========================================================= -->
+
+<section class="classifieds-community" id="classifiedsCommunity">
+
+    <div class="classifieds-community-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="classifieds-community-header">
+
+            <div class="classifieds-community-title-wrap">
+
+                <span class="classifieds-community-eyebrow">
+                    COMMUNITY & PERSONAL
+                </span>
+
+                <span class="classifieds-community-line"></span>
+
+            </div>
+
+            <a href="classifieds.html" class="classifieds-community-view-all">
+                <span>View All</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN COMMUNITY & PERSONAL LAYOUT
+        ================================================== -->
+
+        <div class="classifieds-community-layout">
+
+
+            <!-- =================================================
+                 FEATURED COMMUNITY NOTICE
+            ================================================== -->
+
+            <article class="classifieds-community-featured">
+
+                <div class="classifieds-community-featured-image">
+
+                    <img
+                        src="images/classifieds-community-featured.jpg"
+                        alt="Community announcement"
+                    >
+
+                    <span class="classifieds-community-featured-badge">
+                        COMMUNITY
+                    </span>
+
+                </div>
+
+
+                <div class="classifieds-community-featured-content">
+
+                    <span class="classifieds-community-featured-category">
+                        COMMUNITY NOTICE
+                    </span>
+
+                    <h2>
+                        Local Community Volunteers Organize New Neighborhood Initiative
+                    </h2>
+
+                    <p>
+                        Local residents and community volunteers have announced
+                        a new initiative focused on supporting neighborhood
+                        activities, community participation, and local engagement.
+                    </p>
+
+                    <div class="classifieds-community-featured-meta">
+
+                        <span>
+                            <i class="fa-regular fa-calendar"></i>
+                            24 Sep 2026
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Community Area
+                        </span>
+
+                    </div>
+
+                    <a href="#" class="classifieds-community-featured-link">
+                        Read Notice
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 COMMUNITY LISTINGS
+            ================================================== -->
+
+            <div class="classifieds-community-list">
+
+
+                <!-- =================================================
+                     LISTING 1 — ANNOUNCEMENT
+                ================================================== -->
+
+                <article class="classifieds-community-item">
+
+                    <div class="classifieds-community-item-image">
+
+                        <img
+                            src="images/classifieds-community-1.jpg"
+                            alt="Community announcement"
+                        >
+
+                    </div>
+
+                    <div class="classifieds-community-item-content">
+
+                        <span class="classifieds-community-item-category">
+                            ANNOUNCEMENT
+                        </span>
+
+                        <h3>
+                            Community Meeting Scheduled for This Weekend
+                        </h3>
+
+                        <p>
+                            Residents are invited to attend the upcoming
+                            community meeting and share local concerns.
+                        </p>
+
+                        <div class="classifieds-community-item-meta">
+
+                            <span>
+                                <i class="fa-regular fa-calendar"></i>
+                                23 Sep 2026
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Town Hall
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     LISTING 2 — LOST & FOUND
+                ================================================== -->
+
+                <article class="classifieds-community-item">
+
+                    <div class="classifieds-community-item-image">
+
+                        <img
+                            src="images/classifieds-community-2.jpg"
+                            alt="Lost and found notice"
+                        >
+
+                    </div>
+
+                    <div class="classifieds-community-item-content">
+
+                        <span class="classifieds-community-item-category">
+                            LOST & FOUND
+                        </span>
+
+                        <h3>
+                            Lost Wallet Reported Near Main Market Area
+                        </h3>
+
+                        <p>
+                            A wallet has been reported missing near the
+                            main market area. Finder is requested to contact
+                            the listed local contact.
+                        </p>
+
+                        <div class="classifieds-community-item-meta">
+
+                            <span>
+                                <i class="fa-regular fa-calendar"></i>
+                                22 Sep 2026
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Main Market
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     LISTING 3 — PERSONAL
+                ================================================== -->
+
+                <article class="classifieds-community-item">
+
+                    <div class="classifieds-community-item-image">
+
+                        <img
+                            src="images/classifieds-community-3.jpg"
+                            alt="Personal classified listing"
+                        >
+
+                    </div>
+
+                    <div class="classifieds-community-item-content">
+
+                        <span class="classifieds-community-item-category">
+                            PERSONAL
+                        </span>
+
+                        <h3>
+                            Local Personal Advertisement and Notice
+                        </h3>
+
+                        <p>
+                            A personal classified notice has been submitted
+                            for readers looking for a local connection
+                            or community-related information.
+                        </p>
+
+                        <div class="classifieds-community-item-meta">
+
+                            <span>
+                                <i class="fa-regular fa-calendar"></i>
+                                21 Sep 2026
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Local Area
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     LISTING 4 — COMMUNITY EVENT
+                ================================================== -->
+
+                <article class="classifieds-community-item">
+
+                    <div class="classifieds-community-item-image">
+
+                        <img
+                            src="images/classifieds-community-4.jpg"
+                            alt="Community event notice"
+                        >
+
+                    </div>
+
+                    <div class="classifieds-community-item-content">
+
+                        <span class="classifieds-community-item-category">
+                            COMMUNITY
+                        </span>
+
+                        <h3>
+                            Local Residents Invite Public to Community Activity
+                        </h3>
+
+                        <p>
+                            Residents are invited to participate in an upcoming
+                            local activity organized for the community.
+                        </p>
+
+                        <div class="classifieds-community-item-meta">
+
+                            <span>
+                                <i class="fa-regular fa-calendar"></i>
+                                20 Sep 2026
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Community Center
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- =================================================
+                 COMMUNITY NOTICE BOX
+            ================================================== -->
+
+            <aside class="classifieds-community-notice">
+
+                <div class="classifieds-community-notice-top">
+
+                    <i class="fa-solid fa-bullhorn"></i>
+
+                    <span>
+                        COMMUNITY NOTICE
+                    </span>
+
+                </div>
+
+                <h3>
+                    Share Your Local Notice
+                </h3>
+
+                <p>
+                    Have a community announcement, lost and found notice,
+                    personal advertisement, or local message to share?
+                    Publish it through The Local Voice.
+                </p>
+
+                <a href="contact.html" class="classifieds-community-notice-link">
+                    Submit a Notice
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </aside>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CLASSIFIEDS SECTION 8 — LATEST CLASSIFIEDS
+========================================================= -->
+
+<section class="classifieds-latest" id="classifiedsLatest">
+
+    <div class="classifieds-latest-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="classifieds-latest-header">
+
+            <div class="classifieds-latest-title-wrap">
+
+                <span class="classifieds-latest-eyebrow">
+                    LATEST CLASSIFIEDS
+                </span>
+
+                <span class="classifieds-latest-line"></span>
+
+            </div>
+
+            <a href="classifieds.html" class="classifieds-latest-view-all">
+                <span>View All</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN LAYOUT
+        ================================================== -->
+
+        <div class="classifieds-latest-layout">
+
+
+            <!-- =================================================
+                 LATEST LISTINGS
+            ================================================== -->
+
+            <div class="classifieds-latest-list">
+
+
+                <!-- =================================================
+                     LISTING 1
+                ================================================== -->
+
+                <article class="classifieds-latest-item">
+
+                    <div class="classifieds-latest-date">
+                        <span>24</span>
+                        <small>SEP</small>
+                    </div>
+
+                    <div class="classifieds-latest-content">
+
+                        <span class="classifieds-latest-category">
+                            PROPERTY
+                        </span>
+
+                        <h3>
+                            2BHK House Available for Rent
+                        </h3>
+
+                        <div class="classifieds-latest-meta">
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Town Area
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                10:30 AM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="classifieds-latest-link">
+                        View Listing
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- =================================================
+                     LISTING 2
+                ================================================== -->
+
+                <article class="classifieds-latest-item">
+
+                    <div class="classifieds-latest-date">
+                        <span>24</span>
+                        <small>SEP</small>
+                    </div>
+
+                    <div class="classifieds-latest-content">
+
+                        <span class="classifieds-latest-category">
+                            JOBS
+                        </span>
+
+                        <h3>
+                            Office Assistant Required
+                        </h3>
+
+                        <div class="classifieds-latest-meta">
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Main Town
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                09:45 AM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="classifieds-latest-link">
+                        View Listing
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- =================================================
+                     LISTING 3
+                ================================================== -->
+
+                <article class="classifieds-latest-item">
+
+                    <div class="classifieds-latest-date">
+                        <span>23</span>
+                        <small>SEP</small>
+                    </div>
+
+                    <div class="classifieds-latest-content">
+
+                        <span class="classifieds-latest-category">
+                            VEHICLES
+                        </span>
+
+                        <h3>
+                            Used Hatchback Car Available
+                        </h3>
+
+                        <div class="classifieds-latest-meta">
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Main Town
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                04:20 PM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="classifieds-latest-link">
+                        View Listing
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- =================================================
+                     LISTING 4
+                ================================================== -->
+
+                <article class="classifieds-latest-item">
+
+                    <div class="classifieds-latest-date">
+                        <span>23</span>
+                        <small>SEP</small>
+                    </div>
+
+                    <div class="classifieds-latest-content">
+
+                        <span class="classifieds-latest-category">
+                            SERVICES
+                        </span>
+
+                        <h3>
+                            Professional Home Cleaning Services
+                        </h3>
+
+                        <div class="classifieds-latest-meta">
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Town Area
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                02:15 PM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="classifieds-latest-link">
+                        View Listing
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- =================================================
+                     LISTING 5
+                ================================================== -->
+
+                <article class="classifieds-latest-item">
+
+                    <div class="classifieds-latest-date">
+                        <span>22</span>
+                        <small>SEP</small>
+                    </div>
+
+                    <div class="classifieds-latest-content">
+
+                        <span class="classifieds-latest-category">
+                            COMMUNITY
+                        </span>
+
+                        <h3>
+                            Community Meeting Announcement
+                        </h3>
+
+                        <div class="classifieds-latest-meta">
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Town Hall
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                11:30 AM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="classifieds-latest-link">
+                        View Listing
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- =================================================
+                     LISTING 6
+                ================================================== -->
+
+                <article class="classifieds-latest-item">
+
+                    <div class="classifieds-latest-date">
+                        <span>21</span>
+                        <small>SEP</small>
+                    </div>
+
+                    <div class="classifieds-latest-content">
+
+                        <span class="classifieds-latest-category">
+                            PROPERTY
+                        </span>
+
+                        <h3>
+                            Residential Plot Available
+                        </h3>
+
+                        <div class="classifieds-latest-meta">
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Local Area
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                10:00 AM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="classifieds-latest-link">
+                        View Listing
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- =================================================
+                 BROWSE CATEGORIES
+            ================================================== -->
+
+            <aside class="classifieds-latest-categories">
+
+                <div class="classifieds-latest-categories-header">
+
+                    <span class="classifieds-latest-categories-eyebrow">
+                        BROWSE
+                    </span>
+
+                    <h2>
+                        Classified Categories
+                    </h2>
+
+                </div>
+
+
+                <div class="classifieds-latest-category-list">
+
+
+                    <!-- PROPERTY -->
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-latest-category-item"
+                    >
+
+                        <div class="classifieds-latest-category-icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+
+                        <div class="classifieds-latest-category-text">
+
+                            <strong>Property</strong>
+
+                            <span>
+                                Houses, apartments & plots
+                            </span>
+
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                    <!-- JOBS -->
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-latest-category-item"
+                    >
+
+                        <div class="classifieds-latest-category-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+
+                        <div class="classifieds-latest-category-text">
+
+                            <strong>Jobs</strong>
+
+                            <span>
+                                Local job opportunities
+                            </span>
+
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                    <!-- VEHICLES -->
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-latest-category-item"
+                    >
+
+                        <div class="classifieds-latest-category-icon">
+                            <i class="fa-solid fa-car"></i>
+                        </div>
+
+                        <div class="classifieds-latest-category-text">
+
+                            <strong>Vehicles</strong>
+
+                            <span>
+                                Cars, bikes & more
+                            </span>
+
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                    <!-- SERVICES -->
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-latest-category-item"
+                    >
+
+                        <div class="classifieds-latest-category-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+
+                        <div class="classifieds-latest-category-text">
+
+                            <strong>Services</strong>
+
+                            <span>
+                                Local service providers
+                            </span>
+
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                    <!-- COMMUNITY -->
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-latest-category-item"
+                    >
+
+                        <div class="classifieds-latest-category-icon">
+                            <i class="fa-solid fa-people-group"></i>
+                        </div>
+
+                        <div class="classifieds-latest-category-text">
+
+                            <strong>Community</strong>
+
+                            <span>
+                                Notices & announcements
+                            </span>
+
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                    <!-- PERSONAL -->
+
+                    <a
+                        href="classifieds.html"
+                        class="classifieds-latest-category-item"
+                    >
+
+                        <div class="classifieds-latest-category-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div class="classifieds-latest-category-text">
+
+                            <strong>Personal</strong>
+
+                            <span>
+                                Personal advertisements
+                            </span>
+
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                </div>
+
+
+                <!-- =================================================
+                     CATEGORY FOOTER
+                ================================================== -->
+
+                <div class="classifieds-latest-categories-footer">
+
+                    <span>
+                        Looking for something specific?
+                    </span>
+
+                    <a href="classifieds.html">
+                        Browse All Classifieds
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM VIEW ALL
+        ================================================== -->
+
+        <div class="classifieds-latest-bottom">
+
+            <a href="classifieds.html">
+                <span>View All Classifieds</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     CLASSIFIEDS SECTION 9 — POST YOUR CLASSIFIED CTA
+========================================================= -->
+
+<section class="classifieds-post-cta" id="classifiedsPostCta">
+
+    <div class="classifieds-post-cta-overlay"></div>
+
+    <div class="classifieds-post-cta-container">
+
+        <!-- =================================================
+             CTA CONTENT
+        ================================================== -->
+
+        <div class="classifieds-post-cta-content">
+
+            <div class="classifieds-post-cta-label">
+
+                <span>
+                    POST YOUR CLASSIFIED
+                </span>
+
+                <span class="classifieds-post-cta-label-line"></span>
+
+            </div>
+
+
+            <h2 class="classifieds-post-cta-title">
+                Put Your Message in Front of the Local Community
+            </h2>
+
+
+            <p class="classifieds-post-cta-description">
+                Reach local readers with your property listing, job
+                opportunity, vehicle advertisement, service, community
+                notice, or personal classified through The Local Voice.
+            </p>
+
+
+            <!-- =================================================
+                 CTA BUTTONS
+            ================================================== -->
+
+            <div class="classifieds-post-cta-actions">
+
+                <a
+                    href="contact.html"
+                    class="classifieds-post-cta-primary"
+                >
+                    <span>Post a Classified</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a
+                    href="contact.html"
+                    class="classifieds-post-cta-secondary"
+                >
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             CTA BENEFITS
+        ================================================== -->
+
+        <div class="classifieds-post-cta-benefits">
+
+
+            <!-- =================================================
+                 BENEFIT 1
+            ================================================== -->
+
+            <div class="classifieds-post-cta-benefit">
+
+                <div class="classifieds-post-cta-benefit-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div class="classifieds-post-cta-benefit-content">
+
+                    <h3>
+                        Reach Local Readers
+                    </h3>
+
+                    <p>
+                        Connect your classified with people
+                        in your local community.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 BENEFIT 2
+            ================================================== -->
+
+            <div class="classifieds-post-cta-benefit">
+
+                <div class="classifieds-post-cta-benefit-icon">
+                    <i class="fa-solid fa-bullhorn"></i>
+                </div>
+
+                <div class="classifieds-post-cta-benefit-content">
+
+                    <h3>
+                        Share Your Message
+                    </h3>
+
+                    <p>
+                        Publish property, jobs, services,
+                        vehicles, or community notices.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 BENEFIT 3
+            ================================================== -->
+
+            <div class="classifieds-post-cta-benefit">
+
+                <div class="classifieds-post-cta-benefit-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div class="classifieds-post-cta-benefit-content">
+
+                    <h3>
+                        Community Connection
+                    </h3>
+
+                    <p>
+                        Make your listing visible to an
+                        engaged local audience.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+        </main>
+<! =========================================================
+   FOOTER
+========================================================= !>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =============================================
+             FOOTER BRAND
+        ============================================== -->
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="footer-logo-light"
+                >
+
+                
+            </a>
+
+            <p class="footer-description">
+                Your trusted source for local news, community stories,
+                events, classifieds, and everything happening around you.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             QUICK LINKS
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="news.html">All News</a>
+                </li>
+
+                <li>
+                    <a href="classifieds.html">Classifieds</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="advertise.html">Advertise With Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             NEWS CATEGORIES
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                News Categories
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="civic.html">Civic</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">Sports</a>
+                </li>
+
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="news.html">Latest News</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             CONTACT
+        ============================================== -->
+
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <p>
+                    Your Local Community,<br>
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <a href="tel:+910000000000">
+                    +91 00000 00000
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:info@thelocalvoice.com">
+                    info@thelocalvoice.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         FOOTER BOTTOM
+    ============================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 The Local Voice. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+         We will add the header JS later.
+    ====================================================== -->
+<!-- =========================================================
+     SCROLL TO TOP BUTTON
+========================================================= -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

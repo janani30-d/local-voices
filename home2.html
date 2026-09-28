@@ -1,0 +1,4587 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="The Local Voice - Local Newspaper and Community News Portal"
+    >
+
+    <meta
+        name="keywords"
+        content="local news, community news, newspaper, events, classifieds"
+    >
+
+    <meta
+        name="author"
+        content="The Local Voice"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>
+        The Local Voice | Local News & Community
+    </title>
+<link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+>
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER START
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="home1.html"
+                class="site-logo"
+                aria-label="The Local Voice Home"
+            >
+
+                <!-- Light Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-light"
+                >
+
+
+                <!-- Dark Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-dark"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                id="desktopNavigation"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle active"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html"class="active">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NORMAL NAVIGATION LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+    <button
+        type="button"
+        class="header-action-btn rtl-toggle"
+        id="rtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="header-action-btn dark-toggle"
+        id="darkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="login-btn"
+    >
+        Login
+    </a>
+
+</div>
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE NAVIGATION
+        ====================================================== -->
+
+        <div
+            class="mobile-navigation"
+            id="mobileNavigation"
+        >
+
+            <div class="mobile-navigation-inner">
+
+
+                <!-- =============================================
+                     MOBILE HOME DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle active"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html"class="active">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NORMAL LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="mobile-nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="mobile-nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="mobile-nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="mobile-nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE ACTIONS
+                ============================================== -->
+
+                <div class="mobile-actions">
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileRtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileDarkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="mobile-login-btn"
+    >
+        Login
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HEADER END
+    ====================================================== -->
+
+
+    <!-- =====================================================
+         MAIN CONTENT START
+         We will add this later.
+    ====================================================== -->
+
+    <main>
+<!-- =========================================================
+     HOME 2 — HERO BACKGROUND SLIDER
+     PART 1 : HTML
+========================================================= -->
+
+<section
+    class="home2-hero"
+    id="home2Hero"
+>
+
+
+    <!-- =====================================================
+         SLIDE 1
+    ====================================================== -->
+
+    <div
+        class="home2-hero-slide active"
+        style="background-image: url('images/home2-hero-1.jpg');"
+    >
+
+        <div class="home2-hero-overlay"></div>
+
+
+        <div class="home2-hero-container">
+
+            <div class="home2-hero-content">
+
+                <span class="home2-hero-category">
+                    LOCAL NEWS
+                </span>
+
+                <h1 class="home2-hero-title">
+                    Stories That Matter
+                    To Our Community
+                </h1>
+
+                <p class="home2-hero-description">
+                    Stay connected with important local stories,
+                    updates, and developments happening around
+                    your community.
+                </p>
+
+                <a
+                    href="news.html"
+                    class="home2-hero-button"
+                >
+                    Read Story
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         SLIDE 2
+    ====================================================== -->
+
+    <div
+        class="home2-hero-slide"
+        style="background-image: url('images/home2-hero-2.jpg');"
+    >
+
+        <div class="home2-hero-overlay"></div>
+
+
+        <div class="home2-hero-container">
+
+            <div class="home2-hero-content">
+
+                <span class="home2-hero-category">
+                    CIVIC NEWS
+                </span>
+
+                <h2 class="home2-hero-title">
+                    Updates That Shape
+                    Our Neighborhood
+                </h2>
+
+                <p class="home2-hero-description">
+                    Discover the latest civic developments,
+                    public initiatives, and important updates
+                    from the local area.
+                </p>
+
+                <a
+                    href="civic.html"
+                    class="home2-hero-button"
+                >
+                    Explore Civic News
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         SLIDE 3
+    ====================================================== -->
+
+    <div
+        class="home2-hero-slide"
+        style="background-image: url('images/home2-hero-3.jpg');"
+    >
+
+        <div class="home2-hero-overlay"></div>
+
+
+        <div class="home2-hero-container">
+
+            <div class="home2-hero-content">
+
+                <span class="home2-hero-category">
+                    COMMUNITY
+                </span>
+
+                <h2 class="home2-hero-title">
+                    People, Events &
+                    Stories Around Us
+                </h2>
+
+                <p class="home2-hero-description">
+                    Explore the people, events, achievements,
+                    and stories that bring our local community
+                    together.
+                </p>
+
+                <a
+                    href="news.html"
+                    class="home2-hero-button"
+                >
+                    Discover More
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         PREVIOUS / NEXT
+    ====================================================== -->
+
+    <button
+        type="button"
+        class="home2-hero-arrow home2-hero-prev"
+        id="home2HeroPrev"
+        aria-label="Previous slide"
+    >
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+
+    <button
+        type="button"
+        class="home2-hero-arrow home2-hero-next"
+        id="home2HeroNext"
+        aria-label="Next slide"
+    >
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+
+    <!-- =====================================================
+         SLIDE INDICATOR
+    ====================================================== -->
+
+    <div class="home2-hero-indicator">
+
+        <span
+            class="home2-hero-current"
+            id="home2HeroCurrent"
+        >
+            01
+        </span>
+
+        <span class="home2-hero-indicator-line"></span>
+
+        <span class="home2-hero-total">
+            03
+        </span>
+
+    </div>
+
+
+    <!-- =====================================================
+         SLIDE DOTS
+    ====================================================== -->
+
+    <div class="home2-hero-dots">
+
+        <button
+            type="button"
+            class="home2-hero-dot active"
+            data-slide="0"
+            aria-label="Go to slide 1"
+        ></button>
+
+        <button
+            type="button"
+            class="home2-hero-dot"
+            data-slide="1"
+            aria-label="Go to slide 2"
+        ></button>
+
+        <button
+            type="button"
+            class="home2-hero-dot"
+            data-slide="2"
+            aria-label="Go to slide 3"
+        ></button>
+
+    </div>
+
+
+</section>
+<!-- =========================================================
+     HOME 2 — TOP STORIES
+     PART 1 : HTML
+========================================================= -->
+
+<section
+    class="home2-top-stories"
+    id="home2TopStories"
+>
+
+    <div class="home2-top-stories-container">
+
+
+        <!-- =================================================
+             SECTION HEADING
+        ================================================== -->
+
+        <div class="home2-top-stories-heading">
+
+            <div class="home2-top-stories-heading-left">
+
+                <span class="home2-top-stories-eyebrow">
+                    NEWSROOM
+                </span>
+
+                <h2>
+                    Top Stories
+                </h2>
+
+            </div>
+
+
+            <a
+                href="news.html"
+                class="home2-top-stories-view-all"
+            >
+                View All Stories
+
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             STORIES GRID
+        ================================================== -->
+
+        <div class="home2-top-stories-grid">
+
+
+            <!-- =================================================
+                 MAIN STORY
+            ================================================== -->
+
+            <article class="home2-top-story-main">
+
+                <a
+                    href="news.html"
+                    class="home2-top-story-main-image"
+                >
+                    <img
+                        src="images/home2-top-main.jpg"
+                        alt="Local community news story"
+                    >
+                </a>
+
+
+                <div class="home2-top-story-main-content">
+
+                    <span class="home2-top-story-category">
+                        COMMUNITY
+                    </span>
+
+                    <h3>
+                        <a href="news.html">
+                            New Community Initiatives Bring
+                            Opportunities for Local Residents
+                        </a>
+                    </h3>
+
+                    <p>
+                        Local organizations and community leaders
+                        are working together on new initiatives
+                        focused on improving services and creating
+                        opportunities for residents.
+                    </p>
+
+                    <div class="home2-top-story-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Today, 10:30 AM
+                        </span>
+
+                        <span>
+                            By The Local Voice
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 STORY 2
+            ================================================== -->
+
+            <article class="home2-top-story-small">
+
+                <a
+                    href="civic.html"
+                    class="home2-top-story-small-image"
+                >
+                    <img
+                        src="images/home2-top-civic.jpg"
+                        alt="Civic news story"
+                    >
+                </a>
+
+
+                <div class="home2-top-story-small-content">
+
+                    <span class="home2-top-story-category">
+                        CIVIC
+                    </span>
+
+                    <h3>
+                        <a href="civic.html">
+                            Local Authorities Announce
+                            New Public Improvement Plans
+                        </a>
+                    </h3>
+
+                    <div class="home2-top-story-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Today, 9:15 AM
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 STORY 3
+            ================================================== -->
+
+            <article class="home2-top-story-small">
+
+                <a
+                    href="sports.html"
+                    class="home2-top-story-small-image"
+                >
+                    <img
+                        src="images/home2-top-sports.jpg"
+                        alt="Local sports news"
+                    >
+                </a>
+
+
+                <div class="home2-top-story-small-content">
+
+                    <span class="home2-top-story-category">
+                        SPORTS
+                    </span>
+
+                    <h3>
+                        <a href="sports.html">
+                            Local Teams Prepare for
+                            Upcoming Championship
+                        </a>
+                    </h3>
+
+                    <div class="home2-top-story-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Yesterday, 6:20 PM
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — LATEST NEWS
+     PART 1 : HTML
+========================================================= -->
+
+<section
+    class="home2-latest-news"
+    id="home2LatestNews"
+>
+
+    <div class="home2-latest-news-container">
+
+
+        <!-- =================================================
+             SECTION HEADING
+        ================================================== -->
+
+        <div class="home2-latest-news-heading">
+
+            <div class="home2-latest-news-heading-left">
+
+                <span class="home2-latest-news-eyebrow">
+                    NEWSROOM
+                </span>
+
+                <h2>
+                    Latest News
+                </h2>
+
+            </div>
+
+
+            <a
+                href="news.html"
+                class="home2-latest-news-view-all"
+            >
+                View All News
+
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN LAYOUT
+        ================================================== -->
+
+        <div class="home2-latest-news-layout">
+
+
+            <!-- =================================================
+                 NEWS LIST
+            ================================================== -->
+
+            <div class="home2-latest-news-list">
+
+
+                <!-- NEWS ITEM 1 -->
+
+                <article class="home2-latest-news-item">
+
+                    <div class="home2-latest-news-time">
+
+                        <span class="home2-latest-news-hour">
+                            10:30
+                        </span>
+
+                        <span class="home2-latest-news-period">
+                            AM
+                        </span>
+
+                    </div>
+
+
+                    <div class="home2-latest-news-item-content">
+
+                        <span class="home2-latest-news-category">
+                            COMMUNITY
+                        </span>
+
+                        <h3>
+                            <a href="news.html">
+                                New Community Development Plans
+                                Announced for Local Residents
+                            </a>
+                        </h3>
+
+                        <p>
+                            Local organizations have announced
+                            new plans focused on improving
+                            community facilities and services.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS ITEM 2 -->
+
+                <article class="home2-latest-news-item">
+
+                    <div class="home2-latest-news-time">
+
+                        <span class="home2-latest-news-hour">
+                            09:45
+                        </span>
+
+                        <span class="home2-latest-news-period">
+                            AM
+                        </span>
+
+                    </div>
+
+
+                    <div class="home2-latest-news-item-content">
+
+                        <span class="home2-latest-news-category">
+                            CIVIC
+                        </span>
+
+                        <h3>
+                            <a href="civic.html">
+                                Local Authorities Announce
+                                Public Improvement Initiative
+                            </a>
+                        </h3>
+
+                        <p>
+                            A new initiative aims to improve
+                            public spaces and essential
+                            facilities across the area.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS ITEM 3 -->
+
+                <article class="home2-latest-news-item">
+
+                    <div class="home2-latest-news-time">
+
+                        <span class="home2-latest-news-hour">
+                            09:15
+                        </span>
+
+                        <span class="home2-latest-news-period">
+                            AM
+                        </span>
+
+                    </div>
+
+
+                    <div class="home2-latest-news-item-content">
+
+                        <span class="home2-latest-news-category">
+                            BUSINESS
+                        </span>
+
+                        <h3>
+                            <a href="business.html">
+                                Local Businesses Prepare for
+                                New Growth Opportunities
+                            </a>
+                        </h3>
+
+                        <p>
+                            Local entrepreneurs and businesses
+                            are exploring new opportunities
+                            for growth and development.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS ITEM 4 -->
+
+                <article class="home2-latest-news-item">
+
+                    <div class="home2-latest-news-time">
+
+                        <span class="home2-latest-news-hour">
+                            08:30
+                        </span>
+
+                        <span class="home2-latest-news-period">
+                            AM
+                        </span>
+
+                    </div>
+
+
+                    <div class="home2-latest-news-item-content">
+
+                        <span class="home2-latest-news-category">
+                            EDUCATION
+                        </span>
+
+                        <h3>
+                            <a href="education.html">
+                                Schools Prepare for New
+                                Academic Community Programs
+                            </a>
+                        </h3>
+
+                        <p>
+                            Educational institutions are preparing
+                            new programs and activities for
+                            students and families.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- =================================================
+                 FEATURED NEWS
+            ================================================== -->
+
+            <article class="home2-latest-news-featured">
+
+
+                <a
+                    href="news.html"
+                    class="home2-latest-news-featured-image"
+                >
+                    <img
+                        src="images/home2-latest-featured.jpg"
+                        alt="Featured local news"
+                    >
+                </a>
+
+
+                <div class="home2-latest-news-featured-content">
+
+                    <span class="home2-latest-news-category">
+                        FEATURED NEWS
+                    </span>
+
+                    <h3>
+                        <a href="news.html">
+                            Community Leaders and Residents
+                            Come Together for Local Development
+                        </a>
+                    </h3>
+
+                    <p>
+                        Community representatives and residents
+                        are working together to discuss new ideas,
+                        improvements, and opportunities for the
+                        local area.
+                    </p>
+
+                    <div class="home2-latest-news-featured-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Today, 8:00 AM
+                        </span>
+
+                        <span>
+                            By The Local Voice
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="news.html"
+                        class="home2-latest-news-read"
+                    >
+                        Read Full Story
+
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — CIVIC & COMMUNITY
+========================================================= -->
+
+<section class="home2-civic-community" id="home2CivicCommunity">
+
+    <div class="home2-civic-community-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-civic-community-heading">
+
+            <div class="home2-civic-community-heading-left">
+
+                <span class="home2-civic-community-eyebrow">
+                    CIVIC &amp; COMMUNITY
+                </span>
+
+                <h2>
+                    News From Our Community
+                </h2>
+
+            </div>
+
+
+            <a
+                href="civic.html"
+                class="home2-civic-community-view-all"
+            >
+                View All Civic News
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN CONTENT
+        ================================================== -->
+
+        <div class="home2-civic-community-layout">
+
+
+            <!-- =================================================
+                 FEATURED CIVIC STORY
+            ================================================== -->
+
+            <article class="home2-civic-community-featured">
+
+                <a
+                    href="civic.html"
+                    class="home2-civic-community-featured-image"
+                >
+                    <img
+                        src="images/home2-civic-featured.jpg"
+                        alt="Local civic development project"
+                    >
+                </a>
+
+
+                <div class="home2-civic-community-featured-content">
+
+                    <span class="home2-civic-community-category">
+                        CIVIC
+                    </span>
+
+                    <h3>
+                        <a href="civic.html">
+                            Local Authorities Announce New Plans
+                            for Community Development
+                        </a>
+                    </h3>
+
+                    <p>
+                        Local authorities have announced new development
+                        plans focused on improving public spaces,
+                        essential facilities, and services for residents.
+                    </p>
+
+
+                    <div class="home2-civic-community-featured-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+                            Today, 7:30 AM
+                        </span>
+
+                        <span>
+                            By The Local Voice
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="civic.html"
+                        class="home2-civic-community-read"
+                    >
+                        Read Full Story
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 COMMUNITY STORIES
+            ================================================== -->
+
+            <div class="home2-civic-community-stories">
+
+
+                <!-- =================================================
+                     STORY 1
+                ================================================== -->
+
+                <article class="home2-civic-community-story">
+
+                    <a
+                        href="civic.html"
+                        class="home2-civic-community-story-image"
+                    >
+                        <img
+                            src="images/home2-civic-story-1.jpg"
+                            alt="Community public improvement project"
+                        >
+                    </a>
+
+
+                    <div class="home2-civic-community-story-content">
+
+                        <span class="home2-civic-community-category">
+                            COMMUNITY
+                        </span>
+
+                        <h3>
+                            <a href="civic.html">
+                                Public Spaces Set for New
+                                Improvement Projects
+                            </a>
+                        </h3>
+
+                        <div class="home2-civic-community-story-meta">
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-clock"
+                                    aria-hidden="true"
+                                ></i>
+                                Today, 6:45 AM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     STORY 2
+                ================================================== -->
+
+                <article class="home2-civic-community-story">
+
+                    <a
+                        href="civic.html"
+                        class="home2-civic-community-story-image"
+                    >
+                        <img
+                            src="images/home2-civic-story-2.jpg"
+                            alt="Local community meeting"
+                        >
+                    </a>
+
+
+                    <div class="home2-civic-community-story-content">
+
+                        <span class="home2-civic-community-category">
+                            CIVIC
+                        </span>
+
+                        <h3>
+                            <a href="civic.html">
+                                Residents Join Local Meeting
+                                on Neighborhood Improvements
+                            </a>
+                        </h3>
+
+                        <div class="home2-civic-community-story-meta">
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-clock"
+                                    aria-hidden="true"
+                                ></i>
+                                Yesterday, 5:30 PM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     STORY 3
+                ================================================== -->
+
+                <article class="home2-civic-community-story">
+
+                    <a
+                        href="civic.html"
+                        class="home2-civic-community-story-image"
+                    >
+                        <img
+                            src="images/home2-civic-story-3.jpg"
+                            alt="Local community services"
+                        >
+                    </a>
+
+
+                    <div class="home2-civic-community-story-content">
+
+                        <span class="home2-civic-community-category">
+                            COMMUNITY
+                        </span>
+
+                        <h3>
+                            <a href="civic.html">
+                                New Community Services
+                                Announced for Local Residents
+                            </a>
+                        </h3>
+
+                        <div class="home2-civic-community-story-meta">
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-clock"
+                                    aria-hidden="true"
+                                ></i>
+                                Yesterday, 3:15 PM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM LINK
+        ================================================== -->
+
+        <div class="home2-civic-community-bottom">
+
+            <a
+                href="civic.html"
+                class="home2-civic-community-more"
+            >
+                Explore More Community News
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — WATCH NOW
+========================================================= -->
+
+<section class="home2-watch-now" id="home2WatchNow">
+
+    <div class="home2-watch-now-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-watch-now-heading">
+
+            <div class="home2-watch-now-heading-left">
+
+                <span class="home2-watch-now-eyebrow">
+                    WATCH NOW
+                </span>
+
+                <span class="home2-watch-now-line"></span>
+
+            </div>
+
+
+            <a
+                href="news.html"
+                class="home2-watch-now-more"
+            >
+                More Videos
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             VIDEO AREA
+        ================================================== -->
+
+        <div class="home2-watch-now-layout">
+
+
+            <!-- =================================================
+                 FEATURED VIDEO
+            ================================================== -->
+
+            <div class="home2-watch-now-featured">
+
+
+                <!-- FEATURED VIDEO IMAGE -->
+
+                <div
+                    class="home2-watch-now-featured-video"
+                    id="home2WatchFeatured"
+                >
+
+                    <img
+                        id="home2WatchFeaturedImage"
+                        src="images/home2-watch-1.jpg"
+                        alt="Featured local news video"
+                    >
+
+
+                    <!-- VIDEO OVERLAY -->
+
+                    <div class="home2-watch-now-video-overlay"></div>
+
+
+                    <!-- FEATURED VIDEO CONTENT -->
+
+                    <div class="home2-watch-now-featured-content">
+
+                        <span
+                            class="home2-watch-now-featured-source"
+                            id="home2WatchFeaturedSource"
+                        >
+                            THE LOCAL VOICE
+                        </span>
+
+                        <h2 id="home2WatchFeaturedTitle">
+                            Local Community Updates and
+                            Stories From Around the Area
+                        </h2>
+
+                        <p id="home2WatchFeaturedDescription">
+                            Watch the latest local news,
+                            community updates, events, and
+                            stories from your neighborhood.
+                        </p>
+
+                    </div>
+
+
+                    <!-- PLAY BUTTON -->
+
+                    <button
+                        type="button"
+                        class="home2-watch-now-play"
+                        id="home2WatchPlay"
+                        aria-label="Play featured video"
+                    >
+                        <i
+                            class="fa-solid fa-play"
+                            aria-hidden="true"
+                        ></i>
+                    </button>
+
+
+                    <!-- WATCH BUTTON -->
+
+                    <a
+                        href="news.html"
+                        class="home2-watch-now-watch"
+                        id="home2WatchLink"
+                    >
+                        Watch Now
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 VIDEO PLAYLIST
+            ================================================== -->
+
+            <div class="home2-watch-now-playlist" id="home2WatchPlaylist">
+
+
+                <!-- =================================================
+                     VIDEO ITEM 1
+                ================================================== -->
+
+                <article
+                    class="home2-watch-now-item active"
+                    data-image="images/home2-watch-1.jpg"
+                    data-title="Local Community Updates and Stories From Around the Area"
+                    data-description="Watch the latest local news, community updates, events, and stories from your neighborhood."
+                    data-source="THE LOCAL VOICE"
+                    data-link="news.html"
+                >
+
+                    <button
+                        type="button"
+                        class="home2-watch-now-item-button"
+                        aria-label="Watch Local Community Updates"
+                    >
+
+                        <span class="home2-watch-now-item-image">
+
+                            <img
+                                src="images/home2-watch-1.jpg"
+                                alt="Local community news"
+                            >
+
+                            <span class="home2-watch-now-item-play">
+                                <i
+                                    class="fa-solid fa-play"
+                                    aria-hidden="true"
+                                ></i>
+                            </span>
+
+                        </span>
+
+
+                        <span class="home2-watch-now-item-content">
+
+                            <span class="home2-watch-now-item-source">
+                                COMMUNITY
+                            </span>
+
+                            <strong>
+                                Local Community Updates and
+                                Stories From Around the Area
+                            </strong>
+
+                            <small>
+                                The Local Voice
+                            </small>
+
+                        </span>
+
+                    </button>
+
+                </article>
+
+
+                <!-- =================================================
+                     VIDEO ITEM 2
+                ================================================== -->
+
+                <article
+                    class="home2-watch-now-item"
+                    data-image="images/home2-watch-2.jpg"
+                    data-title="New Civic Development Plans Announced for Residents"
+                    data-description="Local authorities share new plans and initiatives aimed at improving public facilities and services."
+                    data-source="THE LOCAL VOICE"
+                    data-link="civic.html"
+                >
+
+                    <button
+                        type="button"
+                        class="home2-watch-now-item-button"
+                        aria-label="Watch Civic Development News"
+                    >
+
+                        <span class="home2-watch-now-item-image">
+
+                            <img
+                                src="images/home2-watch-2.jpg"
+                                alt="Civic development news"
+                            >
+
+                            <span class="home2-watch-now-item-play">
+                                <i
+                                    class="fa-solid fa-play"
+                                    aria-hidden="true"
+                                ></i>
+                            </span>
+
+                        </span>
+
+
+                        <span class="home2-watch-now-item-content">
+
+                            <span class="home2-watch-now-item-source">
+                                CIVIC
+                            </span>
+
+                            <strong>
+                                New Civic Development Plans
+                                Announced for Residents
+                            </strong>
+
+                            <small>
+                                The Local Voice
+                            </small>
+
+                        </span>
+
+                    </button>
+
+                </article>
+
+
+                <!-- =================================================
+                     VIDEO ITEM 3
+                ================================================== -->
+
+                <article
+                    class="home2-watch-now-item"
+                    data-image="images/home2-watch-3.jpg"
+                    data-title="Local Sports Teams Prepare for Upcoming Championship"
+                    data-description="Local teams are getting ready for an important championship with players and supporters looking ahead to the competition."
+                    data-source="THE LOCAL VOICE"
+                    data-link="sports.html"
+                >
+
+                    <button
+                        type="button"
+                        class="home2-watch-now-item-button"
+                        aria-label="Watch Local Sports News"
+                    >
+
+                        <span class="home2-watch-now-item-image">
+
+                            <img
+                                src="images/home2-watch-3.jpg"
+                                alt="Local sports news"
+                            >
+
+                            <span class="home2-watch-now-item-play">
+                                <i
+                                    class="fa-solid fa-play"
+                                    aria-hidden="true"
+                                ></i>
+                            </span>
+
+                        </span>
+
+
+                        <span class="home2-watch-now-item-content">
+
+                            <span class="home2-watch-now-item-source">
+                                SPORTS
+                            </span>
+
+                            <strong>
+                                Local Sports Teams Prepare
+                                for Upcoming Championship
+                            </strong>
+
+                            <small>
+                                The Local Voice
+                            </small>
+
+                        </span>
+
+                    </button>
+
+                </article>
+
+
+                <!-- =================================================
+                     VIDEO ITEM 4
+                ================================================== -->
+
+                <article
+                    class="home2-watch-now-item"
+                    data-image="images/home2-watch-4.jpg"
+                    data-title="Local Businesses Explore New Growth Opportunities"
+                    data-description="Business owners and local entrepreneurs are exploring new opportunities for growth and development in the community."
+                    data-source="THE LOCAL VOICE"
+                    data-link="business.html"
+                >
+
+                    <button
+                        type="button"
+                        class="home2-watch-now-item-button"
+                        aria-label="Watch Local Business News"
+                    >
+
+                        <span class="home2-watch-now-item-image">
+
+                            <img
+                                src="images/home2-watch-4.jpg"
+                                alt="Local business news"
+                            >
+
+                            <span class="home2-watch-now-item-play">
+                                <i
+                                    class="fa-solid fa-play"
+                                    aria-hidden="true"
+                                ></i>
+                            </span>
+
+                        </span>
+
+
+                        <span class="home2-watch-now-item-content">
+
+                            <span class="home2-watch-now-item-source">
+                                BUSINESS
+                            </span>
+
+                            <strong>
+                                Local Businesses Explore
+                                New Growth Opportunities
+                            </strong>
+
+                            <small>
+                                The Local Voice
+                            </small>
+
+                        </span>
+
+                    </button>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — EDUCATION
+========================================================= -->
+
+<section class="home2-education" id="home2Education">
+
+    <div class="home2-education-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-education-heading">
+
+            <div class="home2-education-title-wrap">
+
+                <span class="home2-education-eyebrow">
+                    EDUCATION
+                </span>
+
+                <a
+                    href="education.html"
+                    class="home2-education-heading-arrow"
+                    aria-label="View all education news"
+                >
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN EDUCATION AREA
+        ================================================== -->
+
+        <div class="home2-education-main">
+
+
+            <!-- =================================================
+                 FEATURED EDUCATION STORY
+            ================================================== -->
+
+            <article class="home2-education-featured">
+
+
+                <!-- FEATURED CONTENT -->
+
+                <div class="home2-education-featured-content">
+
+                    <div class="home2-education-featured-meta">
+
+                        <span class="home2-education-subscriber">
+                            <i
+                                class="fa-solid fa-circle"
+                                aria-hidden="true"
+                            ></i>
+
+                            COMMUNITY
+
+                        </span>
+
+                        <span class="home2-education-category">
+                            EDUCATION
+                        </span>
+
+                    </div>
+
+
+                    <h2>
+                        New Learning Programs Create
+                        Opportunities for Local Students
+                    </h2>
+
+
+                    <div class="home2-education-story-info">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+
+                            September 24, 10:15 AM
+                        </span>
+
+                        <span>
+                            By The Local Voice
+                        </span>
+
+                    </div>
+
+
+                    <p>
+                        Schools and educational institutions are
+                        introducing new learning programs designed
+                        to support students, teachers, and families
+                        across the local community.
+                    </p>
+
+
+                    <a
+                        href="education.html"
+                        class="home2-education-read"
+                    >
+                        Read Full Story
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+
+                <!-- FEATURED IMAGE -->
+
+                <a
+                    href="education.html"
+                    class="home2-education-featured-image"
+                >
+
+                    <img
+                        src="images/home2-education-featured.jpg"
+                        alt="Students participating in an education program"
+                    >
+
+                </a>
+
+            </article>
+
+
+            <!-- =================================================
+                 RIGHT SIDEBAR
+            ================================================== -->
+
+            <aside class="home2-education-sidebar">
+
+
+                <!-- =================================================
+                     BANNER
+                ================================================== -->
+
+                <div class="home2-education-banner">
+
+                    <span class="home2-education-banner-label">
+                        COMMUNITY NOTICE
+                    </span>
+
+                    <h3>
+                        Support Local
+                        Education
+                    </h3>
+
+                    <p>
+                        Discover local educational
+                        initiatives, programs, and
+                        opportunities.
+                    </p>
+
+                    <a
+                        href="education.html"
+                        class="home2-education-banner-btn"
+                    >
+                        Learn More
+                    </a>
+
+                </div>
+
+
+                <!-- =================================================
+                     RECOMMENDED EDUCATION
+                ================================================== -->
+
+                <div class="home2-education-recommended">
+
+                    <h3 class="home2-education-recommended-title">
+                        Recommended
+                    </h3>
+
+
+                    <!-- RECOMMENDED ITEM 1 -->
+
+                    <article class="home2-education-recommended-item">
+
+                        <a
+                            href="education.html"
+                            class="home2-education-recommended-image"
+                        >
+
+                            <img
+                                src="images/home2-education-recommended-1.jpg"
+                                alt="Students in classroom"
+                            >
+
+                        </a>
+
+
+                        <div class="home2-education-recommended-content">
+
+                            <span>
+                                EDUCATION
+                            </span>
+
+                            <h4>
+                                Schools Prepare New
+                                Programs for Students
+                            </h4>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- RECOMMENDED ITEM 2 -->
+
+                    <article class="home2-education-recommended-item">
+
+                        <a
+                            href="education.html"
+                            class="home2-education-recommended-image"
+                        >
+
+                            <img
+                                src="images/home2-education-recommended-2.jpg"
+                                alt="Students learning together"
+                            >
+
+                        </a>
+
+
+                        <div class="home2-education-recommended-content">
+
+                            <span>
+                                COMMUNITY
+                            </span>
+
+                            <h4>
+                                Local Students Join
+                                Community Learning Events
+                            </h4>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </aside>
+
+        </div>
+
+
+        <!-- =================================================
+             EDUCATION STORY GRID
+        ================================================== -->
+
+        <div class="home2-education-grid">
+
+
+            <!-- =================================================
+                 STORY 1
+            ================================================== -->
+
+            <article class="home2-education-card">
+
+                <a
+                    href="education.html"
+                    class="home2-education-card-image"
+                >
+
+                    <img
+                        src="images/home2-education-story-1.jpg"
+                        alt="Students attending a school program"
+                    >
+
+                </a>
+
+
+                <div class="home2-education-card-content">
+
+                    <span class="home2-education-card-category">
+                        SCHOOLS
+                    </span>
+
+                    <h3>
+                        <a href="education.html">
+                            Schools Introduce New
+                            Community Learning Programs
+                        </a>
+                    </h3>
+
+                    <div class="home2-education-card-meta">
+
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                        Today, 9:30 AM
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 STORY 2
+            ================================================== -->
+
+            <article class="home2-education-card">
+
+                <a
+                    href="education.html"
+                    class="home2-education-card-image"
+                >
+
+                    <img
+                        src="images/home2-education-story-2.jpg"
+                        alt="Students using technology in education"
+                    >
+
+                </a>
+
+
+                <div class="home2-education-card-content">
+
+                    <span class="home2-education-card-category">
+                        STUDENTS
+                    </span>
+
+                    <h3>
+                        <a href="education.html">
+                            Students Explore New
+                            Technology-Based Learning
+                        </a>
+                    </h3>
+
+                    <div class="home2-education-card-meta">
+
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                        Today, 8:45 AM
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 STORY 3
+            ================================================== -->
+
+            <article class="home2-education-card">
+
+                <a
+                    href="education.html"
+                    class="home2-education-card-image"
+                >
+
+                    <img
+                        src="images/home2-education-story-3.jpg"
+                        alt="Teacher helping students"
+                    >
+
+                </a>
+
+
+                <div class="home2-education-card-content">
+
+                    <span class="home2-education-card-category">
+                        TEACHERS
+                    </span>
+
+                    <h3>
+                        <a href="education.html">
+                            Teachers Prepare New
+                            Activities for the Academic Year
+                        </a>
+                    </h3>
+
+                    <div class="home2-education-card-meta">
+
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                        Yesterday, 6:20 PM
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 STORY 4
+            ================================================== -->
+
+            <article class="home2-education-card">
+
+                <a
+                    href="education.html"
+                    class="home2-education-card-image"
+                >
+
+                    <img
+                        src="images/home2-education-story-4.jpg"
+                        alt="Students at a library"
+                    >
+
+                </a>
+
+
+                <div class="home2-education-card-content">
+
+                    <span class="home2-education-card-category">
+                        COMMUNITY
+                    </span>
+
+                    <h3>
+                        <a href="education.html">
+                            Local Library Expands
+                            Learning Resources for Students
+                        </a>
+                    </h3>
+
+                    <div class="home2-education-card-meta">
+
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                        Yesterday, 4:40 PM
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =================================================
+             VIEW ALL EDUCATION
+        ================================================== -->
+
+        <div class="home2-education-bottom">
+
+            <a
+                href="education.html"
+                class="home2-education-view-all"
+            >
+                View All Education News
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — MOST READ + NEWSLETTER
+========================================================= -->
+
+<section
+    class="home2-most-read-section"
+    id="home2MostRead"
+>
+
+    <div class="home2-most-read-container">
+
+
+        <!-- =================================================
+             MAIN CONTENT
+        ================================================== -->
+
+        <div class="home2-most-read-layout">
+
+
+            <!-- =================================================
+                 MOST READ AREA
+            ================================================== -->
+
+            <div class="home2-most-read-main">
+
+
+                <!-- =============================================
+                     TABS
+                ============================================== -->
+
+                <div class="home2-most-read-tabs">
+
+                    <button
+                        type="button"
+                        class="home2-most-read-tab active"
+                        data-tab="mostRead"
+                    >
+                        MOST READ
+                    </button>
+
+                    <button
+                        type="button"
+                        class="home2-most-read-tab"
+                        data-tab="mostCommented"
+                    >
+                        MOST COMMENTED
+                    </button>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOST READ CONTENT
+                ============================================== -->
+
+                <div
+                    class="home2-most-read-content active"
+                    id="home2MostReadContent"
+                >
+
+                    <div class="home2-most-read-column">
+
+
+                        <!-- STORY 1 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                01
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="civic.html">
+                                        New Community Development
+                                        Plans Announced for Residents
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Civic</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        842 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        12 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- STORY 3 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                03
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="sports.html">
+                                        Local Sports Teams Prepare
+                                        for Upcoming Championship
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Sports</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        518 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        8 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- STORY 5 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                05
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="business.html">
+                                        Local Businesses Explore
+                                        New Growth Opportunities
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Business</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        421 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        6 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- STORY 7 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                07
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="education.html">
+                                        Schools Introduce New
+                                        Community Learning Programs
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Education</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        376 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        4 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- STORY 9 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                09
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="news.html">
+                                        Residents Join Local Events
+                                        Across the Community
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Community</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        294 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        3 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- =============================================
+                         SECOND COLUMN
+                    ============================================== -->
+
+                    <div class="home2-most-read-column">
+
+
+                        <!-- STORY 2 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                02
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="news.html">
+                                        Community Leaders Discuss
+                                        New Local Initiatives
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Community</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        731 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        10 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- STORY 4 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                04
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="civic.html">
+                                        Public Improvement Initiative
+                                        Begins Across the Area
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Civic</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        489 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        7 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- STORY 6 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                06
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="education.html">
+                                        Students Explore New
+                                        Technology-Based Learning
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Education</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        402 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        5 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- STORY 8 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                08
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="sports.html">
+                                        Community Sports Events
+                                        Attract Local Residents
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Sports</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        338 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        4 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- STORY 10 -->
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                10
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="business.html">
+                                        Local Entrepreneurs Share
+                                        New Business Ideas
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Business</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-eye"
+                                            aria-hidden="true"
+                                        ></i>
+                                        281 Views
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        3 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOST COMMENTED CONTENT
+                ============================================== -->
+
+                <div
+                    class="home2-most-read-content"
+                    id="home2MostCommentedContent"
+                >
+
+                    <div class="home2-most-read-column">
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                01
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="news.html">
+                                        Residents Share Their Views
+                                        on Community Development
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Community</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        38 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                03
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="civic.html">
+                                        Public Improvement Plans
+                                        Spark Local Discussion
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Civic</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        27 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                05
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="sports.html">
+                                        Local Sports Championship
+                                        Creates Excitement
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Sports</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        21 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="home2-most-read-column">
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                02
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="education.html">
+                                        New Education Programs
+                                        Receive Community Feedback
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Education</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        32 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                04
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="business.html">
+                                        Local Business Community
+                                        Discusses Growth Opportunities
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Business</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        19 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="home2-most-read-item">
+
+                            <span class="home2-most-read-number">
+                                06
+                            </span>
+
+                            <div class="home2-most-read-story">
+
+                                <h3>
+                                    <a href="news.html">
+                                        Residents Discuss Upcoming
+                                        Community Events
+                                    </a>
+                                </h3>
+
+                                <div class="home2-most-read-meta">
+
+                                    <span>
+                                        in
+                                        <strong>Community</strong>
+                                    </span>
+
+                                    <span>
+                                        <i
+                                            class="fa-regular fa-comment"
+                                            aria-hidden="true"
+                                        ></i>
+                                        16 Comments
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 SIDEBAR
+            ================================================== -->
+
+            <aside class="home2-most-read-sidebar">
+
+
+                <!-- =================================================
+                     NEWSLETTER
+                ================================================== -->
+
+                <div class="home2-newsletter">
+
+                    <div class="home2-newsletter-icon">
+
+                        <i
+                            class="fa-regular fa-envelope"
+                            aria-hidden="true"
+                        ></i>
+
+                    </div>
+
+                    <span class="home2-newsletter-eyebrow">
+                        THE LOCAL VOICE
+                    </span>
+
+                    <h2>
+                        Community
+                        Newsletter
+                    </h2>
+
+                    <p>
+                        Get local news, community stories,
+                        events, and important updates
+                        delivered to your inbox.
+                    </p>
+
+
+                    <form
+                        class="home2-newsletter-form"
+                        id="home2NewsletterForm"
+                    >
+
+                        <label
+                            for="home2NewsletterEmail"
+                            class="sr-only"
+                        >
+                            Enter your email address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="home2NewsletterEmail"
+                            name="email"
+                            placeholder="Enter your email*"
+                            required
+                        >
+
+                        <button type="submit">
+                            Subscribe
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+                <!-- =================================================
+                     STAY CONNECTED
+                ================================================== -->
+
+                <div class="home2-connected">
+
+                    <h3>
+                        Stay Connected
+                    </h3>
+
+
+                    <div class="home2-connected-grid">
+
+
+                        <!-- YOUTUBE -->
+
+                        <a
+                            href="#"
+                            class="home2-connected-item"
+                            aria-label="YouTube"
+                        >
+
+                            <i
+                                class="fa-brands fa-youtube"
+                                aria-hidden="true"
+                            ></i>
+
+                            <strong>
+                                1.2K
+                            </strong>
+
+                            <span>
+                                Followers
+                            </span>
+
+                        </a>
+
+
+                        <!-- FACEBOOK -->
+
+                        <a
+                            href="#"
+                            class="home2-connected-item"
+                            aria-label="Facebook"
+                        >
+
+                            <i
+                                class="fa-brands fa-facebook-f"
+                                aria-hidden="true"
+                            ></i>
+
+                            <strong>
+                                2.4K
+                            </strong>
+
+                            <span>
+                                Followers
+                            </span>
+
+                        </a>
+
+
+                        <!-- INSTAGRAM -->
+
+                        <a
+                            href="#"
+                            class="home2-connected-item"
+                            aria-label="Instagram"
+                        >
+
+                            <i
+                                class="fa-brands fa-instagram"
+                                aria-hidden="true"
+                            ></i>
+
+                            <strong>
+                                3.8K
+                            </strong>
+
+                            <span>
+                                Followers
+                            </span>
+
+                        </a>
+
+
+                        <!-- X -->
+
+                        <a
+                            href="#"
+                            class="home2-connected-item"
+                            aria-label="X"
+                        >
+
+                            <i
+                                class="fa-brands fa-x-twitter"
+                                aria-hidden="true"
+                            ></i>
+
+                            <strong>
+                                980
+                            </strong>
+
+                            <span>
+                                Followers
+                            </span>
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — EDITOR'S PICK + COMMUNITY HIGHLIGHTS
+========================================================= -->
+
+<section
+    class="home2-editor-section"
+    id="home2Editor"
+>
+
+    <div class="home2-editor-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-editor-heading">
+
+            <div class="home2-editor-title-wrap">
+
+                <span class="home2-editor-eyebrow">
+                    EDITOR'S PICK
+                </span>
+
+                <span class="home2-editor-line"></span>
+
+            </div>
+
+            <a
+                href="news.html"
+                class="home2-editor-view-all"
+            >
+                View All Stories
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN EDITORIAL LAYOUT
+        ================================================== -->
+
+        <div class="home2-editor-layout">
+
+
+            <!-- =================================================
+                 EDITOR'S PICK
+            ================================================== -->
+
+            <article class="home2-editor-featured">
+
+
+                <!-- FEATURED IMAGE -->
+
+                <a
+                    href="news.html"
+                    class="home2-editor-featured-image"
+                >
+
+                    <img
+                        src="images/home2-editor-pick.jpg"
+                        alt="Local community development story"
+                    >
+
+                    <span class="home2-editor-image-label">
+                        EDITOR'S PICK
+                    </span>
+
+                </a>
+
+
+                <!-- FEATURED CONTENT -->
+
+                <div class="home2-editor-featured-content">
+
+                    <div class="home2-editor-meta">
+
+                        <span>
+                            COMMUNITY
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+
+                            Today, 10:30 AM
+                        </span>
+
+                    </div>
+
+
+                    <h2>
+                        How Local Communities Are
+                        Creating New Opportunities
+                        for Residents
+                    </h2>
+
+
+                    <p>
+                        Local organizations, residents, and community
+                        leaders are working together on new initiatives
+                        designed to improve public spaces, services,
+                        and opportunities across the area.
+                    </p>
+
+
+                    <a
+                        href="news.html"
+                        class="home2-editor-read"
+                    >
+                        Read Full Story
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 COMMUNITY HIGHLIGHTS
+            ================================================== -->
+
+            <div class="home2-community-highlights">
+
+
+                <!-- HIGHLIGHTS HEADER -->
+
+                <div class="home2-community-heading">
+
+                    <span>
+                        COMMUNITY HIGHLIGHTS
+                    </span>
+
+                    <a
+                        href="news.html"
+                        aria-label="View all community highlights"
+                    >
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+
+                <!-- =================================================
+                     HIGHLIGHT 1
+                ================================================== -->
+
+                <article class="home2-community-highlight">
+
+                    <a
+                        href="civic.html"
+                        class="home2-community-highlight-image"
+                    >
+
+                        <img
+                            src="images/home2-community-highlight-1.jpg"
+                            alt="Local public improvement project"
+                        >
+
+                    </a>
+
+
+                    <div class="home2-community-highlight-content">
+
+                        <span class="home2-community-category">
+                            CIVIC
+                        </span>
+
+                        <h3>
+                            <a href="civic.html">
+                                New Public Improvement Plans
+                                Announced for Local Residents
+                            </a>
+                        </h3>
+
+                        <div class="home2-community-meta">
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-clock"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Today, 9:15 AM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     HIGHLIGHT 2
+                ================================================== -->
+
+                <article class="home2-community-highlight">
+
+                    <a
+                        href="sports.html"
+                        class="home2-community-highlight-image"
+                    >
+
+                        <img
+                            src="images/home2-community-highlight-2.jpg"
+                            alt="Local sports community event"
+                        >
+
+                    </a>
+
+
+                    <div class="home2-community-highlight-content">
+
+                        <span class="home2-community-category">
+                            SPORTS
+                        </span>
+
+                        <h3>
+                            <a href="sports.html">
+                                Local Teams Prepare for
+                                Upcoming Community Championship
+                            </a>
+                        </h3>
+
+                        <div class="home2-community-meta">
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-clock"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Today, 8:40 AM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     HIGHLIGHT 3
+                ================================================== -->
+
+                <article class="home2-community-highlight">
+
+                    <a
+                        href="education.html"
+                        class="home2-community-highlight-image"
+                    >
+
+                        <img
+                            src="images/home2-community-highlight-3.jpg"
+                            alt="Students participating in a community program"
+                        >
+
+                    </a>
+
+
+                    <div class="home2-community-highlight-content">
+
+                        <span class="home2-community-category">
+                            EDUCATION
+                        </span>
+
+                        <h3>
+                            <a href="education.html">
+                                Students Join New Community
+                                Learning Programs
+                            </a>
+                        </h3>
+
+                        <div class="home2-community-meta">
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-clock"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Yesterday, 6:30 PM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     HIGHLIGHT 4
+                ================================================== -->
+
+                <article class="home2-community-highlight">
+
+                    <a
+                        href="business.html"
+                        class="home2-community-highlight-image"
+                    >
+
+                        <img
+                            src="images/home2-community-highlight-4.jpg"
+                            alt="Local business community"
+                        >
+
+                    </a>
+
+
+                    <div class="home2-community-highlight-content">
+
+                        <span class="home2-community-category">
+                            BUSINESS
+                        </span>
+
+                        <h3>
+                            <a href="business.html">
+                                Local Businesses Explore
+                                New Growth Opportunities
+                            </a>
+                        </h3>
+
+                        <div class="home2-community-meta">
+
+                            <span>
+                                <i
+                                    class="fa-regular fa-clock"
+                                    aria-hidden="true"
+                                ></i>
+
+                                Yesterday, 4:20 PM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM STORY STRIP
+        ================================================== -->
+
+        <div class="home2-editor-bottom">
+
+
+            <!-- STORY 1 -->
+
+            <article class="home2-editor-bottom-item">
+
+                <span class="home2-editor-bottom-category">
+                    COMMUNITY
+                </span>
+
+                <h3>
+                    <a href="news.html">
+                        Residents Come Together for
+                        Local Community Initiatives
+                    </a>
+                </h3>
+
+                <span class="home2-editor-bottom-time">
+                    Today, 7:45 AM
+                </span>
+
+            </article>
+
+
+            <!-- STORY 2 -->
+
+            <article class="home2-editor-bottom-item">
+
+                <span class="home2-editor-bottom-category">
+                    CIVIC
+                </span>
+
+                <h3>
+                    <a href="civic.html">
+                        Local Authorities Share Updates
+                        on Public Services  works.
+                    </a>
+                </h3>
+
+                <span class="home2-editor-bottom-time">
+                    Yesterday, 7:10 PM
+                </span>
+
+            </article>
+
+
+            <!-- STORY 3 -->
+
+            <article class="home2-editor-bottom-item">
+
+                <span class="home2-editor-bottom-category">
+                    EDUCATION
+                </span>
+
+                <h3>
+                    <a href="education.html">
+                        Schools Expand Learning Activities
+                        for Students and Families
+                    </a>
+                </h3>
+
+                <span class="home2-editor-bottom-time">
+                    Yesterday, 5:50 PM
+                </span>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — COMMUNITY EVENTS
+========================================================= -->
+
+<section
+    class="home2-events-section"
+    id="home2CommunityEvents"
+>
+
+    <div class="home2-events-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-events-heading">
+
+            <div class="home2-events-title-wrap">
+
+                <span class="home2-events-eyebrow">
+                    COMMUNITY EVENTS
+                </span>
+
+                <span class="home2-events-line"></span>
+
+            </div>
+
+            <a
+                href="events.html"
+                class="home2-events-view-all"
+            >
+                View All Events
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             FEATURED EVENT
+        ================================================== -->
+
+        <article class="home2-events-featured">
+
+            <!-- EVENT IMAGE -->
+
+            <a
+                href="events.html"
+                class="home2-events-featured-image"
+            >
+
+                <img
+                    src="images/home2-event-featured.jpg"
+                    alt="Community town hall event"
+                >
+
+            </a>
+
+
+            <!-- EVENT DATE -->
+
+            <div class="home2-events-date">
+
+                <span class="home2-events-date-day">
+                    24
+                </span>
+
+                <span class="home2-events-date-month">
+                    SEP
+                </span>
+
+            </div>
+
+
+            <!-- EVENT CONTENT -->
+
+            <div class="home2-events-featured-content">
+
+                <span class="home2-events-category">
+                    COMMUNITY
+                </span>
+
+                <h2>
+                    Community Town Hall Meeting
+                    Brings Residents Together
+                </h2>
+
+                <p>
+                    Residents and community leaders will gather
+                    to discuss local development, public services,
+                    and upcoming community initiatives.
+                </p>
+
+
+                <div class="home2-events-details">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                        6:00 PM
+                    </span>
+
+                    <span>
+                        <i
+                            class="fa-solid fa-location-dot"
+                            aria-hidden="true"
+                        ></i>
+
+                        Community Hall
+                    </span>
+
+                </div>
+
+
+                <a
+                    href="events.html"
+                    class="home2-events-read"
+                >
+                    View Event
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             EVENT GRID
+        ================================================== -->
+
+        <div class="home2-events-grid">
+
+
+            <!-- =================================================
+                 EVENT 1 — SPORTS
+            ================================================== -->
+
+            <article class="home2-event-card">
+
+                <a
+                    href="events.html"
+                    class="home2-event-card-image"
+                >
+
+                    <img
+                        src="images/home2-event-sports.jpg"
+                        alt="Local sports day event"
+                    >
+
+                    <span class="home2-event-card-date">
+
+                        <strong>28</strong>
+
+                        <small>SEP</small>
+
+                    </span>
+
+                </a>
+
+
+                <div class="home2-event-card-content">
+
+                    <span class="home2-event-category">
+                        SPORTS
+                    </span>
+
+                    <h3>
+                        <a href="events.html">
+                            Local Sports Day
+                            Celebrates Community Talent
+                        </a>
+                    </h3>
+
+
+                    <div class="home2-event-card-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+
+                            8:00 AM
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Municipal Ground
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="events.html"
+                        class="home2-event-card-link"
+                    >
+                        View Event
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 EVENT 2 — EDUCATION
+            ================================================== -->
+
+            <article class="home2-event-card">
+
+                <a
+                    href="events.html"
+                    class="home2-event-card-image"
+                >
+
+                    <img
+                        src="images/home2-event-education.jpg"
+                        alt="Community book fair"
+                    >
+
+                    <span class="home2-event-card-date">
+
+                        <strong>02</strong>
+
+                        <small>OCT</small>
+
+                    </span>
+
+                </a>
+
+
+                <div class="home2-event-card-content">
+
+                    <span class="home2-event-category">
+                        EDUCATION
+                    </span>
+
+                    <h3>
+                        <a href="events.html">
+                            Community Book Fair
+                            Opens for Local Students
+                        </a>
+                    </h3>
+
+
+                    <div class="home2-event-card-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+
+                            10:00 AM
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Town Library
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="events.html"
+                        class="home2-event-card-link"
+                    >
+                        View Event
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 EVENT 3 — COMMUNITY
+            ================================================== -->
+
+            <article class="home2-event-card">
+
+                <a
+                    href="events.html"
+                    class="home2-event-card-image"
+                >
+
+                    <img
+                        src="images/home2-event-community.jpg"
+                        alt="Community awareness event"
+                    >
+
+                    <span class="home2-event-card-date">
+
+                        <strong>08</strong>
+
+                        <small>OCT</small>
+
+                    </span>
+
+                </a>
+
+
+                <div class="home2-event-card-content">
+
+                    <span class="home2-event-category">
+                        COMMUNITY
+                    </span>
+
+                    <h3>
+                        <a href="events.html">
+                            Community Awareness
+                            Program for Residents
+                        </a>
+                    </h3>
+
+
+                    <div class="home2-event-card-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+
+                            5:30 PM
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Community Center
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="events.html"
+                        class="home2-event-card-link"
+                    >
+                        View Event
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — ADVERTISE WITH US
+========================================================= -->
+
+<section
+    class="home2-advertise-section"
+    id="home2Advertise"
+>
+
+    <div class="home2-advertise-container">
+
+
+        <!-- =================================================
+             BACKGROUND / CONTENT WRAPPER
+        ================================================== -->
+
+        <div class="home2-advertise-content">
+
+
+            <!-- =================================================
+                 SECTION INTRO
+            ================================================== -->
+
+            <div class="home2-advertise-intro">
+
+                <span class="home2-advertise-eyebrow">
+                    ADVERTISE WITH US
+                </span>
+
+                <span class="home2-advertise-line"></span>
+
+
+                <h2>
+                    Reach Your Local Community
+                </h2>
+
+
+                <p>
+                    Connect your business, service, or organization
+                    with a trusted local audience through
+                    The Local Voice.
+                </p>
+
+
+                <a
+                    href="advertise.html"
+                    class="home2-advertise-button"
+                >
+                    Advertise With Us
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </div>
+
+
+            <!-- =================================================
+                 ADVERTISING BENEFITS
+            ================================================== -->
+
+            <div class="home2-advertise-benefits">
+
+
+                <!-- =================================================
+                     BENEFIT 1
+                ================================================== -->
+
+                <div class="home2-advertise-benefit">
+
+                    <div class="home2-advertise-icon">
+
+                        <i
+                            class="fa-solid fa-location-dot"
+                            aria-hidden="true"
+                        ></i>
+
+                    </div>
+
+
+                    <div class="home2-advertise-benefit-content">
+
+                        <span>
+                            LOCAL REACH
+                        </span>
+
+                        <p>
+                            Reach readers and customers
+                            within the local community.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     BENEFIT 2
+                ================================================== -->
+
+                <div class="home2-advertise-benefit">
+
+                    <div class="home2-advertise-icon">
+
+                        <i
+                            class="fa-solid fa-users"
+                            aria-hidden="true"
+                        ></i>
+
+                    </div>
+
+
+                    <div class="home2-advertise-benefit-content">
+
+                        <span>
+                            COMMUNITY AUDIENCE
+                        </span>
+
+                        <p>
+                            Connect your message with
+                            an engaged community audience.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     BENEFIT 3
+                ================================================== -->
+
+                <div class="home2-advertise-benefit">
+
+                    <div class="home2-advertise-icon">
+
+                        <i
+                            class="fa-solid fa-newspaper"
+                            aria-hidden="true"
+                        ></i>
+
+                    </div>
+
+
+                    <div class="home2-advertise-benefit-content">
+
+                        <span>
+                            TRUSTED PUBLICATION
+                        </span>
+
+                        <p>
+                            Present your brand through
+                            a trusted local news platform.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+        </main>
+<! =========================================================
+   FOOTER
+========================================================= !>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =============================================
+             FOOTER BRAND
+        ============================================== -->
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="footer-logo-light"
+                >
+
+                
+            </a>
+
+            <p class="footer-description">
+                Your trusted source for local news, community stories,
+                events, classifieds, and everything happening around you.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             QUICK LINKS
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="news.html">All News</a>
+                </li>
+
+                <li>
+                    <a href="classifieds.html">Classifieds</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="advertise.html">Advertise With Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             NEWS CATEGORIES
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                News Categories
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="civic.html">Civic</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">Sports</a>
+                </li>
+
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="news.html">Latest News</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             CONTACT
+        ============================================== -->
+
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <p>
+                    Your Local Community,<br>
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <a href="tel:+910000000000">
+                    +91 00000 00000
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:info@thelocalvoice.com">
+                    info@thelocalvoice.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         FOOTER BOTTOM
+    ============================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 The Local Voice. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+         We will add the header JS later.
+    ====================================================== -->
+<!-- =========================================================
+     SCROLL TO TOP BUTTON
+========================================================= -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

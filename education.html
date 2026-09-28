@@ -1,0 +1,3284 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="The Local Voice - Local Newspaper and Community News Portal"
+    >
+
+    <meta
+        name="keywords"
+        content="local news, community news, newspaper, events, classifieds"
+    >
+
+    <meta
+        name="author"
+        content="The Local Voice"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>
+        The Local Voice | Local News & Community
+    </title>
+<link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+>
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER START
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="home1.html"
+                class="site-logo"
+                aria-label="The Local Voice Home"
+            >
+
+                <!-- Light Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-light"
+                >
+
+
+                <!-- Dark Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-dark"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                id="desktopNavigation"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle active"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html"class="active">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NORMAL NAVIGATION LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+    <button
+        type="button"
+        class="header-action-btn rtl-toggle"
+        id="rtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="header-action-btn dark-toggle"
+        id="darkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="login-btn"
+    >
+        Login
+    </a>
+
+</div>
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE NAVIGATION
+        ====================================================== -->
+
+        <div
+            class="mobile-navigation"
+            id="mobileNavigation"
+        >
+
+            <div class="mobile-navigation-inner">
+
+
+                <!-- =============================================
+                     MOBILE HOME DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle active"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html"class="active">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NORMAL LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="mobile-nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="mobile-nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="mobile-nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="mobile-nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE ACTIONS
+                ============================================== -->
+
+                <div class="mobile-actions">
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileRtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileDarkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="mobile-login-btn"
+    >
+        Login
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HEADER END
+    ====================================================== -->
+
+
+    <!-- =====================================================
+         MAIN CONTENT START
+         We will add this later.
+    ====================================================== -->
+
+    <main>
+<!-- =========================================================
+     EDUCATION SECTION 1 — HERO
+========================================================= -->
+
+<section class="education-hero" id="educationHero">
+
+    <div class="education-hero-overlay"></div>
+
+    <div class="education-hero-container">
+
+        <div class="education-hero-content">
+
+            <!-- EYEBROW -->
+
+            <span class="education-hero-eyebrow">
+                EDUCATION NEWS
+            </span>
+
+
+            <!-- ACCENT LINE -->
+
+            <span class="education-hero-line"></span>
+
+
+            <!-- TITLE -->
+
+            <h1>
+                Local Education & Learning
+            </h1>
+
+
+            <!-- DESCRIPTION -->
+
+            <p>
+                Stay informed about schools, students, higher education,
+                learning opportunities, academic programs, and important
+                education developments across the community.
+            </p>
+
+
+            <!-- META -->
+
+            <div class="education-hero-meta">
+
+                <span>
+                    <i
+                        class="fa-regular fa-clock"
+                        aria-hidden="true"
+                    ></i>
+
+                    Latest Education Updates
+                </span>
+
+
+                <span>
+                    <i
+                        class="fa-solid fa-location-dot"
+                        aria-hidden="true"
+                    ></i>
+
+                    Local Community
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EDUCATION SECTION 2 — BREAKING EDUCATION NEWS
+========================================================= -->
+
+<section class="education-breaking" id="educationBreaking">
+
+    <div class="education-breaking-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="education-breaking-header">
+
+            <div class="education-breaking-title-wrap">
+
+                <span class="education-breaking-eyebrow">
+                    BREAKING EDUCATION NEWS
+                </span>
+
+                <span class="education-breaking-line"></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BREAKING NEWS CARD
+        ================================================== -->
+
+        <article class="education-breaking-card">
+
+
+            <!-- CONTENT -->
+
+            <div class="education-breaking-content">
+
+                <span class="education-breaking-category">
+                    EDUCATION UPDATE
+                </span>
+
+
+                <h2 class="education-breaking-title">
+                    New Learning Programs Create Opportunities for Local Students
+                </h2>
+
+
+                <p class="education-breaking-description">
+                    Schools and educational institutions across the community
+                    are introducing new learning programs designed to support
+                    students, improve learning opportunities, and encourage
+                    participation in academic activities.
+                </p>
+
+
+                <!-- META -->
+
+                <div class="education-breaking-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+
+                        24 September 2026
+                    </span>
+
+
+                    <span>
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                        10:30 AM
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- ACTION -->
+
+            <div class="education-breaking-action">
+
+                <a
+                    href="news.html"
+                    class="education-breaking-read"
+                >
+
+                    <span>
+                        Read Full Story
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EDUCATION SECTION 3 — FEATURED EDUCATION STORY
+========================================================= -->
+
+<section class="education-featured" id="educationFeatured">
+
+    <div class="education-featured-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="education-featured-header">
+
+            <div class="education-featured-title-wrap">
+
+                <span class="education-featured-eyebrow">
+                    FEATURED EDUCATION STORY
+                </span>
+
+                <span class="education-featured-line"></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             FEATURED STORY
+        ================================================== -->
+
+        <article class="education-featured-story">
+
+
+            <!-- =================================================
+                 CONTENT
+            ================================================== -->
+
+            <div class="education-featured-content">
+
+                <span class="education-featured-category">
+                    EDUCATION AFFAIRS
+                </span>
+
+
+                <h2 class="education-featured-title">
+                    New Learning Opportunities Help Local Students Prepare for the Future
+                </h2>
+
+
+                <p class="education-featured-description">
+                    Schools and educational institutions are introducing
+                    new learning opportunities that encourage students
+                    to develop academic knowledge, practical skills,
+                    and greater participation in community learning
+                    programs.
+                </p>
+
+
+                <!-- META -->
+
+                <div class="education-featured-meta">
+
+                    <span>
+                        <i
+                            class="fa-regular fa-calendar"
+                            aria-hidden="true"
+                        ></i>
+
+                        24 September 2026
+                    </span>
+
+
+                    <span>
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+
+                        Local Voice Education Desk
+                    </span>
+
+                </div>
+
+
+                <!-- READ LINK -->
+
+                <a
+                    href="news.html"
+                    class="education-featured-read"
+                >
+
+                    <span>
+                        Read Full Story
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- =================================================
+                 FEATURED IMAGE
+            ================================================== -->
+
+            <div class="education-featured-image">
+
+                <img
+                    src="images/education-featured.jpg"
+                    alt="Students participating in a local education program"
+                    loading="lazy"
+                >
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EDUCATION SECTION 4 — LATEST EDUCATION NEWS
+========================================================= -->
+
+<section class="education-latest" id="educationLatest">
+
+    <div class="education-latest-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="education-latest-header">
+
+            <div class="education-latest-title-wrap">
+
+                <span class="education-latest-eyebrow">
+                    LATEST EDUCATION NEWS
+                </span>
+
+                <span class="education-latest-line"></span>
+
+            </div>
+
+
+            <a
+                href="news.html"
+                class="education-latest-view-all"
+            >
+
+                <span>
+                    View All News
+                </span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             NEWS GRID
+        ================================================== -->
+
+        <div class="education-latest-grid">
+
+
+            <!-- =================================================
+                 CARD 01
+            ================================================== -->
+
+            <article class="education-latest-card">
+
+                <a
+                    href="news.html"
+                    class="education-latest-image"
+                >
+
+                    <img
+                        src="images/education-news-1.jpg"
+                        alt="Students participating in school learning activities"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="education-latest-content">
+
+                    <span class="education-latest-category">
+                        SCHOOLS
+                    </span>
+
+                    <h3 class="education-latest-title">
+                        Schools Introduce New Learning Activities for Students
+                    </h3>
+
+                    <div class="education-latest-meta">
+
+                        <span>
+                            24 Sep 2026
+                        </span>
+
+                        <span>
+                            10:15 AM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="education-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 02
+            ================================================== -->
+
+            <article class="education-latest-card">
+
+                <a
+                    href="news.html"
+                    class="education-latest-image"
+                >
+
+                    <img
+                        src="images/education-news-2.jpg"
+                        alt="Students attending an educational program"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="education-latest-content">
+
+                    <span class="education-latest-category">
+                        STUDENTS
+                    </span>
+
+                    <h3 class="education-latest-title">
+                        Local Students Take Part in New Academic Programs
+                    </h3>
+
+                    <div class="education-latest-meta">
+
+                        <span>
+                            24 Sep 2026
+                        </span>
+
+                        <span>
+                            09:40 AM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="education-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 03
+            ================================================== -->
+
+            <article class="education-latest-card">
+
+                <a
+                    href="news.html"
+                    class="education-latest-image"
+                >
+
+                    <img
+                        src="images/education-news-3.jpg"
+                        alt="Higher education students on campus"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="education-latest-content">
+
+                    <span class="education-latest-category">
+                        HIGHER EDUCATION
+                    </span>
+
+                    <h3 class="education-latest-title">
+                        Higher Education Institutions Expand Learning Opportunities
+                    </h3>
+
+                    <div class="education-latest-meta">
+
+                        <span>
+                            24 Sep 2026
+                        </span>
+
+                        <span>
+                            09:15 AM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="education-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 04
+            ================================================== -->
+
+            <article class="education-latest-card">
+
+                <a
+                    href="news.html"
+                    class="education-latest-image"
+                >
+
+                    <img
+                        src="images/education-news-4.jpg"
+                        alt="Students learning new skills"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="education-latest-content">
+
+                    <span class="education-latest-category">
+                        SKILLS
+                    </span>
+
+                    <h3 class="education-latest-title">
+                        New Skill Development Programs Support Young Learners
+                    </h3>
+
+                    <div class="education-latest-meta">
+
+                        <span>
+                            23 Sep 2026
+                        </span>
+
+                        <span>
+                            04:30 PM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="education-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 05
+            ================================================== -->
+
+            <article class="education-latest-card">
+
+                <a
+                    href="news.html"
+                    class="education-latest-image"
+                >
+
+                    <img
+                        src="images/education-news-5.jpg"
+                        alt="Teacher guiding students in a classroom"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="education-latest-content">
+
+                    <span class="education-latest-category">
+                        LEARNING
+                    </span>
+
+                    <h3 class="education-latest-title">
+                        Teachers Explore New Approaches to Classroom Learning
+                    </h3>
+
+                    <div class="education-latest-meta">
+
+                        <span>
+                            23 Sep 2026
+                        </span>
+
+                        <span>
+                            02:20 PM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="education-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 06
+            ================================================== -->
+
+            <article class="education-latest-card">
+
+                <a
+                    href="news.html"
+                    class="education-latest-image"
+                >
+
+                    <img
+                        src="images/education-news-6.jpg"
+                        alt="Community education event"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="education-latest-content">
+
+                    <span class="education-latest-category">
+                        EDUCATION EVENTS
+                    </span>
+
+                    <h3 class="education-latest-title">
+                        Community Education Events Encourage Student Participation
+                    </h3>
+
+                    <div class="education-latest-meta">
+
+                        <span>
+                            23 Sep 2026
+                        </span>
+
+                        <span>
+                            11:45 AM
+                        </span>
+
+                    </div>
+
+                    <a
+                        href="news.html"
+                        class="education-latest-read"
+                    >
+                        Read More
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EDUCATION SECTION 5 — EDUCATION CATEGORY NEWS
+========================================================= -->
+
+<section class="education-category" id="educationCategory">
+
+    <div class="education-category-container">
+
+
+        <!-- =================================================
+             CATEGORY GRID
+        ================================================== -->
+
+        <div class="education-category-grid">
+
+
+            <!-- =================================================
+                 CATEGORY 01 — SCHOOLS & STUDENTS
+            ================================================== -->
+
+            <article class="education-category-block">
+
+                <div class="education-category-header">
+
+                    <div class="education-category-title-wrap">
+
+                        <span class="education-category-name">
+                            SCHOOLS & STUDENTS
+                        </span>
+
+                        <span class="education-category-line"></span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MAIN STORY -->
+
+                <a
+                    href="news.html"
+                    class="education-category-main"
+                >
+
+                    <div class="education-category-main-image">
+
+                        <img
+                            src="images/education-category-schools.jpg"
+                            alt="Students attending a local school program"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="education-category-main-content">
+
+                        <h2>
+                            Local Schools Introduce New Programs to Support Student Learning
+                        </h2>
+
+                        <div class="education-category-main-meta">
+
+                            <span>
+                                24 Sep 2026
+                            </span>
+
+                            <span>
+                                Education Desk
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+                <!-- RELATED STORIES -->
+
+                <div class="education-category-related">
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-schools-1.jpg"
+                                alt="Students in classroom"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                SCHOOLS
+                            </span>
+
+                            <h3>
+                                Schools Prepare New Academic Activities for Students
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-schools-2.jpg"
+                                alt="School students learning together"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                STUDENTS
+                            </span>
+
+                            <h3>
+                                Student Participation Grows in Community Learning Programs
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-schools-3.jpg"
+                                alt="Students participating in school activities"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                SCHOOL NEWS
+                            </span>
+
+                            <h3>
+                                Local Schools Encourage Students to Explore New Activities
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="education-category-go"
+                >
+
+                    <span>
+                        Go to Schools & Students
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CATEGORY 02 — HIGHER EDUCATION
+            ================================================== -->
+
+            <article class="education-category-block">
+
+                <div class="education-category-header">
+
+                    <div class="education-category-title-wrap">
+
+                        <span class="education-category-name">
+                            HIGHER EDUCATION
+                        </span>
+
+                        <span class="education-category-line"></span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MAIN STORY -->
+
+                <a
+                    href="news.html"
+                    class="education-category-main"
+                >
+
+                    <div class="education-category-main-image">
+
+                        <img
+                            src="images/education-category-higher.jpg"
+                            alt="Students at a higher education institution"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="education-category-main-content">
+
+                        <h2>
+                            Higher Education Institutions Expand Opportunities for Students
+                        </h2>
+
+                        <div class="education-category-main-meta">
+
+                            <span>
+                                24 Sep 2026
+                            </span>
+
+                            <span>
+                                Education Desk
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+                <!-- RELATED STORIES -->
+
+                <div class="education-category-related">
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-higher-1.jpg"
+                                alt="College students studying"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                COLLEGES
+                            </span>
+
+                            <h3>
+                                Local Colleges Prepare New Academic Programs & events
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-higher-2.jpg"
+                                alt="University students on campus"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                HIGHER EDUCATION
+                            </span>
+
+                            <h3>
+                                New Learning Opportunities Open for Local Students
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-higher-3.jpg"
+                                alt="Students attending a college program"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                EDUCATION
+                            </span>
+
+                            <h3>
+                                Institutions Expand Student Development Activities
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="education-category-go"
+                >
+
+                    <span>
+                        Go to Higher Education
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CATEGORY 03 — LEARNING & SKILLS
+            ================================================== -->
+
+            <article class="education-category-block">
+
+                <div class="education-category-header">
+
+                    <div class="education-category-title-wrap">
+
+                        <span class="education-category-name">
+                            LEARNING & SKILLS
+                        </span>
+
+                        <span class="education-category-line"></span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MAIN STORY -->
+
+                <a
+                    href="news.html"
+                    class="education-category-main"
+                >
+
+                    <div class="education-category-main-image">
+
+                        <img
+                            src="images/education-category-learning.jpg"
+                            alt="Students learning new skills"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="education-category-main-content">
+
+                        <h2>
+                            New Skill Development Programs Help Young Learners Build Future Skills
+                        </h2>
+
+                        <div class="education-category-main-meta">
+
+                            <span>
+                                23 Sep 2026
+                            </span>
+
+                            <span>
+                                Education Desk
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+                <!-- RELATED STORIES -->
+
+                <div class="education-category-related">
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-learning-1.jpg"
+                                alt="Students attending a skills workshop"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                SKILLS
+                            </span>
+
+                            <h3>
+                                Students Take Part in New Skill Development Workshops
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-learning-2.jpg"
+                                alt="Students learning practical skills"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                LEARNING
+                            </span>
+
+                            <h3>
+                                Community Learning Programs Encourage Practical Education
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-learning-3.jpg"
+                                alt="Young learners participating in an educational workshop"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                TRAINING
+                            </span>
+
+                            <h3>
+                                New Training Opportunities Support Young People for growth
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="education-category-go"
+                >
+
+                    <span>
+                        Go to Learning & Skills
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CATEGORY 04 — EDUCATION INITIATIVES
+            ================================================== -->
+
+            <article class="education-category-block">
+
+                <div class="education-category-header">
+
+                    <div class="education-category-title-wrap">
+
+                        <span class="education-category-name">
+                            EDUCATION INITIATIVES
+                        </span>
+
+                        <span class="education-category-line"></span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MAIN STORY -->
+
+                <a
+                    href="news.html"
+                    class="education-category-main"
+                >
+
+                    <div class="education-category-main-image">
+
+                        <img
+                            src="images/education-category-initiatives.jpg"
+                            alt="Community education initiative"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="education-category-main-content">
+
+                        <h2>
+                            Community Education Initiatives Create New Learning Opportunities
+                        </h2>
+
+                        <div class="education-category-main-meta">
+
+                            <span>
+                                23 Sep 2026
+                            </span>
+
+                            <span>
+                                Education Desk
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+                <!-- RELATED STORIES -->
+
+                <div class="education-category-related">
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-initiatives-1.jpg"
+                                alt="Community education program"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                COMMUNITY
+                            </span>
+
+                            <h3>
+                                Community Groups Support Local Learning Programs
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-initiatives-2.jpg"
+                                alt="Education community event"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                INITIATIVES
+                            </span>
+
+                            <h3>
+                                New Education Initiatives Encourage Community Participation
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="news.html"
+                        class="education-category-related-item"
+                    >
+
+                        <div class="education-category-related-image">
+
+                            <img
+                                src="images/education-category-initiatives-3.jpg"
+                                alt="Students at a community education event"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="education-category-related-content">
+
+                            <span>
+                                EDUCATION
+                            </span>
+
+                            <h3>
+                                Local Programs Connect Students With New Opportunities
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="education-category-go"
+                >
+
+                    <span>
+                        Go to Education Initiatives
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EDUCATION SECTION 6 — EDUCATION UPDATES
+========================================================= -->
+
+<section class="education-updates" id="educationUpdates">
+
+    <div class="education-updates-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="education-updates-header">
+
+            <div class="education-updates-title-wrap">
+
+                <span class="education-updates-eyebrow">
+                    EDUCATION UPDATES
+                </span>
+
+                <span class="education-updates-line"></span>
+
+            </div>
+
+
+            <a
+                href="news.html"
+                class="education-updates-view-all"
+            >
+
+                <span>
+                    View All Updates
+                </span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             UPDATES LIST
+        ================================================== -->
+
+        <div class="education-updates-list">
+
+
+            <!-- =================================================
+                 UPDATE 01
+            ================================================== -->
+
+            <article class="education-update-item">
+
+                <div class="education-update-date">
+
+                    <span class="education-update-day">
+                        24
+                    </span>
+
+                    <span class="education-update-month">
+                        SEP
+                    </span>
+
+                </div>
+
+
+                <div class="education-update-content">
+
+                    <span class="education-update-category">
+                        SCHOOL UPDATE
+                    </span>
+
+                    <h3 class="education-update-title">
+                        Local Schools Announce New Academic Activities for Students
+                    </h3>
+
+                    <p class="education-update-description">
+                        Schools are preparing new academic and
+                        learning activities designed to encourage
+                        student participation and improve learning
+                        experiences.
+                    </p>
+
+                    <div class="education-update-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Local Schools
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+
+                            10:00 AM
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="education-update-action"
+                    aria-label="View School Update"
+                >
+
+                    <span>
+                        View Update
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 UPDATE 02
+            ================================================== -->
+
+            <article class="education-update-item">
+
+                <div class="education-update-date">
+
+                    <span class="education-update-day">
+                        28
+                    </span>
+
+                    <span class="education-update-month">
+                        SEP
+                    </span>
+
+                </div>
+
+
+                <div class="education-update-content">
+
+                    <span class="education-update-category">
+                        STUDENT NOTICE
+                    </span>
+
+                    <h3 class="education-update-title">
+                        Student Registration Opens for New Community Learning Program
+                    </h3>
+
+                    <p class="education-update-description">
+                        Students can register for a new community
+                        learning program offering additional academic
+                        and practical learning opportunities.
+                    </p>
+
+                    <div class="education-update-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Community Learning Center
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+
+                            09:30 AM
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="education-update-action"
+                    aria-label="View Student Notice"
+                >
+
+                    <span>
+                        View Update
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 UPDATE 03
+            ================================================== -->
+
+            <article class="education-update-item">
+
+                <div class="education-update-date">
+
+                    <span class="education-update-day">
+                        02
+                    </span>
+
+                    <span class="education-update-month">
+                        OCT
+                    </span>
+
+                </div>
+
+
+                <div class="education-update-content">
+
+                    <span class="education-update-category">
+                        HIGHER EDUCATION
+                    </span>
+
+                    <h3 class="education-update-title">
+                        Local Institutions Share Information About Upcoming Academic Programs
+                    </h3>
+
+                    <p class="education-update-description">
+                        Higher education institutions are sharing
+                        information about upcoming programs and
+                        learning opportunities for students.
+                    </p>
+
+                    <div class="education-update-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Higher Education Center
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+
+                            11:00 AM
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="education-update-action"
+                    aria-label="View Higher Education Update"
+                >
+
+                    <span>
+                        View Update
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 UPDATE 04
+            ================================================== -->
+
+            <article class="education-update-item">
+
+                <div class="education-update-date">
+
+                    <span class="education-update-day">
+                        08
+                    </span>
+
+                    <span class="education-update-month">
+                        OCT
+                    </span>
+
+                </div>
+
+
+                <div class="education-update-content">
+
+                    <span class="education-update-category">
+                        EDUCATION PROGRAM
+                    </span>
+
+                    <h3 class="education-update-title">
+                        New Skill Development Program to Support Young Learners
+                    </h3>
+
+                    <p class="education-update-description">
+                        A new skill development initiative will provide
+                        young learners with opportunities to explore
+                        practical skills and additional learning areas.
+                    </p>
+
+                    <div class="education-update-meta">
+
+                        <span>
+                            <i
+                                class="fa-solid fa-location-dot"
+                                aria-hidden="true"
+                            ></i>
+
+                            Community Education Center
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-clock"
+                                aria-hidden="true"
+                            ></i>
+
+                            02:00 PM
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="news.html"
+                    class="education-update-action"
+                    aria-label="View Education Program Update"
+                >
+
+                    <span>
+                        View Update
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EDUCATION SECTION 7 — MOST READ EDUCATION STORIES
+========================================================= -->
+
+<section class="education-most-read" id="educationMostRead">
+
+    <div class="education-most-read-container">
+
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="education-most-read-header">
+
+            <div class="education-most-read-title-wrap">
+
+                <span class="education-most-read-eyebrow">
+                    MOST READ EDUCATION STORIES
+                </span>
+
+                <span class="education-most-read-line"></span>
+
+            </div>
+
+
+            <a
+                href="news.html"
+                class="education-most-read-view-all"
+            >
+
+                <span>
+                    View All Stories
+                </span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN LAYOUT
+        ================================================== -->
+
+        <div class="education-most-read-layout">
+
+
+            <!-- =================================================
+                 LEFT — RANKED STORIES
+            ================================================== -->
+
+            <div class="education-most-read-list">
+
+
+                <!-- STORY 01 -->
+
+                <article class="education-most-read-item">
+
+                    <span class="education-most-read-number">
+                        01
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="education-most-read-thumb"
+                    >
+
+                        <img
+                            src="images/education-most-read-1.jpg"
+                            alt="Students participating in a school learning program"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+                    <div class="education-most-read-content">
+
+                        <span class="education-most-read-category">
+                            SCHOOLS
+                        </span>
+
+                        <h3>
+                            Local Schools Introduce New Learning Programs for Students
+                        </h3>
+
+                        <div class="education-most-read-meta">
+
+                            <span>
+                                24 Sep 2026
+                            </span>
+
+                            <span>
+                                1.8K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 02 -->
+
+                <article class="education-most-read-item">
+
+                    <span class="education-most-read-number">
+                        02
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="education-most-read-thumb"
+                    >
+
+                        <img
+                            src="images/education-most-read-2.jpg"
+                            alt="Students attending an academic program"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+                    <div class="education-most-read-content">
+
+                        <span class="education-most-read-category">
+                            STUDENTS
+                        </span>
+
+                        <h3>
+                            Students Take Part in New Community Education Activities
+                        </h3>
+
+                        <div class="education-most-read-meta">
+
+                            <span>
+                                24 Sep 2026
+                            </span>
+
+                            <span>
+                                1.6K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 03 -->
+
+                <article class="education-most-read-item">
+
+                    <span class="education-most-read-number">
+                        03
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="education-most-read-thumb"
+                    >
+
+                        <img
+                            src="images/education-most-read-3.jpg"
+                            alt="Higher education students on campus"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+                    <div class="education-most-read-content">
+
+                        <span class="education-most-read-category">
+                            HIGHER EDUCATION
+                        </span>
+
+                        <h3>
+                            Higher Education Institutions Expand Opportunities for Learners
+                        </h3>
+
+                        <div class="education-most-read-meta">
+
+                            <span>
+                                23 Sep 2026
+                            </span>
+
+                            <span>
+                                1.5K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 04 -->
+
+                <article class="education-most-read-item">
+
+                    <span class="education-most-read-number">
+                        04
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="education-most-read-thumb"
+                    >
+
+                        <img
+                            src="images/education-most-read-4.jpg"
+                            alt="Students attending a skill development workshop"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+                    <div class="education-most-read-content">
+
+                        <span class="education-most-read-category">
+                            SKILLS
+                        </span>
+
+                        <h3>
+                            New Skill Development Programs Support Young Learners
+                        </h3>
+
+                        <div class="education-most-read-meta">
+
+                            <span>
+                                23 Sep 2026
+                            </span>
+
+                            <span>
+                                1.4K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 05 -->
+
+                <article class="education-most-read-item">
+
+                    <span class="education-most-read-number">
+                        05
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="education-most-read-thumb"
+                    >
+
+                        <img
+                            src="images/education-most-read-5.jpg"
+                            alt="Teacher helping students in a classroom"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+                    <div class="education-most-read-content">
+
+                        <span class="education-most-read-category">
+                            LEARNING
+                        </span>
+
+                        <h3>
+                            Teachers Explore New Approaches to Classroom Learning
+                        </h3>
+
+                        <div class="education-most-read-meta">
+
+                            <span>
+                                22 Sep 2026
+                            </span>
+
+                            <span>
+                                1.3K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 06 -->
+
+                <article class="education-most-read-item">
+
+                    <span class="education-most-read-number">
+                        06
+                    </span>
+
+                    <a
+                        href="news.html"
+                        class="education-most-read-thumb"
+                    >
+
+                        <img
+                            src="images/education-most-read-6.jpg"
+                            alt="Community education event"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+                    <div class="education-most-read-content">
+
+                        <span class="education-most-read-category">
+                            EDUCATION EVENTS
+                        </span>
+
+                        <h3>
+                            Community Education Events Attract Strong Student Participation
+                        </h3>
+
+                        <div class="education-most-read-meta">
+
+                            <span>
+                                22 Sep 2026
+                            </span>
+
+                            <span>
+                                1.1K Views
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- =================================================
+                 RIGHT — FEATURED MOST READ STORY
+            ================================================== -->
+
+            <article class="education-most-read-featured">
+
+                <a
+                    href="news.html"
+                    class="education-most-read-featured-image"
+                >
+
+                    <img
+                        src="images/education-most-read-featured.jpg"
+                        alt="Students participating in a community education initiative"
+                        loading="lazy"
+                    >
+
+                </a>
+
+
+                <div class="education-most-read-featured-content">
+
+                    <span class="education-most-read-featured-category">
+                        EDUCATION COMMUNITY
+                    </span>
+
+
+                    <h2>
+                        New Community Education Initiative Creates More Opportunities for Local Students
+                    </h2>
+
+
+                    <p>
+                        A new community-focused education initiative
+                        is creating opportunities for students to take
+                        part in learning programs, skill development
+                        activities, and educational events.
+                    </p>
+
+
+                    <div class="education-most-read-featured-meta">
+
+                        <span>
+                            <i
+                                class="fa-regular fa-calendar"
+                                aria-hidden="true"
+                            ></i>
+
+                            24 September 2026
+                        </span>
+
+                        <span>
+                            <i
+                                class="fa-regular fa-eye"
+                                aria-hidden="true"
+                            ></i>
+
+                            2.1K Views
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="news.html"
+                        class="education-most-read-featured-read"
+                    >
+
+                        <span>
+                            Read Full Story
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EDUCATION SECTION 8 — NEWSLETTER + STAY CONNECTED
+========================================================= -->
+
+<section class="education-connect-section" id="educationConnect">
+
+    <div class="education-connect-container">
+
+
+        <!-- =================================================
+             LEFT — NEWSLETTER
+        ================================================== -->
+
+        <div class="education-newsletter">
+
+            <div class="education-connect-heading">
+
+                <span class="education-connect-eyebrow">
+                    NEWSLETTER
+                </span>
+
+                <span class="education-connect-line"></span>
+
+            </div>
+
+
+            <h2 class="education-newsletter-title">
+                Stay Informed With The Local Voice
+            </h2>
+
+
+            <p class="education-newsletter-description">
+                Get the latest local education news, school updates,
+                student stories, learning opportunities, academic
+                developments, and important community education
+                stories delivered directly to your inbox.
+            </p>
+
+
+            <!-- NEWSLETTER FORM -->
+
+            <form
+                class="education-newsletter-form"
+                id="educationNewsletterForm"
+            >
+
+                <div class="education-newsletter-input-wrap">
+
+                    <i
+                        class="fa-regular fa-envelope"
+                        aria-hidden="true"
+                    ></i>
+
+                    <input
+                        type="email"
+                        id="educationNewsletterEmail"
+                        name="email"
+                        placeholder="Enter your email address"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="education-newsletter-button"
+                >
+
+                    <span>
+                        Subscribe
+                    </span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </button>
+
+            </form>
+
+
+            <p class="education-newsletter-note">
+                By subscribing, you agree to receive news and
+                updates from The Local Voice.
+            </p>
+
+        </div>
+
+
+
+        <!-- =================================================
+             RIGHT — STAY CONNECTED
+        ================================================== -->
+
+        <div class="education-stay-connected">
+
+            <div class="education-connect-heading">
+
+                <span class="education-connect-eyebrow">
+                    STAY CONNECTED
+                </span>
+
+                <span class="education-connect-line"></span>
+
+            </div>
+
+
+            <h2 class="education-connected-title">
+                Follow The Local Voice
+            </h2>
+
+
+            <p class="education-connected-description">
+                Follow us on social media for breaking education
+                updates, school news, student stories, learning
+                opportunities, and important community news.
+            </p>
+
+
+            <!-- SOCIAL LINKS -->
+
+            <div class="education-social-links">
+
+
+                <!-- FACEBOOK -->
+
+                <a
+                    href="#"
+                    class="education-social-link education-social-facebook"
+                    aria-label="Follow The Local Voice on Facebook"
+                >
+
+                    <i
+                        class="fa-brands fa-facebook-f"
+                        aria-hidden="true"
+                    ></i>
+
+                    <span>
+                        Facebook
+                    </span>
+
+                </a>
+
+
+                <!-- INSTAGRAM -->
+
+                <a
+                    href="#"
+                    class="education-social-link education-social-instagram"
+                    aria-label="Follow The Local Voice on Instagram"
+                >
+
+                    <i
+                        class="fa-brands fa-instagram"
+                        aria-hidden="true"
+                    ></i>
+
+                    <span>
+                        Instagram
+                    </span>
+
+                </a>
+
+
+                <!-- YOUTUBE -->
+
+                <a
+                    href="#"
+                    class="education-social-link education-social-youtube"
+                    aria-label="Follow The Local Voice on YouTube"
+                >
+
+                    <i
+                        class="fa-brands fa-youtube"
+                        aria-hidden="true"
+                    ></i>
+
+                    <span>
+                        YouTube
+                    </span>
+
+                </a>
+
+
+                <!-- X -->
+
+                <a
+                    href="#"
+                    class="education-social-link education-social-x"
+                    aria-label="Follow The Local Voice on X"
+                >
+
+                    <i
+                        class="fa-brands fa-x-twitter"
+                        aria-hidden="true"
+                    ></i>
+
+                    <span>
+                        X
+                    </span>
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EDUCATION SECTION 9 — ADVERTISE WITH US
+========================================================= -->
+
+<section class="education-advertise" id="educationAdvertise">
+
+    <div class="education-advertise-overlay"></div>
+
+    <div class="education-advertise-container">
+
+        <div class="education-advertise-content">
+
+            <!-- SECTION LABEL -->
+
+            <div class="education-advertise-label">
+
+                <span>
+                    ADVERTISE WITH US
+                </span>
+
+                <span class="education-advertise-label-line"></span>
+
+            </div>
+
+
+            <!-- TITLE -->
+
+            <h2 class="education-advertise-title">
+                Put Your Message in Front of the Local Community
+            </h2>
+
+
+            <!-- DESCRIPTION -->
+
+            <p class="education-advertise-description">
+                Promote your business, education service, event,
+                learning program, or community initiative through
+                The Local Voice and connect your message with local
+                readers who care about education and community life.
+            </p>
+
+
+            <!-- CTA -->
+
+            <a
+                href="advertise.html"
+                class="education-advertise-cta"
+            >
+
+                <span>
+                    Explore Advertising
+                </span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+        </main>
+
+<! =========================================================
+   FOOTER
+========================================================= !>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =============================================
+             FOOTER BRAND
+        ============================================== -->
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="footer-logo-light"
+                >
+
+                
+            </a>
+
+            <p class="footer-description">
+                Your trusted source for local news, community stories,
+                events, classifieds, and everything happening around you.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             QUICK LINKS
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="news.html">All News</a>
+                </li>
+
+                <li>
+                    <a href="classifieds.html">Classifieds</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="advertise.html">Advertise With Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             NEWS CATEGORIES
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                News Categories
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="civic.html">Civic</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">Sports</a>
+                </li>
+
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="news.html">Latest News</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             CONTACT
+        ============================================== -->
+
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <p>
+                    Your Local Community,<br>
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <a href="tel:+910000000000">
+                    +91 00000 00000
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:info@thelocalvoice.com">
+                    info@thelocalvoice.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         FOOTER BOTTOM
+    ============================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 The Local Voice. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+         We will add the header JS later.
+    ====================================================== -->
+<!-- =========================================================
+     SCROLL TO TOP BUTTON
+========================================================= -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

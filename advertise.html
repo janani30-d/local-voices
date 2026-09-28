@@ -1,0 +1,2947 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="The Local Voice - Local Newspaper and Community News Portal"
+    >
+
+    <meta
+        name="keywords"
+        content="local news, community news, newspaper, events, classifieds"
+    >
+
+    <meta
+        name="author"
+        content="The Local Voice"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>
+        The Local Voice | Local News & Community
+    </title>
+<link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+>
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER START
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="home1.html"
+                class="site-logo"
+                aria-label="The Local Voice Home"
+            >
+
+                <!-- Light Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-light"
+                >
+
+
+                <!-- Dark Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-dark"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                id="desktopNavigation"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NORMAL NAVIGATION LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="nav-link active"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+    <button
+        type="button"
+        class="header-action-btn rtl-toggle"
+        id="rtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="header-action-btn dark-toggle"
+        id="darkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="login-btn"
+    >
+        Login
+    </a>
+
+</div>
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE NAVIGATION
+        ====================================================== -->
+
+        <div
+            class="mobile-navigation"
+            id="mobileNavigation"
+        >
+
+            <div class="mobile-navigation-inner">
+
+
+                <!-- =============================================
+                     MOBILE HOME DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NORMAL LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="mobile-nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="mobile-nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="mobile-nav-link active"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="mobile-nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE ACTIONS
+                ============================================== -->
+
+                <div class="mobile-actions">
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileRtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileDarkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="mobile-login-btn"
+    >
+        Login
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HEADER END
+    ====================================================== -->
+
+
+    <!-- =====================================================
+         MAIN CONTENT START
+         We will add this later.
+    ====================================================== -->
+
+    <main>
+<!-- =========================================================
+     ADVERTISE WITH US — HERO
+========================================================= -->
+
+<section class="advertise-hero" id="advertiseHero">
+
+    <div class="advertise-hero-overlay"></div>
+
+    <div class="advertise-hero-container">
+
+        <div class="advertise-hero-content">
+
+            <div class="advertise-hero-label">
+
+                <span class="advertise-hero-eyebrow">
+                    ADVERTISE WITH US
+                </span>
+
+                <span class="advertise-hero-line"></span>
+
+            </div>
+
+            <h1 class="advertise-hero-title">
+                Put Your Business in Front of the Local Community
+            </h1>
+
+            <p class="advertise-hero-description">
+                Connect your business, service, event, or message
+                with local readers through The Local Voice.
+                Build awareness and reach an engaged community.
+            </p>
+
+            <div class="advertise-hero-meta">
+
+                <span>
+                    <i class="fa-solid fa-bullhorn"></i>
+                    Local Advertising
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-users"></i>
+                    Community Audience
+                </span>
+
+            </div>
+
+            <a
+                href="#advertisingSolutions"
+                class="advertise-hero-button"
+            >
+                <span>Explore Advertising</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ADVERTISE SECTION 2 — WHY ADVERTISE
+========================================================= -->
+
+<section
+    class="advertise-why"
+    id="whyAdvertise"
+>
+
+    <div class="advertise-why-container">
+
+        <div class="advertise-why-header">
+
+            <div class="advertise-why-title-wrap">
+
+                <span class="advertise-why-eyebrow">
+                    WHY ADVERTISE
+                </span>
+
+                <span class="advertise-why-line"></span>
+
+                <h2 class="advertise-why-title">
+                    Connect Your Message With Local Readers
+                </h2>
+
+            </div>
+
+            <p class="advertise-why-description">
+                The Local Voice provides businesses and organizations
+                with opportunities to reach people who live, work,
+                study, and participate in the local community.
+            </p>
+
+        </div>
+
+
+        <div class="advertise-why-grid">
+
+            <!-- WHY CARD 1 -->
+
+            <article class="advertise-why-card">
+
+                <div class="advertise-why-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div class="advertise-why-card-content">
+
+                    <span class="advertise-why-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Reach Local Customers
+                    </h3>
+
+                    <p>
+                        Put your business message in front of
+                        readers within your local community people.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- WHY CARD 2 -->
+
+            <article class="advertise-why-card">
+
+                <div class="advertise-why-icon">
+                    <i class="fa-solid fa-bullhorn"></i>
+                </div>
+
+                <div class="advertise-why-card-content">
+
+                    <span class="advertise-why-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Build Brand Awareness
+                    </h3>
+
+                    <p>
+                        Introduce your business, products,
+                        services, and offers to local readers community.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- WHY CARD 3 -->
+
+            <article class="advertise-why-card">
+
+                <div class="advertise-why-icon">
+                    <i class="fa-solid fa-newspaper"></i>
+                </div>
+
+                <div class="advertise-why-card-content">
+
+                    <span class="advertise-why-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Trusted Local Platform
+                    </h3>
+
+                    <p>
+                        Share your message alongside local news,
+                        community stories.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- WHY CARD 4 -->
+
+            <article class="advertise-why-card">
+
+                <div class="advertise-why-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div class="advertise-why-card-content">
+
+                    <span class="advertise-why-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Grow Your Reach
+                    </h3>
+
+                    <p>
+                        Create consistent visibility for your
+                        business and connect with new audiences.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ADVERTISE SECTION 3 — ADVERTISING SOLUTIONS
+========================================================= -->
+
+<section
+    class="advertise-solutions"
+    id="advertisingSolutions"
+>
+
+    <div class="advertise-solutions-container">
+
+        <div class="advertise-solutions-header">
+
+            <div class="advertise-solutions-title-wrap">
+
+                <span class="advertise-solutions-eyebrow">
+                    ADVERTISING SOLUTIONS
+                </span>
+
+                <span class="advertise-solutions-line"></span>
+
+                <h2 class="advertise-solutions-title">
+                    Choose the Right Way to Reach Your Audience
+                </h2>
+
+            </div>
+
+            <p class="advertise-solutions-description">
+                From traditional newspaper advertising to digital
+                placements, choose an advertising format that
+                fits your message and audience.
+            </p>
+
+        </div>
+
+
+        <div class="advertise-solutions-grid">
+
+            <!-- SOLUTION 1 -->
+
+            <article class="advertise-solution-card">
+
+                <div class="advertise-solution-image">
+
+                    <img
+                        src="images/advertise-print.jpg"
+                        alt="Print newspaper advertising"
+                    >
+
+                    <span class="advertise-solution-number">
+                        01
+                    </span>
+
+                </div>
+
+                <div class="advertise-solution-content">
+
+                    <span class="advertise-solution-category">
+                        PRINT
+                    </span>
+
+                    <h3>
+                        Newspaper Advertising
+                    </h3>
+
+                    <p>
+                        Promote your business, announcement,
+                        offer, or service through local newspaper
+                        advertising.
+                    </p>
+
+                    <a
+                        href="#"
+                        class="advertise-solution-link"
+                    >
+                        <span>Learn More</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SOLUTION 2 -->
+
+            <article class="advertise-solution-card">
+
+                <div class="advertise-solution-image">
+
+                    <img
+                        src="images/advertise-digital.jpg"
+                        alt="Digital advertising"
+                    >
+
+                    <span class="advertise-solution-number">
+                        02
+                    </span>
+
+                </div>
+
+                <div class="advertise-solution-content">
+
+                    <span class="advertise-solution-category">
+                        DIGITAL
+                    </span>
+
+                    <h3>
+                        Digital Advertising
+                    </h3>
+
+                    <p>
+                        Reach online readers through digital
+                        placements across The Local Voice
+                        website.
+                    </p>
+
+                    <a
+                        href="#"
+                        class="advertise-solution-link"
+                    >
+                        <span>Learn More</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SOLUTION 3 -->
+
+            <article class="advertise-solution-card">
+
+                <div class="advertise-solution-image">
+
+                    <img
+                        src="images/advertise-event.jpg"
+                        alt="Event advertising"
+                    >
+
+                    <span class="advertise-solution-number">
+                        03
+                    </span>
+
+                </div>
+
+                <div class="advertise-solution-content">
+
+                    <span class="advertise-solution-category">
+                        EVENTS
+                    </span>
+
+                    <h3>
+                        Event Promotion
+                    </h3>
+
+                    <p>
+                        Promote your community event, workshop,
+                        program, or local activity to potential
+                        participants.
+                    </p>
+
+                    <a
+                        href="#"
+                        class="advertise-solution-link"
+                    >
+                        <span>Learn More</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 4 — DIGITAL & ONLINE ADVERTISING
+========================================================= -->
+
+<section class="advertise-digital" id="digitalAdvertising">
+
+    <div class="advertise-digital-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="advertise-digital-header">
+
+            <div class="advertise-digital-title-wrap">
+
+                <span class="advertise-digital-eyebrow">
+                    DIGITAL &amp; ONLINE ADVERTISING
+                </span>
+
+                <span class="advertise-digital-line"></span>
+
+                <h2 class="advertise-digital-title">
+                    Reach Local Readers Online
+                </h2>
+
+            </div>
+
+            <p class="advertise-digital-intro">
+                Connect your business with online readers through
+                flexible digital advertising opportunities across
+                The Local Voice website.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN DIGITAL ADVERTISING CONTENT
+        ================================================== -->
+
+        <div class="advertise-digital-layout">
+
+
+            <!-- =================================================
+                 FEATURED IMAGE
+            ================================================== -->
+
+            <div class="advertise-digital-image">
+
+                <img
+                    src="images/advertise-digital-featured.jpg"
+                    alt="Digital advertising on The Local Voice"
+                >
+
+                <div class="advertise-digital-image-label">
+
+                    <span class="advertise-digital-image-number">
+                        01
+                    </span>
+
+                    <span class="advertise-digital-image-text">
+                        DIGITAL REACH
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 DIGITAL ADVERTISING CONTENT
+            ================================================== -->
+
+            <div class="advertise-digital-content">
+
+                <span class="advertise-digital-category">
+                    ONLINE ADVERTISING
+                </span>
+
+                <h3 class="advertise-digital-content-title">
+                    Put Your Brand Where Local Readers Are Looking
+                </h3>
+
+                <p class="advertise-digital-description">
+                    Promote your business, service, event, or special
+                    offer through digital advertising placements
+                    designed to connect your message with the local
+                    community.
+                </p>
+
+
+                <!-- =================================================
+                     DIGITAL ADVERTISING OPTIONS
+                ================================================== -->
+
+                <div class="advertise-digital-options">
+
+
+                    <!-- OPTION 01 -->
+
+                    <article class="advertise-digital-option">
+
+                        <div class="advertise-digital-option-icon">
+                            <i
+                                class="fa-solid fa-rectangle-ad"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="advertise-digital-option-content">
+
+                            <span class="advertise-digital-option-number">
+                                01
+                            </span>
+
+                            <h4>
+                                Website Banner Advertising
+                            </h4>
+
+                            <p>
+                                Display your brand, promotion, or
+                                announcement through banner placements
+                                across The Local Voice website.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- OPTION 02 -->
+
+                    <article class="advertise-digital-option">
+
+                        <div class="advertise-digital-option-icon">
+                            <i
+                                class="fa-solid fa-newspaper"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="advertise-digital-option-content">
+
+                            <span class="advertise-digital-option-number">
+                                02
+                            </span>
+
+                            <h4>
+                                Sponsored Content
+                            </h4>
+
+                            <p>
+                                Share useful business stories,
+                                announcements, or promotional content
+                                with the local online audience.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- OPTION 03 -->
+
+                    <article class="advertise-digital-option">
+
+                        <div class="advertise-digital-option-icon">
+                            <i
+                                class="fa-solid fa-star"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="advertise-digital-option-content">
+
+                            <span class="advertise-digital-option-number">
+                                03
+                            </span>
+
+                            <h4>
+                                Business Spotlight
+                            </h4>
+
+                            <p>
+                                Give your business additional visibility
+                                through a dedicated digital feature
+                                highlighting your brand and services.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+
+                <!-- =================================================
+                     DIGITAL BENEFITS
+                ================================================== -->
+
+                <div class="advertise-digital-benefits">
+
+                    <div class="advertise-digital-benefit">
+
+                        <i
+                            class="fa-solid fa-users"
+                            aria-hidden="true"
+                        ></i>
+
+                        <div>
+                            <strong>Local Audience</strong>
+                            <span>Connect with nearby readers</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="advertise-digital-benefit">
+
+                        <i
+                            class="fa-solid fa-display"
+                            aria-hidden="true"
+                        ></i>
+
+                        <div>
+                            <strong>Online Visibility</strong>
+                            <span>Build your digital presence</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="advertise-digital-benefit">
+
+                        <i
+                            class="fa-solid fa-bullhorn"
+                            aria-hidden="true"
+                        ></i>
+
+                        <div>
+                            <strong>Brand Promotion</strong>
+                            <span>Share your message locally</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     ACTION
+                ================================================== -->
+
+                <div class="advertise-digital-action">
+
+                    <a
+                        href="contact.html"
+                        class="advertise-digital-button"
+                    >
+                        <span>Discuss Digital Advertising</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 5 — PRINT ADVERTISING
+========================================================= -->
+
+<section class="advertise-print" id="printAdvertising">
+
+    <div class="advertise-print-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="advertise-print-header">
+
+            <div class="advertise-print-title-wrap">
+
+                <span class="advertise-print-eyebrow">
+                    PRINT ADVERTISING
+                </span>
+
+                <span class="advertise-print-line"></span>
+
+                <h2 class="advertise-print-title">
+                    Promote Your Message Through Local Print
+                </h2>
+
+            </div>
+
+            <p class="advertise-print-intro">
+                Reach local readers through newspaper advertising
+                designed for businesses, organizations, events,
+                announcements, and community messages.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN PRINT ADVERTISING LAYOUT
+        ================================================== -->
+
+        <div class="advertise-print-layout">
+
+
+            <!-- =================================================
+                 FEATURED PRINT IMAGE
+            ================================================== -->
+
+            <div class="advertise-print-image">
+
+                <img
+                    src="images/advertise-print-featured.jpg"
+                    alt="Print newspaper advertising"
+                >
+
+                <div class="advertise-print-image-label">
+
+                    <span class="advertise-print-image-number">
+                        01
+                    </span>
+
+                    <span class="advertise-print-image-text">
+                        NEWSPAPER REACH
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 PRINT ADVERTISING CONTENT
+            ================================================== -->
+
+            <div class="advertise-print-content">
+
+                <span class="advertise-print-category">
+                    NEWSPAPER ADVERTISING
+                </span>
+
+                <h3 class="advertise-print-content-title">
+                    Advertise Where Your Community Reads
+                </h3>
+
+                <p class="advertise-print-description">
+                    Put your business, service, event, or important
+                    announcement in front of local readers through
+                    flexible newspaper advertising opportunities
+                    with The Local Voice.
+                </p>
+
+
+                <!-- =================================================
+                     PRINT ADVERTISING OPTIONS
+                ================================================== -->
+
+                <div class="advertise-print-options">
+
+
+                    <!-- OPTION 01 -->
+
+                    <article class="advertise-print-option">
+
+                        <div class="advertise-print-option-icon">
+                            <i
+                                class="fa-solid fa-newspaper"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="advertise-print-option-content">
+
+                            <span class="advertise-print-option-number">
+                                01
+                            </span>
+
+                            <h4>
+                                Newspaper Display Ads
+                            </h4>
+
+                            <p>
+                                Promote your business, products,
+                                services, or offers through prominent
+                                newspaper advertising placements.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- OPTION 02 -->
+
+                    <article class="advertise-print-option">
+
+                        <div class="advertise-print-option-icon">
+                            <i
+                                class="fa-solid fa-list"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="advertise-print-option-content">
+
+                            <span class="advertise-print-option-number">
+                                02
+                            </span>
+
+                            <h4>
+                                Classified Advertising
+                            </h4>
+
+                            <p>
+                                Share property listings, job
+                                opportunities, vehicles, services,
+                                and other local advertisements.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- OPTION 03 -->
+
+                    <article class="advertise-print-option">
+
+                        <div class="advertise-print-option-icon">
+                            <i
+                                class="fa-solid fa-bullhorn"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                        <div class="advertise-print-option-content">
+
+                            <span class="advertise-print-option-number">
+                                03
+                            </span>
+
+                            <h4>
+                                Special Announcements
+                            </h4>
+
+                            <p>
+                                Publish important business, community,
+                                event, or public announcements for
+                                local readers.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+
+                <!-- =================================================
+                     PRINT ADVERTISING BENEFITS
+                ================================================== -->
+
+                <div class="advertise-print-benefits">
+
+                    <div class="advertise-print-benefit">
+
+                        <i
+                            class="fa-solid fa-location-dot"
+                            aria-hidden="true"
+                        ></i>
+
+                        <div>
+                            <strong>Local Reach</strong>
+                            <span>
+                                Connect with readers in your community
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="advertise-print-benefit">
+
+                        <i
+                            class="fa-solid fa-layer-group"
+                            aria-hidden="true"
+                        ></i>
+
+                        <div>
+                            <strong>Flexible Formats</strong>
+                            <span>
+                                Choose an advertising format for your message
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="advertise-print-benefit">
+
+                        <i
+                            class="fa-solid fa-users"
+                            aria-hidden="true"
+                        ></i>
+
+                        <div>
+                            <strong>Community Visibility</strong>
+                            <span>
+                                Stay visible to local readers
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     ACTION
+                ================================================== -->
+
+                <div class="advertise-print-action">
+
+                    <a
+                        href="contact.html"
+                        class="advertise-print-button"
+                    >
+                        <span>Discuss Print Advertising</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 6 — FEATURED ADVERTISING PACKAGES
+========================================================= -->
+
+<section class="advertise-packages" id="advertisingPackages">
+
+    <div class="advertise-packages-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="advertise-packages-header">
+
+            <div class="advertise-packages-title-wrap">
+
+                <span class="advertise-packages-eyebrow">
+                    FEATURED ADVERTISING PACKAGES
+                </span>
+
+                <span class="advertise-packages-line"></span>
+
+                <h2 class="advertise-packages-title">
+                    Choose the Right Package for Your Campaign
+                </h2>
+
+            </div>
+
+            <p class="advertise-packages-intro">
+                Explore advertising options designed to help
+                local businesses, organizations, and community
+                groups connect with readers through The Local Voice.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             PACKAGE CARDS
+        ================================================== -->
+
+        <div class="advertise-packages-grid">
+
+
+            <!-- =================================================
+                 PACKAGE 01 — LOCAL STARTER
+            ================================================== -->
+
+            <article class="advertise-package-card">
+
+                <div class="advertise-package-top">
+
+                    <span class="advertise-package-number">
+                        01
+                    </span>
+
+                    <span class="advertise-package-label">
+                        LOCAL ADVERTISING
+                    </span>
+
+                </div>
+
+                <h3 class="advertise-package-title">
+                    Local Starter
+                </h3>
+
+                <p class="advertise-package-description">
+                    A practical option for small businesses
+                    and local promotions looking to build
+                    community visibility among people near you.
+                </p>
+
+
+                <!-- PACKAGE FEATURES -->
+
+                <div class="advertise-package-features">
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Newspaper Advertising</span>
+                    </div>
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Local Audience Reach</span>
+                    </div>
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Standard Ad Placement</span>
+                    </div>
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Campaign Enquiry Support</span>
+                    </div>
+
+                </div>
+
+
+                <!-- PACKAGE ACTION -->
+
+                <div class="advertise-package-action">
+
+                    <a
+                        href="contact.html"
+                        class="advertise-package-button"
+                    >
+                        <span>Enquire Now</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 PACKAGE 02 — COMMUNITY REACH
+            ================================================== -->
+
+            <article class="advertise-package-card advertise-package-card-featured">
+
+                <!-- FEATURED BADGE -->
+
+                <div class="advertise-package-featured-badge">
+                    <i
+                        class="fa-solid fa-star"
+                        aria-hidden="true"
+                    ></i>
+
+                    <span>FEATURED</span>
+                </div>
+
+
+                <div class="advertise-package-top">
+
+                    <span class="advertise-package-number">
+                        02
+                    </span>
+
+                    <span class="advertise-package-label">
+                        COMMUNITY ADVERTISING
+                    </span>
+
+                </div>
+
+                <h3 class="advertise-package-title">
+                    Community Reach
+                </h3>
+
+                <p class="advertise-package-description">
+                    A broader advertising option for businesses
+                    seeking stronger visibility across print and
+                    digital community audiences.
+                </p>
+
+
+                <!-- PACKAGE FEATURES -->
+
+                <div class="advertise-package-features">
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Newspaper Advertising</span>
+                    </div>
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Digital Advertising</span>
+                    </div>
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Online Visibility</span>
+                    </div>
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Community Audience Reach</span>
+                    </div>
+
+                    
+
+                </div>
+
+
+                <!-- PACKAGE ACTION -->
+
+                <div class="advertise-package-action">
+
+                    <a
+                        href="contact.html"
+                        class="advertise-package-button"
+                    >
+                        <span>Enquire Now</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 PACKAGE 03 — LOCAL SPOTLIGHT
+            ================================================== -->
+
+            <article class="advertise-package-card">
+
+                <div class="advertise-package-top">
+
+                    <span class="advertise-package-number">
+                        03
+                    </span>
+
+                    <span class="advertise-package-label">
+                        PREMIUM VISIBILITY
+                    </span>
+
+                </div>
+
+                <h3 class="advertise-package-title">
+                    Local Spotlight
+                </h3>
+
+                <p class="advertise-package-description">
+                    A prominent advertising option for larger
+                    campaigns, special promotions, and businesses
+                    seeking stronger local visibility.
+                </p>
+
+
+                <!-- PACKAGE FEATURES -->
+
+                <div class="advertise-package-features">
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Print Advertising</span>
+                    </div>
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Digital Advertising</span>
+                    </div>
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Featured Placement</span>
+                    </div>
+
+                    <div class="advertise-package-feature">
+                        <i
+                            class="fa-solid fa-check"
+                            aria-hidden="true"
+                        ></i>
+                        <span>Business Spotlight</span>
+                    </div>
+
+                    
+
+                </div>
+
+
+                <!-- PACKAGE ACTION -->
+
+                <div class="advertise-package-action">
+
+                    <a
+                        href="contact.html"
+                        class="advertise-package-button"
+                    >
+                        <span>Enquire Now</span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 7 — WHO YOU CAN REACH
+========================================================= -->
+
+<section class="advertise-audience" id="whoYouCanReach">
+
+    <div class="advertise-audience-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="advertise-audience-header">
+
+            <div class="advertise-audience-title-wrap">
+
+                <span class="advertise-audience-eyebrow">
+                    WHO YOU CAN REACH
+                </span>
+
+                <span class="advertise-audience-line"></span>
+
+                <h2 class="advertise-audience-title">
+                    Connect With Different Parts of the Local Community
+                </h2>
+
+            </div>
+
+            <p class="advertise-audience-intro">
+                Reach people who live, work, study, shop, and
+                participate in activities across the local
+                community through The Local Voice.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN AUDIENCE LAYOUT
+        ================================================== -->
+
+        <div class="advertise-audience-layout">
+
+
+            <!-- =================================================
+                 FEATURED IMAGE
+            ================================================== -->
+
+            <div class="advertise-audience-image">
+
+                <img
+                    src="images/advertise-audience.jpg"
+                    alt="Local community audience"
+                >
+
+                <div class="advertise-audience-image-overlay"></div>
+
+                <div class="advertise-audience-image-label">
+
+                    <span class="advertise-audience-image-number">
+                        01
+                    </span>
+
+                    <span class="advertise-audience-image-text">
+                        LOCAL AUDIENCE
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 AUDIENCE CONTENT
+            ================================================== -->
+
+            <div class="advertise-audience-content">
+
+                <span class="advertise-audience-category">
+                    LOCAL AUDIENCE
+                </span>
+
+                <h3 class="advertise-audience-content-title">
+                    Connect With Your Community
+                </h3>
+
+                <p class="advertise-audience-description">
+                    The Local Voice gives advertisers an opportunity
+                    to connect with different groups within the local
+                    community through relevant print, digital, and
+                    event-focused advertising.
+                </p>
+
+
+                <!-- =================================================
+                     AUDIENCE GRID
+                ================================================== -->
+
+                <div class="advertise-audience-grid">
+
+
+                    <!-- AUDIENCE 01 -->
+
+                    <article class="advertise-audience-card">
+
+                        <div class="advertise-audience-card-top">
+
+                            <span class="advertise-audience-card-number">
+                                01
+                            </span>
+
+                            <div class="advertise-audience-card-icon">
+                                <i
+                                    class="fa-solid fa-users"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                        </div>
+
+                        <h4>
+                            Local Families
+                        </h4>
+
+                        <p>
+                            Reach households looking for local
+                            products, services, information, and
+                            community updates.
+                        </p>
+
+                    </article>
+
+
+                    <!-- AUDIENCE 02 -->
+
+                    <article class="advertise-audience-card">
+
+                        <div class="advertise-audience-card-top">
+
+                            <span class="advertise-audience-card-number">
+                                02
+                            </span>
+
+                            <div class="advertise-audience-card-icon">
+                                <i
+                                    class="fa-solid fa-store"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                        </div>
+
+                        <h4>
+                            Business Owners
+                        </h4>
+
+                        <p>
+                            Connect with entrepreneurs and businesses
+                            across the local community peoples wanted near you.
+                        </p>
+
+                    </article>
+
+
+                    <!-- AUDIENCE 03 -->
+
+                    <article class="advertise-audience-card">
+
+                        <div class="advertise-audience-card-top">
+
+                            <span class="advertise-audience-card-number">
+                                03
+                            </span>
+
+                            <div class="advertise-audience-card-icon">
+                                <i
+                                    class="fa-solid fa-graduation-cap"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                        </div>
+
+                        <h4>
+                            Students &amp; Young Adults
+                        </h4>
+
+                        <p>
+                            Promote education, events, services,
+                            opportunities, and activities for
+                            younger audiences growth.
+                        </p>
+
+                    </article>
+
+
+                    <!-- AUDIENCE 04 -->
+
+                    <article class="advertise-audience-card">
+
+                        <div class="advertise-audience-card-top">
+
+                            <span class="advertise-audience-card-number">
+                                04
+                            </span>
+
+                            <div class="advertise-audience-card-icon">
+                                <i
+                                    class="fa-solid fa-handshake"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                        </div>
+
+                        <h4>
+                            Community Organizations
+                        </h4>
+
+                        <p>
+                            Reach organizations and groups involved
+                            in local programs, initiatives, and
+                            community activities.
+                        </p>
+
+                    </article>
+
+
+                    <!-- AUDIENCE 05 -->
+
+                    <article class="advertise-audience-card">
+
+                        <div class="advertise-audience-card-top">
+
+                            <span class="advertise-audience-card-number">
+                                05
+                            </span>
+
+                            <div class="advertise-audience-card-icon">
+                                <i
+                                    class="fa-solid fa-bag-shopping"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                        </div>
+
+                        <h4>
+                            Local Shoppers
+                        </h4>
+
+                        <p>
+                            Introduce products, offers, services,
+                            and promotions to nearby customers in your areas growth.
+                        </p>
+
+                    </article>
+
+
+                    <!-- AUDIENCE 06 -->
+
+                    <article class="advertise-audience-card">
+
+                        <div class="advertise-audience-card-top">
+
+                            <span class="advertise-audience-card-number">
+                                06
+                            </span>
+
+                            <div class="advertise-audience-card-icon">
+                                <i
+                                    class="fa-regular fa-calendar-check"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                        </div>
+
+                        <h4>
+                            Event Participants
+                        </h4>
+
+                        <p>
+                            Promote events, workshops, programs,
+                            and activities to people looking for
+                            local experiences.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             AUDIENCE REACH HIGHLIGHTS
+        ================================================== -->
+
+        <div class="advertise-audience-highlights">
+
+
+            <!-- HIGHLIGHT 01 -->
+
+            <div class="advertise-audience-highlight">
+
+                <div class="advertise-audience-highlight-icon">
+                    <i
+                        class="fa-solid fa-users"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="advertise-audience-highlight-content">
+
+                    <strong>
+                        Local Readers
+                    </strong>
+
+                    <span>
+                        Connect with people in the community
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- HIGHLIGHT 02 -->
+
+            <div class="advertise-audience-highlight">
+
+                <div class="advertise-audience-highlight-icon">
+                    <i
+                        class="fa-solid fa-people-group"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="advertise-audience-highlight-content">
+
+                    <strong>
+                        Community Audience
+                    </strong>
+
+                    <span>
+                        Reach people interested in local activities
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- HIGHLIGHT 03 -->
+
+            <div class="advertise-audience-highlight">
+
+                <div class="advertise-audience-highlight-icon">
+                    <i
+                        class="fa-solid fa-display"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="advertise-audience-highlight-content">
+
+                    <strong>
+                        Digital Visitors
+                    </strong>
+
+                    <span>
+                        Connect with online readers
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- HIGHLIGHT 04 -->
+
+            <div class="advertise-audience-highlight">
+
+                <div class="advertise-audience-highlight-icon">
+                    <i
+                        class="fa-regular fa-calendar"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="advertise-audience-highlight-content">
+
+                    <strong>
+                        Event Participants
+                    </strong>
+
+                    <span>
+                        Promote events and local programs
+                    </span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 8 — HOW ADVERTISING WORKS
+========================================================= -->
+
+<section class="advertise-process" id="howAdvertisingWorks">
+
+    <div class="advertise-process-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="advertise-process-header">
+
+            <div class="advertise-process-title-wrap">
+
+                <span class="advertise-process-eyebrow">
+                    HOW ADVERTISING WORKS
+                </span>
+
+                <span class="advertise-process-line"></span>
+
+                <h2 class="advertise-process-title">
+                    A Simple Way to Get Your Message Out
+                </h2>
+
+            </div>
+
+            <p class="advertise-process-intro">
+                From choosing an advertising option to reaching
+                local readers, our process is designed to make
+                advertising with The Local Voice straightforward.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             PROCESS TIMELINE
+        ================================================== -->
+
+        <div class="advertise-process-timeline">
+
+
+            <!-- =================================================
+                 STEP 01
+            ================================================== -->
+
+            <article class="advertise-process-step">
+
+                <div class="advertise-process-step-top">
+
+                    <span class="advertise-process-step-number">
+                        01
+                    </span>
+
+                    <div class="advertise-process-step-icon">
+                        <i
+                            class="fa-solid fa-list-check"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                </div>
+
+                <div class="advertise-process-step-content">
+
+                    <span class="advertise-process-step-label">
+                        STEP 01
+                    </span>
+
+                    <h3>
+                        Choose Your Advertising Option
+                    </h3>
+
+                    <p>
+                        Select print advertising, digital
+                        advertising, event promotion, or an
+                        advertising package that suits your needs.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CONNECTOR 01
+            ================================================== -->
+
+            <span
+                class="advertise-process-connector"
+                aria-hidden="true"
+            ></span>
+
+
+            <!-- =================================================
+                 STEP 02
+            ================================================== -->
+
+            <article class="advertise-process-step">
+
+                <div class="advertise-process-step-top">
+
+                    <span class="advertise-process-step-number">
+                        02
+                    </span>
+
+                    <div class="advertise-process-step-icon">
+                        <i
+                            class="fa-solid fa-comments"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                </div>
+
+                <div class="advertise-process-step-content">
+
+                    <span class="advertise-process-step-label">
+                        STEP 02
+                    </span>
+
+                    <h3>
+                        Share Your Requirements
+                    </h3>
+
+                    <p>
+                        Tell us about your business, campaign,
+                        message, audience, and preferred
+                        advertising placement.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CONNECTOR 02
+            ================================================== -->
+
+            <span
+                class="advertise-process-connector"
+                aria-hidden="true"
+            ></span>
+
+
+            <!-- =================================================
+                 STEP 03
+            ================================================== -->
+
+            <article class="advertise-process-step">
+
+                <div class="advertise-process-step-top">
+
+                    <span class="advertise-process-step-number">
+                        03
+                    </span>
+
+                    <div class="advertise-process-step-icon">
+                        <i
+                            class="fa-solid fa-pen-ruler"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                </div>
+
+                <div class="advertise-process-step-content">
+
+                    <span class="advertise-process-step-label">
+                        STEP 03
+                    </span>
+
+                    <h3>
+                        Prepare Your Advertisement
+                    </h3>
+
+                    <p>
+                        Work with the advertising team to finalize
+                        your content, design, format, and selected
+                        advertising placement.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CONNECTOR 03
+            ================================================== -->
+
+            <span
+                class="advertise-process-connector"
+                aria-hidden="true"
+            ></span>
+
+
+            <!-- =================================================
+                 STEP 04
+            ================================================== -->
+
+            <article class="advertise-process-step">
+
+                <div class="advertise-process-step-top">
+
+                    <span class="advertise-process-step-number">
+                        04
+                    </span>
+
+                    <div class="advertise-process-step-icon">
+                        <i
+                            class="fa-solid fa-bullhorn"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                </div>
+
+                <div class="advertise-process-step-content">
+
+                    <span class="advertise-process-step-label">
+                        STEP 04
+                    </span>
+
+                    <h3>
+                        Reach Local Readers across you
+                    </h3>
+
+                    <p>
+                        Your advertisement is published through
+                        the selected Local Voice channel and
+                        presented .
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =================================================
+             PROCESS NOTE
+        ================================================== -->
+
+        <div class="advertise-process-note">
+
+            <div class="advertise-process-note-icon">
+
+                <i
+                    class="fa-solid fa-circle-info"
+                    aria-hidden="true"
+                ></i>
+
+            </div>
+
+            <div class="advertise-process-note-content">
+
+                <strong>
+                    Need Help Choosing an Option?
+                </strong>
+
+                <p>
+                    Contact our advertising team to discuss your
+                    campaign and find an advertising format that
+                    fits your message and audience.
+                </p>
+
+            </div>
+
+            <a
+                href="contact.html"
+                class="advertise-process-note-link"
+            >
+                <span>Contact Us</span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 9 — ADVERTISING ENQUIRY
+========================================================= -->
+
+<section class="advertise-enquiry" id="advertisingEnquiry">
+
+    <div class="advertise-enquiry-container">
+
+        <!-- =================================================
+             LEFT CONTENT
+        ================================================== -->
+
+        <div class="advertise-enquiry-content">
+
+            <div class="advertise-enquiry-label">
+
+                <span class="advertise-enquiry-eyebrow">
+                    ADVERTISE WITH THE LOCAL VOICE
+                </span>
+
+                <span class="advertise-enquiry-line"></span>
+
+            </div>
+
+            <h2 class="advertise-enquiry-title">
+                Ready to Reach Your Local Audience?
+            </h2>
+
+            <p class="advertise-enquiry-description">
+                Tell us about your business, campaign, event,
+                or message and our advertising team will help
+                you choose an appropriate advertising option
+                for your goals.
+            </p>
+
+
+            <!-- =============================================
+                 ACTIONS
+            ============================================== -->
+
+            <div class="advertise-enquiry-actions">
+
+                <a
+                    href="contact.html"
+                    class="advertise-enquiry-primary"
+                >
+                    <span>Start Your Campaign</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+                <a
+                    href="contact.html"
+                    class="advertise-enquiry-secondary"
+                >
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT — ADVERTISING ENQUIRY DETAILS
+        ================================================== -->
+
+        <div class="advertise-enquiry-details">
+
+            <div class="advertise-enquiry-details-header">
+
+                <span class="advertise-enquiry-details-eyebrow">
+                    ADVERTISING ENQUIRIES
+                </span>
+
+                <h3 class="advertise-enquiry-details-title">
+                    Let's Talk About Your Campaign
+                </h3>
+
+            </div>
+
+
+            <!-- =============================================
+                 PHONE
+            ============================================== -->
+
+            <div class="advertise-enquiry-detail">
+
+                <div class="advertise-enquiry-detail-icon">
+                    <i
+                        class="fa-solid fa-phone"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="advertise-enquiry-detail-content">
+
+                    <span>
+                        PHONE
+                    </span>
+
+                    <strong>
+                        +91 00000 00000
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 EMAIL
+            ============================================== -->
+
+            <div class="advertise-enquiry-detail">
+
+                <div class="advertise-enquiry-detail-icon">
+                    <i
+                        class="fa-solid fa-envelope"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="advertise-enquiry-detail-content">
+
+                    <span>
+                        EMAIL
+                    </span>
+
+                    <strong>
+                        advertise@localvoice.com
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 OFFICE HOURS
+            ============================================== -->
+
+            <div class="advertise-enquiry-detail">
+
+                <div class="advertise-enquiry-detail-icon">
+                    <i
+                        class="fa-regular fa-clock"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="advertise-enquiry-detail-content">
+
+                    <span>
+                        OFFICE HOURS
+                    </span>
+
+                    <strong>
+                        Monday – Saturday, 9:00 AM – 6:00 PM
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 LOCATION
+            ============================================== -->
+
+            <div class="advertise-enquiry-detail">
+
+                <div class="advertise-enquiry-detail-icon">
+                    <i
+                        class="fa-solid fa-location-dot"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="advertise-enquiry-detail-content">
+
+                    <span>
+                        OFFICE
+                    </span>
+
+                    <strong>
+                        The Local Voice Community Office
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+         </main>
+<! =========================================================
+   FOOTER
+========================================================= !>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =============================================
+             FOOTER BRAND
+        ============================================== -->
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="footer-logo-light"
+                >
+
+                
+            </a>
+
+            <p class="footer-description">
+                Your trusted source for local news, community stories,
+                events, classifieds, and everything happening around you.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             QUICK LINKS
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="news.html">All News</a>
+                </li>
+
+                <li>
+                    <a href="classifieds.html">Classifieds</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="advertise.html">Advertise With Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             NEWS CATEGORIES
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                News Categories
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="civic.html">Civic</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">Sports</a>
+                </li>
+
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="news.html">Latest News</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             CONTACT
+        ============================================== -->
+
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <p>
+                    Your Local Community,<br>
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <a href="tel:+910000000000">
+                    +91 00000 00000
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:info@thelocalvoice.com">
+                    info@thelocalvoice.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         FOOTER BOTTOM
+    ============================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 The Local Voice. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+         We will add the header JS later.
+    ====================================================== -->
+<!-- =========================================================
+     SCROLL TO TOP BUTTON
+========================================================= -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
