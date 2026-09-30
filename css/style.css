@@ -42892,3 +42892,536 @@ html[dir="rtl"] .scroll-top-btn {
         left: 15px;
     }
 }
+
+
+
+
+
+
+
+/* =========================================================
+   GLOBAL HERO / BANNER TITLE FONT STYLE
+   MATCH CONTACT HERO STYLE
+========================================================= */
+
+.home1-hero-title,
+.home2-hero-title,
+.civic-hero-title,
+.civic-hero-content h1,
+.sports-hero-title,
+.sports-hero-content h1,
+.business-hero-title,
+.business-hero-content h1,
+.education-hero-title,
+.education-hero-content h1,
+.classifieds-hero-title,
+.classifieds-hero-content h1,
+.events-hero-title,
+.advertise-hero-title,
+.contact-hero-title,
+.contact-hero-content h1 {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 58px !important;
+    font-weight: 700 !important;
+    line-height: 1.12 !important;
+    letter-spacing: -1.5px !important;
+    color: #FFFFFF !important;
+    margin: 0 !important;
+}
+
+
+/* =========================================================
+   HERO TITLE — TABLET / IPAD
+========================================================= */
+
+@media (max-width: 1199px) {
+
+    .home1-hero-title,
+    .home2-hero-title,
+    .civic-hero-title,
+    .civic-hero-content h1,
+    .sports-hero-title,
+    .sports-hero-content h1,
+    .business-hero-title,
+    .business-hero-content h1,
+    .education-hero-title,
+    .education-hero-content h1,
+    .classifieds-hero-title,
+    .classifieds-hero-content h1,
+    .events-hero-title,
+    .advertise-hero-title,
+    .contact-hero-title,
+    .contact-hero-content h1 {
+        font-size: 50px !important;
+        line-height: 1.15 !important;
+        letter-spacing: -1.2px !important;
+    }
+}
+
+
+/* =========================================================
+   HERO TITLE — MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .home1-hero-title,
+    .home2-hero-title,
+    .civic-hero-title,
+    .civic-hero-content h1,
+    .sports-hero-title,
+    .sports-hero-content h1,
+    .business-hero-title,
+    .business-hero-content h1,
+    .education-hero-title,
+    .education-hero-content h1,
+    .classifieds-hero-title,
+    .classifieds-hero-content h1,
+    .events-hero-title,
+    .advertise-hero-title,
+    .contact-hero-title,
+    .contact-hero-content h1 {
+        font-size: 36px !important;
+        font-weight: 700 !important;
+        line-height: 1.18 !important;
+        letter-spacing: -0.6px !important;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 400px) {
+
+    .home1-hero-title,
+    .home2-hero-title,
+    .civic-hero-title,
+    .civic-hero-content h1,
+    .sports-hero-title,
+    .sports-hero-content h1,
+    .business-hero-title,
+    .business-hero-content h1,
+    .education-hero-title,
+    .education-hero-content h1,
+    .classifieds-hero-title,
+    .classifieds-hero-content h1,
+    .events-hero-title,
+    .advertise-hero-title,
+    .contact-hero-title,
+    .contact-hero-content h1 {
+        font-size: 32px !important;
+        line-height: 1.18 !important;
+    }
+}
+
+
+
+
+
+
+/* =========================================================
+   CLASSIFIEDS COMMUNITY
+   REMOVE EXTRA EMPTY SPACE
+========================================================= */
+
+.classifieds-community-layout {
+    align-items: start !important;
+}
+
+.classifieds-community-featured,
+.classifieds-community-list,
+.classifieds-community-notice {
+    height: fit-content !important;
+    min-height: 0 !important;
+    align-self: start !important;
+}
+
+
+/* Make the listing column use only its content height */
+
+.classifieds-community-list {
+    align-self: start !important;
+}
+
+
+/* Prevent the notice box from stretching */
+
+.classifieds-community-notice {
+    align-self: start !important;
+}
+
+
+/* Prevent the whole section from having unnecessary height */
+
+.classifieds-community {
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   COMMUNITY LISTINGS — FULL WIDTH
+========================================================= */
+
+.classifieds-community-list {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+}
+
+.classifieds-community-item {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   CLASSIFIEDS COMMUNITY
+   SOCIAL MEDIA CARD
+========================================================= */
+
+.classifieds-community-social {
+    width: 100%;
+    padding: 26px;
+    background: #F8F7F3;
+    border: 1px solid #E4E4E4;
+    align-self: start;
+}
+
+.classifieds-community-social-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.classifieds-community-social-eyebrow {
+    font-family: "Poppins", sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #C89B3C;
+}
+
+.classifieds-community-social-line {
+    width: 38px;
+    height: 2px;
+    background: #C89B3C;
+}
+
+.classifieds-community-social h3 {
+    margin: 0 0 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #172B4D;
+}
+
+.classifieds-community-social p {
+    margin: 0 0 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #667085;
+}
+
+
+/* =========================================================
+   SOCIAL LINKS
+========================================================= */
+
+.classifieds-community-social-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.classifieds-community-social-links a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    min-height: 42px;
+    padding: 9px 12px;
+
+    border: 1px solid #E4E4E4;
+    background: #FFFFFF;
+
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+
+    transition: 0.3s ease;
+}
+
+.classifieds-community-social-links i {
+    width: 18px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* Facebook */
+
+.classifieds-social-facebook {
+    color: #1877F2;
+}
+
+.classifieds-social-facebook:hover {
+    background: #1877F2;
+    color: #FFFFFF;
+}
+
+
+/* Instagram */
+
+.classifieds-social-instagram {
+    color: #C13584;
+}
+
+.classifieds-social-instagram:hover {
+    background: #C13584;
+    color: #FFFFFF;
+}
+
+
+/* YouTube */
+
+.classifieds-social-youtube {
+    color: #FF0000;
+}
+
+.classifieds-social-youtube:hover {
+    background: #FF0000;
+    color: #FFFFFF;
+}
+
+
+/* X */
+
+.classifieds-social-x {
+    color: #111111;
+}
+
+.classifieds-social-x:hover {
+    background: #111111;
+    color: #FFFFFF;
+}
+
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+body.dark-mode .classifieds-community-social {
+    background: #182230;
+    border-color: #344054;
+}
+
+body.dark-mode .classifieds-community-social h3 {
+    color: #F5F5F5;
+}
+
+body.dark-mode .classifieds-community-social p {
+    color: #98A2B3;
+}
+
+body.dark-mode .classifieds-community-social-links a {
+    background: #101828;
+    border-color: #344054;
+}
+
+body.dark-mode .classifieds-social-x {
+    color: #FFFFFF;
+}
+
+body.dark-mode .classifieds-social-x:hover {
+    background: #FFFFFF;
+    color: #101828;
+}
+
+
+/* =========================================================
+   RTL
+========================================================= */
+
+html[dir="rtl"] .classifieds-community-social-links a {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .classifieds-community-social-top {
+    flex-direction: row-reverse;
+}
+/* =========================================================
+   CLASSIFIEDS COMMUNITY
+   SOCIAL CARD — RIGHT SIDEBAR
+========================================================= */
+
+@media (min-width: 992px) {
+
+    .classifieds-community-layout {
+        display: grid !important;
+
+        grid-template-columns:
+            minmax(0, 1.35fr)
+            minmax(0, 1fr)
+            minmax(250px, 0.72fr) !important;
+
+        grid-template-rows: auto auto !important;
+
+        column-gap: 28px !important;
+        row-gap: 24px !important;
+
+        align-items: start !important;
+        height: auto !important;
+        min-height: 0 !important;
+    }
+
+
+    /* =========================================
+       1. FEATURED COMMUNITY
+    ========================================= */
+
+    .classifieds-community-featured {
+        grid-column: 1 !important;
+        grid-row: 1 / 3 !important;
+
+        width: 100% !important;
+        height: fit-content !important;
+        min-height: 0 !important;
+
+        margin: 0 !important;
+        align-self: start !important;
+    }
+
+
+    /* =========================================
+       2. COMMUNITY LISTINGS
+    ========================================= */
+
+    .classifieds-community-list {
+        grid-column: 2 !important;
+        grid-row: 1 / 3 !important;
+
+        width: 100% !important;
+        height: fit-content !important;
+        min-height: 0 !important;
+
+        margin: 0 !important;
+        align-self: start !important;
+    }
+
+
+    /* =========================================
+       3. COMMUNITY NOTICE
+    ========================================= */
+
+    .classifieds-community-notice {
+        grid-column: 3 !important;
+        grid-row: 1 !important;
+
+        width: 100% !important;
+        height: fit-content !important;
+        min-height: 0 !important;
+
+        margin: 0 !important;
+        align-self: start !important;
+    }
+
+
+    /* =========================================
+       4. SOCIAL MEDIA
+    ========================================= */
+
+    .classifieds-community-social {
+        grid-column: 3 !important;
+        grid-row: 2 !important;
+
+        width: 100% !important;
+        height: fit-content !important;
+        min-height: 0 !important;
+
+        margin: 0 !important;
+        align-self: start !important;
+
+        position: static !important;
+        transform: none !important;
+    }
+
+}
+
+
+
+
+
+/* =========================================================
+   EVENTS CALENDAR
+   CENTER ALIGN SECTION HEADER
+========================================================= */
+
+.events-calendar-header {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.events-calendar-title-wrap {
+    width: 100% !important;
+    max-width: 850px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.events-calendar-eyebrow {
+    display: block !important;
+    text-align: center !important;
+}
+
+.events-calendar-line {
+    display: block !important;
+    margin: 8px auto 14px !important;
+}
+
+.events-calendar-title {
+    width: 100% !important;
+    margin: 0 auto 10px !important;
+    text-align: center !important;
+}
+
+.events-calendar-description {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
