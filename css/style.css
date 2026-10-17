@@ -44044,6 +44044,109 @@ html[dir="rtl"] .home1-hero-content {
 
 
 
+/* SPORTS CATEGORY VIEW LINKS — FONT SIZE */
+
+.sports-category-view {
+    font-size: 14px;
+}
+
+.sports-category-view i {
+    font-size: 11px;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .sports-category-view {
+        font-size: 13px;
+    }
+}
+
+
+/* SPORTS CATEGORY VIEW — OVERRIDE */
+
+.sports-category-view {
+    font-size: 14px;
+    gap: 8px;
+}
+
+.sports-category-view span {
+    font-size: inherit;
+}
+
+.sports-category-view i {
+    font-size: 11px;
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+    .sports-category-view {
+        font-size: 13px;
+        gap: 6px;
+    }
+
+    .sports-category-view i {
+        font-size: 10px;
+    }
+}
+
+/* FORCE SPORTS CATEGORY LINK FONT SIZE */
+
+a.sports-category-view,
+a.sports-category-view span {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+}
+
+a.sports-category-view i {
+    font-size: 10px !important;
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    a.sports-category-view,
+    a.sports-category-view span {
+        font-size: 12px !important;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+    a.sports-category-view,
+    a.sports-category-view span {
+        font-size: 12px !important;
+    }
+}
+
+
+
+
+/* EDUCATION CATEGORY LINKS — FONT SIZE OVERRIDE */
+
+a.education-category-go,
+a.education-category-go span {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+}
+
+a.education-category-go i {
+    font-size: 10px !important;
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    a.education-category-go,
+    a.education-category-go span {
+        font-size: 12px !important;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+    a.education-category-go,
+    a.education-category-go span {
+        font-size: 12px !important;
+    }
+}
 
 
 
@@ -44051,8 +44154,55 @@ html[dir="rtl"] .home1-hero-content {
 
 
 
+/* =====================================================
+   CLASSIFIEDS — CARD FONT SIZE OVERRIDE
+====================================================== */
 
+/* Property title */
+h2.classifieds-property-title {
+    font-size: 20px !important;
+    line-height: 1.4 !important;
+}
 
+/* Jobs title */
+h2.classifieds-jobs-title {
+    font-size: 20px !important;
+    line-height: 1.4 !important;
+}
+
+/* View Listing link */
+a.classifieds-latest-link {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+}
+
+a.classifieds-latest-link i {
+    font-size: 11px !important;
+}
+
+/* iPad Mini and iPad Pro */
+@media (min-width: 768px) and (max-width: 1199px) {
+    h2.classifieds-property-title,
+    h2.classifieds-jobs-title {
+        font-size: 18px !important;
+    }
+
+    a.classifieds-latest-link {
+        font-size: 12px !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    h2.classifieds-property-title,
+    h2.classifieds-jobs-title {
+        font-size: 17px !important;
+    }
+
+    a.classifieds-latest-link {
+        font-size: 12px !important;
+    }
+}
 
 
 
