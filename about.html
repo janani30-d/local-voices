@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="The Local Voice - Local Newspaper and Community News Portal"
+    >
+
+    <meta
+        name="keywords"
+        content="local news, community news, newspaper, events, classifieds"
+    >
+
+    <meta
+        name="author"
+        content="The Local Voice"
+    >
+
+
+    <!-- =====================================================
+         PAGE TITLE
+    ====================================================== -->
+
+    <title>
+        The Local Voice | Local News & Community
+    </title>
+<link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+>
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER START
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="The Local Voice Home"
+            >
+
+                <!-- Light Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-light"
+                >
+
+
+                <!-- Dark Mode Logo -->
+
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="logo-dark"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                id="desktopNavigation"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+                <a
+                    href="about.html"
+                    class="nav-link active"
+                >
+                    About Us
+                </a>
+
+
+                <!-- =============================================
+                     NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     NORMAL NAVIGATION LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTIONS
+            ================================================== -->
+
+            <div class="header-actions">
+
+    <button
+        type="button"
+        class="header-action-btn rtl-toggle"
+        id="rtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="header-action-btn dark-toggle"
+        id="darkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="login-btn"
+    >
+        Login
+    </a>
+
+</div>
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+            ================================================== -->
+
+            <button
+                type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================================
+             MOBILE NAVIGATION
+        ====================================================== -->
+
+        <div
+            class="mobile-navigation"
+            id="mobileNavigation"
+        >
+
+            <div class="mobile-navigation-inner">
+
+
+                <!-- =============================================
+                     MOBILE HOME DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        Home
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        <a href="index.html">
+                            Home 1
+                        </a>
+
+                        <a href="home2.html">
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+                <a
+                    href="about.html"
+                    class="mobile-nav-link active"
+                >
+                    About Us
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE NEWS DROPDOWN
+                ============================================== -->
+
+                <div class="mobile-dropdown">
+
+                    <button
+                        type="button"
+                        class="mobile-dropdown-toggle"
+                        aria-expanded="false"
+                    >
+                        News
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="mobile-dropdown-menu">
+
+                        
+
+                        <a href="civic.html">
+                            Civic
+                        </a>
+
+                        <a href="sports.html">
+                            Sports
+                        </a>
+
+                        <a href="business.html">
+                            Business
+                        </a>
+
+                        <a href="education.html">
+                            Education
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     MOBILE NORMAL LINKS
+                ============================================== -->
+
+                <a
+                    href="classifieds.html"
+                    class="mobile-nav-link"
+                >
+                    Classifieds
+                </a>
+
+
+                <a
+                    href="events.html"
+                    class="mobile-nav-link"
+                >
+                    Events
+                </a>
+
+
+                <a
+                    href="advertise.html"
+                    class="mobile-nav-link"
+                >
+                    Advertise With Us
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="mobile-nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     MOBILE ACTIONS
+                ============================================== -->
+
+                <div class="mobile-actions">
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileRtlToggle"
+        aria-label="Switch text direction"
+        title="RTL"
+    >
+        <i class="fa-solid fa-right-left"></i>
+    </button>
+
+    <button
+        type="button"
+        class="mobile-action-btn"
+        id="mobileDarkToggle"
+        aria-label="Toggle dark mode"
+        title="Dark Mode"
+    >
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <a
+        href="login.html"
+        class="mobile-login-btn"
+    >
+        Login
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HEADER END
+    ====================================================== -->
+
+
+    <!-- =====================================================
+         MAIN CONTENT START
+         We will add this later.
+    ====================================================== -->
+
+    <main>
+
+<!-- =====================================================
+     ABOUT PAGE — SECTION 1: HERO
+====================================================== -->
+
+<section class="about-hero" id="aboutHero">
+
+    <!-- Background Overlay -->
+    <div class="about-hero-overlay"></div>
+
+    <!-- Hero Content -->
+    <div class="about-hero-container">
+
+        <div class="about-hero-content">
+
+            <!-- Eyebrow -->
+            <div class="about-hero-eyebrow-wrap">
+                <span class="about-hero-eyebrow">
+                    ABOUT THE LOCAL VOICE
+                </span>
+                <span class="about-hero-line"></span>
+            </div>
+
+            <!-- Main Heading -->
+            <h1 class="about-hero-title">
+                Your Trusted Voice in
+                <span>the Local Community</span>
+            </h1>
+
+            <!-- Description -->
+            <p class="about-hero-description">
+                We bring local stories, community updates, events,
+                and important information closer to the people
+                who matter most.
+            </p>
+
+            <!-- Hero Meta -->
+            <div class="about-hero-meta">
+
+                <span>
+                    <i class="fa-solid fa-newspaper"
+                       aria-hidden="true"></i>
+                    Local News
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-people-group"
+                       aria-hidden="true"></i>
+                    Community Stories
+                </span>
+
+            </div>
+
+            <!-- CTA -->
+            <a href="#aboutStory" class="about-hero-button">
+                <span>DISCOVER OUR STORY</span>
+                <i class="fa-solid fa-arrow-right"
+                   aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     ABOUT PAGE — SECTION 2: OUR STORY
+====================================================== -->
+
+<section class="about-story" id="aboutStory">
+
+    <div class="about-story-container">
+
+        <!-- LEFT: IMAGE -->
+        <div class="about-story-visual">
+
+            <div class="about-story-image">
+                <img
+                    src="images/about-story.jpg"
+                    alt="Local community members sharing news and stories"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="about-story-image-accent"></div>
+
+            <div class="about-story-image-caption">
+                <i class="fa-solid fa-newspaper"
+                   aria-hidden="true"></i>
+
+                <div>
+                    <strong>Rooted in Our Community</strong>
+                    <span>Stories that bring people together</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT: CONTENT -->
+        <div class="about-story-content">
+
+            <div class="about-story-eyebrow-wrap">
+                <span class="about-story-eyebrow">OUR STORY</span>
+                <span class="about-story-line"></span>
+            </div>
+
+            <h2 class="about-story-title">
+                Every Community Has a Story.
+                <span>We Help Share It.</span>
+            </h2>
+
+            <p class="about-story-intro">
+                The Local Voice is a community-focused platform
+                dedicated to bringing people closer to the news,
+                events, opportunities, and stories that matter
+                in their everyday lives.
+            </p>
+
+            <p class="about-story-description">
+                From important local updates and community
+                gatherings to job opportunities, property listings,
+                vehicles, and local services, we make it easier
+                for residents to discover useful information
+                in one place.
+            </p>
+
+            <p class="about-story-description">
+                We believe that strong communities begin with
+                informed people. Our goal is to help local voices
+                be heard, keep residents connected, and make
+                community information accessible to everyone.
+            </p>
+
+            <!-- HIGHLIGHTS -->
+            <div class="about-story-highlights">
+
+                <div class="about-story-highlight">
+                    <span class="about-story-highlight-icon">
+                        <i class="fa-solid fa-location-dot"
+                           aria-hidden="true"></i>
+                    </span>
+
+                    <div>
+                        <h3>Local at Heart</h3>
+                        <p>Focused on the people and places around us.</p>
+                    </div>
+                </div>
+
+                <div class="about-story-highlight">
+                    <span class="about-story-highlight-icon">
+                        <i class="fa-solid fa-users"
+                           aria-hidden="true"></i>
+                    </span>
+
+                    <div>
+                        <h3>Community First</h3>
+                        <p>Connecting residents with relevant information.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="contact.html" class="about-story-button">
+                <span>CONNECT WITH US</span>
+                <i class="fa-solid fa-arrow-right"
+                   aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     ABOUT PAGE — SECTION 3: MISSION & VISION
+====================================================== -->
+
+<section class="about-mission" id="aboutMission">
+
+    <div class="about-mission-container">
+
+        <!-- SECTION HEADER -->
+        <div class="about-mission-header">
+
+            <div class="about-mission-eyebrow-wrap">
+                <span class="about-mission-eyebrow">
+                    WHAT GUIDES US
+                </span>
+
+                <span class="about-mission-line"></span>
+            </div>
+
+            <h2 class="about-mission-title">
+                Our Mission & <span>Vision</span>
+            </h2>
+
+            <p class="about-mission-description">
+                We believe informed communities are stronger communities.
+                Everything we do is guided by our commitment to local
+                information, meaningful connections, and community voices.
+            </p>
+
+        </div>
+
+        <!-- MISSION & VISION CARDS -->
+        <div class="about-mission-grid">
+
+            <!-- MISSION CARD -->
+            <article class="about-mission-card">
+
+                <div class="about-mission-card-top">
+
+                    <div class="about-mission-icon">
+                        <i class="fa-solid fa-bullseye"
+                           aria-hidden="true"></i>
+                    </div>
+
+                    <span class="about-mission-number">01</span>
+
+                </div>
+
+                <span class="about-mission-card-label">
+                    OUR PURPOSE
+                </span>
+
+                <h3 class="about-mission-card-title">
+                    Our Mission
+                </h3>
+
+                <p class="about-mission-card-description">
+                    To make local news, community events, job
+                    opportunities, property listings, and essential
+                    services easier for residents to discover.
+                    We aim to keep people informed and help local
+                    voices reach the wider community.
+                </p>
+
+                <div class="about-mission-card-footer">
+                    <span class="about-mission-card-footer-line"></span>
+                    <span>Information that brings us together</span>
+                </div>
+
+            </article>
+
+            <!-- VISION CARD -->
+            <article class="about-mission-card about-mission-vision-card">
+
+                <div class="about-mission-card-top">
+
+                    <div class="about-mission-icon">
+                        <i class="fa-solid fa-eye"
+                           aria-hidden="true"></i>
+                    </div>
+
+                    <span class="about-mission-number">02</span>
+
+                </div>
+
+                <span class="about-mission-card-label">
+                    OUR FUTURE
+                </span>
+
+                <h3 class="about-mission-card-title">
+                    Our Vision
+                </h3>
+
+                <p class="about-mission-card-description">
+                    To become a trusted community information hub
+                    where residents can discover relevant updates,
+                    share meaningful stories, find local opportunities,
+                    and feel more connected to the people and places
+                    around them.
+                </p>
+
+                <div class="about-mission-card-footer">
+                    <span class="about-mission-card-footer-line"></span>
+                    <span>A stronger, more connected community</span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     ABOUT PAGE — SECTION 4: WHAT WE COVER
+====================================================== -->
+
+<section class="about-coverage" id="aboutCoverage">
+
+    <div class="about-coverage-container">
+
+        <!-- SECTION HEADER -->
+        <div class="about-coverage-header">
+
+            <div class="about-coverage-eyebrow-wrap">
+                <span class="about-coverage-eyebrow">
+                    WHAT WE COVER
+                </span>
+                <span class="about-coverage-line"></span>
+            </div>
+
+            <h2 class="about-coverage-title">
+                Everything Local,
+                <span>All in One Place</span>
+            </h2>
+
+            <p class="about-coverage-description">
+                From the latest community updates to everyday
+                opportunities, discover the information that
+                keeps your local community connected.
+            </p>
+
+        </div>
+
+        <!-- CATEGORY CARDS -->
+        <div class="about-coverage-grid">
+
+            <!-- LOCAL NEWS -->
+            <article class="about-coverage-card">
+                <div class="about-coverage-icon">
+                    <i class="fa-solid fa-newspaper"
+                       aria-hidden="true"></i>
+                </div>
+
+                <span class="about-coverage-number">01</span>
+
+                <h3>Local News</h3>
+
+                <p>
+                    Stay informed about local developments,
+                    civic updates, education, and business news.
+                </p>
+
+                <a href="index.html" class="about-coverage-link">
+                    <span>Explore News</span>
+                    <i class="fa-solid fa-arrow-right"
+                       aria-hidden="true"></i>
+                </a>
+            </article>
+
+            <!-- EVENTS -->
+            <article class="about-coverage-card">
+                <div class="about-coverage-icon">
+                    <i class="fa-solid fa-calendar-days"
+                       aria-hidden="true"></i>
+                </div>
+
+                <span class="about-coverage-number">02</span>
+
+                <h3>Community Events</h3>
+
+                <p>
+                    Discover upcoming gatherings, workshops,
+                    cultural programs, and local activities.
+                </p>
+
+                <a href="events.html" class="about-coverage-link">
+                    <span>Explore Events</span>
+                    <i class="fa-solid fa-arrow-right"
+                       aria-hidden="true"></i>
+                </a>
+            </article>
+
+            <!-- JOBS -->
+            <article class="about-coverage-card">
+                <div class="about-coverage-icon">
+                    <i class="fa-solid fa-briefcase"
+                       aria-hidden="true"></i>
+                </div>
+
+                <span class="about-coverage-number">03</span>
+
+                <h3>Job Opportunities</h3>
+
+                <p>
+                    Find local job listings and employment
+                    opportunities shared by the community.
+                </p>
+
+                <a href="classifieds.html" class="about-coverage-link">
+                    <span>Explore Jobs</span>
+                    <i class="fa-solid fa-arrow-right"
+                       aria-hidden="true"></i>
+                </a>
+            </article>
+
+            <!-- PROPERTY -->
+            <article class="about-coverage-card">
+                <div class="about-coverage-icon">
+                    <i class="fa-solid fa-house"
+                       aria-hidden="true"></i>
+                </div>
+
+                <span class="about-coverage-number">04</span>
+
+                <h3>Property Listings</h3>
+
+                <p>
+                    Browse local property advertisements for
+                    houses, apartments, and available plots.
+                </p>
+
+                <a href="classifieds.html" class="about-coverage-link">
+                    <span>Explore Property</span>
+                    <i class="fa-solid fa-arrow-right"
+                       aria-hidden="true"></i>
+                </a>
+            </article>
+
+            <!-- VEHICLES -->
+            <article class="about-coverage-card">
+                <div class="about-coverage-icon">
+                    <i class="fa-solid fa-car"
+                       aria-hidden="true"></i>
+                </div>
+
+                <span class="about-coverage-number">05</span>
+
+                <h3>Vehicles</h3>
+
+                <p>
+                    Discover vehicle advertisements and local
+                    listings for cars, bikes, and more.
+                </p>
+
+                <a href="classifieds.html" class="about-coverage-link">
+                    <span>Explore Vehicles</span>
+                    <i class="fa-solid fa-arrow-right"
+                       aria-hidden="true"></i>
+                </a>
+            </article>
+
+            <!-- SERVICES -->
+            <article class="about-coverage-card">
+                <div class="about-coverage-icon">
+                    <i class="fa-solid fa-handshake"
+                       aria-hidden="true"></i>
+                </div>
+
+                <span class="about-coverage-number">06</span>
+
+                <h3>Local Services</h3>
+
+                <p>
+                    Connect with local businesses, professionals,
+                    and useful services in your area.
+                </p>
+
+                <a href="classifieds.html" class="about-coverage-link">
+                    <span>Explore Services</span>
+                    <i class="fa-solid fa-arrow-right"
+                       aria-hidden="true"></i>
+                </a>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     ABOUT PAGE — SECTION 5: WHY CHOOSE US
+====================================================== -->
+
+<section class="about-why" id="aboutWhy">
+
+    <div class="about-why-container">
+
+        <!-- LEFT CONTENT -->
+        <div class="about-why-content">
+
+            <div class="about-why-eyebrow-wrap">
+                <span class="about-why-eyebrow">
+                    WHY THE LOCAL VOICE
+                </span>
+                <span class="about-why-line"></span>
+            </div>
+
+            <h2 class="about-why-title">
+                Your Community.
+                <span>Your Voice.</span>
+                Your Connection.
+            </h2>
+
+            <p class="about-why-description">
+                We bring local stories, useful information, and
+                community opportunities together in one convenient
+                place. Our goal is to help people stay informed,
+                connected, and involved in their local area.
+            </p>
+
+            <a href="contact.html" class="about-why-button">
+                <span>Connect With Us</span>
+                <i class="fa-solid fa-arrow-right"
+                   aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+        <!-- RIGHT FEATURES -->
+        <div class="about-why-features">
+
+            <!-- FEATURE 1 -->
+            <article class="about-why-feature">
+                <div class="about-why-feature-icon">
+                    <i class="fa-solid fa-location-dot"
+                       aria-hidden="true"></i>
+                </div>
+
+                <div class="about-why-feature-content">
+                    <h3>Locally Focused</h3>
+                    <p>
+                        Information and opportunities centered
+                        around the community you call home.
+                    </p>
+                </div>
+            </article>
+
+            <!-- FEATURE 2 -->
+            <article class="about-why-feature">
+                <div class="about-why-feature-icon">
+                    <i class="fa-solid fa-layer-group"
+                       aria-hidden="true"></i>
+                </div>
+
+                <div class="about-why-feature-content">
+                    <h3>Everything in One Place</h3>
+                    <p>
+                        Explore local news, events, classifieds,
+                        and useful community resources together.
+                    </p>
+                </div>
+            </article>
+
+            <!-- FEATURE 3 -->
+            <article class="about-why-feature">
+                <div class="about-why-feature-icon">
+                    <i class="fa-solid fa-users"
+                       aria-hidden="true"></i>
+                </div>
+
+                <div class="about-why-feature-content">
+                    <h3>Community Connected</h3>
+                    <p>
+                        Discover local activities, services,
+                        and opportunities to get involved.
+                    </p>
+                </div>
+            </article>
+
+            <!-- FEATURE 4 -->
+            <article class="about-why-feature">
+                <div class="about-why-feature-icon">
+                    <i class="fa-solid fa-compass"
+                       aria-hidden="true"></i>
+                </div>
+
+                <div class="about-why-feature-content">
+                    <h3>Easy to Explore</h3>
+                    <p>
+                        Find relevant local information through
+                        clear categories and simple navigation.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     ABOUT PAGE — SECTION 6: COMMUNITY IMPACT
+====================================================== -->
+
+<section class="about-impact" id="aboutImpact">
+
+    <div class="about-impact-container">
+
+        <!-- SECTION HEADER -->
+        <div class="about-impact-header">
+
+            <div class="about-impact-eyebrow-wrap">
+                <span class="about-impact-line"></span>
+                <span class="about-impact-eyebrow">
+                    OUR COMMUNITY IMPACT
+                </span>
+                <span class="about-impact-line"></span>
+            </div>
+
+            <h2 class="about-impact-title">
+                Making Local Connections
+                <span>Stronger Every Day</span>
+            </h2>
+
+            <p class="about-impact-description">
+                We believe a connected community is a stronger
+                community. The Local Voice brings people closer
+                to the news, opportunities, businesses, and events
+                that matter in their everyday lives.
+            </p>
+
+        </div>
+
+        <!-- IMPACT CARDS -->
+        <div class="about-impact-grid">
+
+            <!-- CARD 1 -->
+            <article class="about-impact-card">
+                <div class="about-impact-card-top">
+                    <div class="about-impact-icon">
+                        <i class="fa-solid fa-newspaper"
+                           aria-hidden="true"></i>
+                    </div>
+                    <span class="about-impact-number">01</span>
+                </div>
+
+                <h3>Informed Communities</h3>
+
+                <p>
+                    Help residents discover local updates,
+                    important stories, and information that
+                    keeps them informed.
+                </p>
+
+                <span class="about-impact-card-line"></span>
+            </article>
+
+            <!-- CARD 2 -->
+            <article class="about-impact-card">
+                <div class="about-impact-card-top">
+                    <div class="about-impact-icon">
+                        <i class="fa-solid fa-people-group"
+                           aria-hidden="true"></i>
+                    </div>
+                    <span class="about-impact-number">02</span>
+                </div>
+
+                <h3>Connected People</h3>
+
+                <p>
+                    Make it easier for people to find community
+                    activities, discover shared interests,
+                    and participate locally.
+                </p>
+
+                <span class="about-impact-card-line"></span>
+            </article>
+
+            <!-- CARD 3 -->
+            <article class="about-impact-card">
+                <div class="about-impact-card-top">
+                    <div class="about-impact-icon">
+                        <i class="fa-solid fa-store"
+                           aria-hidden="true"></i>
+                    </div>
+                    <span class="about-impact-number">03</span>
+                </div>
+
+                <h3>Local Business Visibility</h3>
+
+                <p>
+                    Help residents discover nearby businesses,
+                    services, and opportunities through
+                    local listings.
+                </p>
+
+                <span class="about-impact-card-line"></span>
+            </article>
+
+            <!-- CARD 4 -->
+            <article class="about-impact-card">
+                <div class="about-impact-card-top">
+                    <div class="about-impact-icon">
+                        <i class="fa-solid fa-calendar-check"
+                           aria-hidden="true"></i>
+                    </div>
+                    <span class="about-impact-number">04</span>
+                </div>
+
+                <h3>Active Communities</h3>
+
+                <p>
+                    Bring attention to local events, gatherings,
+                    and activities that encourage community
+                    participation.
+                </p>
+
+                <span class="about-impact-card-line"></span>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     ABOUT PAGE — SECTION 7: FINAL CTA
+====================================================== -->
+
+<section class="about-cta" id="aboutCta">
+
+    <div class="about-cta-decoration about-cta-decoration-one"
+         aria-hidden="true"></div>
+
+    <div class="about-cta-decoration about-cta-decoration-two"
+         aria-hidden="true"></div>
+
+    <div class="about-cta-container">
+
+        <!-- CTA CONTENT -->
+        <div class="about-cta-content">
+
+            <div class="about-cta-eyebrow-wrap">
+                <span class="about-cta-line"></span>
+                <span class="about-cta-eyebrow">
+                    BE PART OF THE COMMUNITY
+                </span>
+                <span class="about-cta-line"></span>
+            </div>
+
+            <h2 class="about-cta-title">
+                Be Part of Your
+                <span>Local Story</span>
+            </h2>
+
+            <p class="about-cta-description">
+                Discover what's happening around you, explore
+                local opportunities, and stay connected with the
+                people and places that make your community special.
+            </p>
+
+            <!-- CTA BUTTONS -->
+            <div class="about-cta-actions">
+
+                <a href="contact.html" class="about-cta-button">
+                    <span>Connect With Us</span>
+                    <i class="fa-solid fa-arrow-right"
+                       aria-hidden="true"></i>
+                </a>
+
+                <a href="index.html"
+                   class="about-cta-button about-cta-button-outline">
+                    <span>Explore Local News</span>
+                    <i class="fa-solid fa-newspaper"
+                       aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- DECORATIVE COMMUNITY ICONS -->
+        <div class="about-cta-visual" aria-hidden="true">
+
+            <div class="about-cta-visual-ring about-cta-ring-one"></div>
+            <div class="about-cta-visual-ring about-cta-ring-two"></div>
+
+            <div class="about-cta-visual-center">
+                <i class="fa-solid fa-people-group"></i>
+            </div>
+
+            <div class="about-cta-floating-icon about-cta-floating-one">
+                <i class="fa-solid fa-newspaper"></i>
+            </div>
+
+            <div class="about-cta-floating-icon about-cta-floating-two">
+                <i class="fa-solid fa-calendar-days"></i>
+            </div>
+
+            <div class="about-cta-floating-icon about-cta-floating-three">
+                <i class="fa-solid fa-store"></i>
+            </div>
+
+            <div class="about-cta-floating-icon about-cta-floating-four">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+         </main>
+<! =========================================================
+   FOOTER
+========================================================= !>
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =============================================
+             FOOTER BRAND
+        ============================================== -->
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img
+                    src="images/logo.png"
+                    alt="The Local Voice"
+                    class="footer-logo-light"
+                >
+
+                
+            </a>
+
+            <p class="footer-description">
+                Your trusted source for local news, community stories,
+                events, classifieds, and everything happening around you.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             QUICK LINKS
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="news.html">All News</a>
+                </li>
+
+                <li>
+                    <a href="classifieds.html">Classifieds</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="advertise.html">Advertise With Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             NEWS CATEGORIES
+        ============================================== -->
+
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                News Categories
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="civic.html">Civic</a>
+                </li>
+
+                <li>
+                    <a href="sports.html">Sports</a>
+                </li>
+
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="news.html">Latest News</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =============================================
+             CONTACT
+        ============================================== -->
+
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <p>
+                    Your Local Community,<br>
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <a href="tel:+910000000000">
+                    +91 00000 00000
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:info@thelocalvoice.com">
+                    info@thelocalvoice.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         FOOTER BOTTOM
+    ============================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 The Local Voice. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+         We will add the header JS later.
+    ====================================================== -->
+<!-- =========================================================
+     SCROLL TO TOP BUTTON
+========================================================= -->
+
+<button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
