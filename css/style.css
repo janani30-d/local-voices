@@ -44660,6 +44660,123 @@ a.classifieds-latest-link i {
     z-index: 5;
 }
 
+/* =====================================================
+   HOME 1 HERO — HEIGHT & CENTER ALIGNMENT
+====================================================== */
+
+#home1Hero {
+    position: relative;
+    height: 740px;
+    min-height: 740px;
+    overflow: hidden;
+}
+
+/* Slides */
+#home1Hero .home1-hero-slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Center the entire content block */
+#home1Hero .home1-hero-content {
+    position: relative;
+    inset: auto;
+    transform: none;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 25px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 2;
+}
+
+/* Category */
+#home1Hero .home1-hero-category {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 24px;
+}
+
+/* Heading */
+#home1Hero .home1-hero-title {
+    max-width: 900px;
+    margin: 0 auto 24px;
+    text-align: center;
+    line-height: 1.25;
+}
+
+/* Description */
+#home1Hero .home1-hero-description {
+    max-width: 750px;
+    margin: 0 auto 30px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* Button */
+#home1Hero .home1-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+/* Keep arrows and dots above slides */
+#home1Hero .home1-hero-arrow,
+#home1Hero .home1-hero-dots {
+    z-index: 5;
+}
+
+/* iPad / Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #home1Hero {
+        height: 650px;
+        min-height: 650px;
+    }
+
+    #home1Hero .home1-hero-content {
+        max-width: 760px;
+    }
+
+    #home1Hero .home1-hero-title {
+        font-size: 38px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    #home1Hero {
+        height: 600px;
+        min-height: 600px;
+    }
+
+    #home1Hero .home1-hero-content {
+        padding: 30px 22px;
+    }
+
+    #home1Hero .home1-hero-category {
+        margin-bottom: 18px;
+    }
+
+    #home1Hero .home1-hero-title {
+        font-size: 29px;
+        line-height: 1.3;
+        margin-bottom: 18px;
+    }
+
+    #home1Hero .home1-hero-description {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+}
+
 
 /* =========================================
    GLOBAL WEBSITE DESIGN SYSTEM
@@ -47002,5 +47119,178 @@ body.dark-mode .about-cta-floating-icon {
 @media (prefers-reduced-motion: reduce) {
     .about-cta-button {
         transition: none;
+    }
+}
+
+/* HOME 2 EDUCATION CARD — META FONT SIZE */
+
+.home2-education-card-meta {
+    font-size: 11px !important;
+    line-height: 1.5;
+}
+
+.home2-education-card-meta i {
+    font-size: 11px !important;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .home2-education-card-meta,
+    .home2-education-card-meta i {
+        font-size: 11px !important;
+    }
+}
+
+/* SPORTS MOST READ — INCREASE FONT SIZE */
+
+/* Category */
+.sports-most-read-category {
+    font-size: 11px !important;
+}
+
+/* Article title */
+.sports-most-read h3 {
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+}
+
+/* Date and views */
+.sports-most-read-meta,
+.sports-most-read-meta span {
+    font-size: 11px !important;
+    line-height: 1.5;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .sports-most-read-category {
+        font-size: 10px !important;
+    }
+
+    .sports-most-read h3 {
+        font-size: 15px !important;
+    }
+
+    .sports-most-read-meta,
+    .sports-most-read-meta span {
+        font-size: 10px !important;
+    }
+}
+
+/* BUSINESS FEATURED META — FONT SIZE 11px */
+
+.business-featured-meta,
+.business-featured-meta span {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+.business-featured-meta i {
+    font-size: 11px !important;
+}
+
+/* BUSINESS MOST READ — INCREASE FONT SIZE */
+
+/* Category */
+.business-most-read-category {
+    font-size: 11px !important;
+    line-height: 1.5;
+}
+
+/* Article title */
+.business-most-read-content h3 {
+    font-size: 17px !important;
+    line-height: 1.45 !important;
+}
+
+/* Date and views */
+.business-most-read-meta,
+.business-most-read-meta span {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .business-most-read-category {
+        font-size: 10px !important;
+    }
+
+    .business-most-read-content h3 {
+        font-size: 15px !important;
+    }
+
+    .business-most-read-meta,
+    .business-most-read-meta span {
+        font-size: 10px !important;
+    }
+}
+
+/* BUSINESS LATEST — META FONT SIZE */
+
+.business-latest-meta,
+.business-latest-meta span {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+.business-latest-meta i {
+    font-size: 11px !important;
+}
+
+/* =====================================================
+   EDUCATION SECTIONS — META FONT SIZE 11px
+====================================================== */
+
+.education-breaking-meta,
+.education-breaking-meta span,
+.education-featured-meta,
+.education-featured-meta span,
+.education-latest-meta,
+.education-latest-meta span,
+.education-update-meta,
+.education-update-meta span {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+/* Metadata icons */
+.education-breaking-meta i,
+.education-featured-meta i,
+.education-update-meta i {
+    font-size: 11px !important;
+}
+
+/* EDUCATION MOST READ — INCREASE FONT SIZE */
+
+/* Category */
+.education-most-read-category {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+/* Article title */
+.education-most-read-content h3 {
+    font-size: 17px !important;
+    line-height: 1.45 !important;
+}
+
+/* Date and views */
+.education-most-read-meta,
+.education-most-read-meta span {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .education-most-read-content h3 {
+        font-size: 15px !important;
+    }
+
+    .education-most-read-category,
+    .education-most-read-meta,
+    .education-most-read-meta span {
+        font-size: 10px !important;
     }
 }
