@@ -47455,3 +47455,224 @@ body.dark-mode .about-cta-floating-icon {
         --hero-common-height: 460px;
     }
 }
+
+/* =========================================
+   ABOUT HERO — MOBILE TOP PADDING FIX
+========================================= */
+
+@media (max-width: 767px) {
+
+    .about-hero {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .about-hero-container {
+        padding-top: 24px !important;
+        padding-bottom: 24px !important;
+        min-height: 100% !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .about-hero-content {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .about-hero-eyebrow-wrap {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .about-hero-container {
+        padding-top: 18px !important;
+        padding-bottom: 18px !important;
+    }
+}
+
+/* =========================================
+   ABOUT HERO — MOBILE SPACING FIX
+========================================= */
+
+@media (max-width: 767px) {
+
+    .about-hero {
+        height: auto !important;
+        min-height: 460px !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .about-hero-container {
+        min-height: 460px !important;
+        height: auto !important;
+        padding: 28px 20px 32px !important;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .about-hero-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .about-hero-eyebrow-wrap {
+        margin: 0 0 18px !important;
+    }
+
+    .about-hero-title {
+        font-size: clamp(28px, 7vw, 34px) !important;
+        line-height: 1.2 !important;
+        margin: 0 0 18px !important;
+    }
+
+    .about-hero-description {
+        font-size: 14px !important;
+        line-height: 1.7 !important;
+        margin: 0 0 20px !important;
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+
+    .about-hero-container {
+        min-height: 440px !important;
+        padding: 24px 16px 28px !important;
+    }
+
+    .about-hero-title {
+        font-size: 28px !important;
+        line-height: 1.25 !important;
+    }
+}
+
+/* ABOUT HERO — SHOW HIDDEN EYEBROW ON MOBILE */
+
+@media (max-width: 767px) {
+
+    .about-hero-container {
+        align-items: flex-start !important;
+        padding-top: 36px !important;
+        padding-bottom: 28px !important;
+        overflow: visible !important;
+    }
+
+    .about-hero-content {
+        position: relative !important;
+        top: auto !important;
+        transform: none !important;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        overflow: visible !important;
+    }
+
+    .about-hero-eyebrow-wrap {
+        display: flex !important;
+        align-items: center;
+        position: relative !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        margin: 0 0 16px !important;
+        z-index: 5;
+    }
+
+    .about-hero-eyebrow {
+        display: inline-block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+}
+
+/* ABOUT HERO — MOBILE EYEBROW POSITION FIX */
+
+@media (max-width: 767px) {
+
+    .about-hero .about-hero-container {
+        display: flex !important;
+        align-items: flex-start !important;
+        padding: 32px 20px !important;
+        box-sizing: border-box !important;
+    }
+
+    .about-hero .about-hero-content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        position: relative !important;
+        top: auto !important;
+        transform: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        gap: 0 !important;
+    }
+
+    .about-hero .about-hero-eyebrow-wrap {
+        display: flex !important;
+        align-items: center !important;
+        position: relative !important;
+        order: -1 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 20px !important;
+        margin: 0 0 18px !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        z-index: 10 !important;
+    }
+
+    .about-hero .about-hero-eyebrow {
+        display: inline-block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        color: #C89B3C !important;
+        font-size: 11px !important;
+        line-height: 1.5 !important;
+    }
+
+    .about-hero .about-hero-title {
+        margin-top: 0 !important;
+    }
+}
+
+/* ABOUT HERO — MOBILE TOP PADDING */
+
+@media (max-width: 767px) {
+    .about-hero .about-hero-container {
+        padding-top: 70px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .about-hero .about-hero-content {
+        margin-top: 0 !important;
+    }
+
+    .about-hero .about-hero-eyebrow-wrap {
+        margin-top: 0 !important;
+        margin-bottom: 18px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-hero .about-hero-container {
+        padding-top: 60px !important;
+    }
+}
+
+/* ABOUT HERO — MOVE EYEBROW DOWN ON MOBILE */
+
+@media (max-width: 767px) {
+    .about-hero .about-hero-eyebrow-wrap {
+        margin-top: 30px !important;
+        margin-bottom: 18px !important;
+        position: relative !important;
+        top: 0 !important;
+        transform: none !important;
+    }
+}
