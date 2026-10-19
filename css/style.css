@@ -48623,3 +48623,281 @@ body.dark-mode .about-stats-card:hover .about-stats-icon {
     color: #172B45;
     background: #E0B34F;
 }
+
+/* CLASSIFIEDS HERO — MOBILE TOP SPACE ONLY */
+
+@media (max-width: 767px) {
+    .classifieds-hero {
+        padding-top: 20px !important;
+    }
+
+    .classifieds-hero-container {
+        padding-top: 10px !important;
+    }
+}
+
+/* =========================================
+   CLASSIFIEDS HERO — MOBILE FIX
+========================================= */
+
+@media (max-width: 767px) {
+
+    .classifieds-hero {
+        height: auto !important;
+        min-height: 0 !important;
+        padding-top: 12px !important;
+        padding-bottom: 25px !important;
+        overflow: visible !important;
+        box-sizing: border-box;
+    }
+
+    .classifieds-hero-container {
+        height: auto !important;
+        min-height: 0 !important;
+        padding-top: 12px !important;
+        padding-bottom: 10px !important;
+        box-sizing: border-box;
+    }
+
+    .classifieds-hero-content {
+        position: relative !important;
+        z-index: 2 !important;
+        height: auto !important;
+        min-height: 0 !important;
+        padding-top: 8px !important;
+        padding-bottom: 10px !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .classifieds-hero h1,
+    .classifieds-hero p,
+    .classifieds-hero-meta,
+    .classifieds-hero-btn {
+        position: relative;
+        z-index: 2;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .classifieds-hero-overlay {
+        z-index: 0;
+    }
+}
+
+/* CLASSIFIEDS — MOBILE TOP GAP */
+
+@media (max-width: 767px) {
+    .classifieds-hero-content {
+        padding-top: 25px !important;
+    }
+
+    .classifieds-hero-eyebrow {
+        display: block;
+        margin-top: 10px !important;
+    }
+}
+
+/* EVENTS HERO — MOBILE EYEBROW TOP SPACE */
+
+@media (max-width: 767px) {
+    .events-hero-content {
+        padding-top: 25px !important;
+    }
+
+    .events-hero-label {
+        margin-top: 10px !important;
+    }
+}
+
+/* EVENTS HERO — MOBILE TITLE DOWN */
+
+@media (max-width: 767px) {
+    .events-hero-content {
+        padding-top: 0 !important;
+    }
+
+    .events-hero-label {
+        margin-bottom: 18px !important;
+    }
+
+    .events-hero-title {
+        margin-top: 20px !important;
+        position: relative;
+        top: 10px;
+    }
+}
+
+/* EVENTS HERO — MOVE EYEBROW DOWN ON MOBILE */
+
+@media (max-width: 767px) {
+    .events-hero-content {
+        padding-top: 25px !important;
+    }
+
+    .events-hero-label {
+        position: relative !important;
+        top: 15px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .events-hero-title {
+        margin-top: 0 !important;
+    }
+}
+
+/* EVENTS HERO — MOBILE SPACING FIX */
+
+@media (max-width: 767px) {
+
+    /* Space above COMMUNITY EVENTS */
+    .events-hero-content {
+        padding-top: 35px !important;
+    }
+
+    .events-hero-label {
+        margin-top: 10px !important;
+        margin-bottom: 28px !important;
+    }
+
+    /* Heading spacing */
+    .events-hero-title {
+        margin-top: 0 !important;
+        margin-bottom: 18px !important;
+        position: relative;
+        top: 0 !important;
+    }
+
+    /* Description spacing */
+    .events-hero-content p {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        line-height: 1.8 !important;
+    }
+}
+
+/* EVENTS HERO — MOVE EYEBROW DOWN */
+
+@media (max-width: 767px) {
+    .events-hero-label {
+        position: relative !important;
+        top: 35px !important;
+        margin-bottom: 35px !important;
+        z-index: 2;
+    }
+
+    .events-hero-title {
+        margin-top: 0 !important;
+    }
+}
+
+/* =========================================
+   RESPONSIVE HEADER — DARK MODE
+   Mobile + iPad Mini + iPad Pro
+========================================= */
+
+@media (max-width: 1199px) {
+
+    /* Header */
+    body.dark-mode .site-header {
+        background: #111D2C !important;
+        border-bottom: 1px solid #304056 !important;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    body.dark-mode .site-header .header-container {
+        background: #111D2C !important;
+    }
+
+    /* Logo area */
+    body.dark-mode .site-logo {
+        background: transparent !important;
+    }
+
+    /* Hamburger */
+    body.dark-mode .hamburger-btn {
+        background: #172B45 !important;
+        color: #F5F7FA !important;
+        border: 1px solid #46566B !important;
+    }
+
+    body.dark-mode .hamburger-btn i {
+        color: #F5F7FA !important;
+    }
+
+    /* Mobile / Tablet Navigation */
+    body.dark-mode .mobile-navigation,
+    body.dark-mode .mobile-navigation-inner {
+        background: #111D2C !important;
+        border-color: #304056 !important;
+    }
+
+    body.dark-mode .mobile-nav-link,
+    body.dark-mode .mobile-dropdown-toggle {
+        color: #F5F7FA !important;
+        background: transparent !important;
+        border-bottom: 1px solid #304056 !important;
+    }
+
+    body.dark-mode .mobile-nav-link:hover,
+    body.dark-mode .mobile-dropdown-toggle:hover,
+    body.dark-mode .mobile-dropdown-toggle.active {
+        color: #E0B34F !important;
+        background: #1A293C !important;
+    }
+
+    /* Dropdown */
+    body.dark-mode .mobile-dropdown-menu {
+        background: #1A293C !important;
+        border-color: #304056 !important;
+    }
+
+    body.dark-mode .mobile-dropdown-menu a {
+        color: #D8E0EA !important;
+        background: transparent !important;
+    }
+
+    body.dark-mode .mobile-dropdown-menu a:hover,
+    body.dark-mode .mobile-dropdown-menu a.active {
+        color: #E0B34F !important;
+        background: #22334A !important;
+    }
+
+    /* RTL + Dark Mode buttons */
+    body.dark-mode .mobile-actions .mobile-action-btn {
+        color: #F5F7FA !important;
+        background: #172B45 !important;
+        border: 1px solid #46566B !important;
+    }
+
+    body.dark-mode .mobile-actions .mobile-action-btn i {
+        color: #E0B34F !important;
+    }
+
+    /* Login */
+    body.dark-mode .mobile-login-btn {
+        color: #172B45 !important;
+        background: #C89B3C !important;
+        border: 1px solid #C89B3C !important;
+    }
+}
+
+/* Smaller mobile screens */
+@media (max-width: 767px) {
+    body.dark-mode .site-header,
+    body.dark-mode .site-header .header-container {
+        background: #111D2C !important;
+    }
+}
+
+/* iPad Mini + iPad Pro */
+@media (min-width: 768px) and (max-width: 1199px) {
+    body.dark-mode .site-header,
+    body.dark-mode .site-header .header-container {
+        background: #111D2C !important;
+    }
+
+    body.dark-mode .mobile-navigation {
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    }
+}
