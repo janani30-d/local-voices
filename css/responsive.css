@@ -44082,3 +44082,241 @@ body[dir="rtl"] .about-cta-button {
         line-height: 1.8;
     }
 }
+
+/* =========================================
+   ABOUT HISTORY — RESPONSIVE + RTL
+========================================= */
+
+/* TABLET */
+@media (max-width: 1100px) {
+    .about-history-timeline {
+        width: 100%;
+        max-width: 850px;
+        margin-inline: auto;
+    }
+
+    .about-history-item {
+        width: 100%;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+    .about-history-container {
+        width: calc(100% - 36px);
+    }
+
+    .about-history-timeline {
+        gap: 24px !important;
+    }
+
+    .about-history-item {
+        grid-template-columns: 42px minmax(0, 1fr);
+        gap: 14px;
+    }
+
+    .about-history-marker {
+        width: 42px;
+        height: 42px;
+    }
+
+    .about-history-card {
+        padding: 20px 17px;
+        min-width: 0;
+    }
+}
+
+/* RTL — Move timeline line behind number circles */
+
+html[dir="rtl"] .about-history-timeline,
+body[dir="rtl"] .about-history-timeline {
+    position: relative !important;
+}
+
+/* Move vertical line to the right */
+html[dir="rtl"] .about-history-timeline::before,
+body[dir="rtl"] .about-history-timeline::before {
+    left: auto !important;
+    right: 25px !important;
+    width: 2px !important;
+    z-index: 0 !important;
+}
+
+/* Keep number circles above the line */
+html[dir="rtl"] .about-history-marker,
+body[dir="rtl"] .about-history-marker {
+    position: relative !important;
+    z-index: 2 !important;
+    background: #1B2B40 !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    html[dir="rtl"] .about-history-timeline::before,
+    body[dir="rtl"] .about-history-timeline::before {
+        right: 20px !important;
+        left: auto !important;
+    }
+}
+
+/* =========================================
+   ABOUT STATS — RESPONSIVE
+========================================= */
+
+/* LARGE TABLETS / SMALL LAPTOPS */
+@media (max-width: 1199px) {
+    .about-stats {
+        padding: 85px 0;
+    }
+
+    .about-stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 22px;
+    }
+
+    .about-stats-card {
+        padding: 30px 22px;
+    }
+}
+
+/* IPAD MINI / TABLETS */
+@media (max-width: 767px) {
+    .about-stats {
+        padding: 65px 0;
+    }
+
+    .about-stats-container {
+        width: calc(100% - 36px);
+    }
+
+    .about-stats-header {
+        margin-bottom: 35px;
+    }
+
+    .about-stats-title {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    .about-stats-description {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .about-stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .about-stats-card {
+        padding: 25px 14px;
+    }
+
+    .about-stats-icon {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 18px;
+        font-size: 20px;
+    }
+
+    .about-stats-number {
+        font-size: 30px;
+    }
+
+    .about-stats-label {
+        font-size: 14px;
+    }
+
+    .about-stats-text {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 380px) {
+    .about-stats-container {
+        width: calc(100% - 28px);
+    }
+
+    .about-stats-grid {
+        gap: 12px;
+    }
+
+    .about-stats-card {
+        padding: 22px 10px;
+    }
+
+    .about-stats-title {
+        font-size: 26px;
+    }
+
+    .about-stats-number {
+        font-size: 26px;
+    }
+
+    .about-stats-label {
+        font-size: 13px;
+    }
+
+    .about-stats-text {
+        font-size: 11px;
+    }
+}
+
+/* =========================================
+   ABOUT STATS — RTL SUPPORT
+========================================= */
+
+html[dir="rtl"] .about-stats,
+body[dir="rtl"] .about-stats {
+    direction: rtl;
+}
+
+html[dir="rtl"] .about-stats-header,
+body[dir="rtl"] .about-stats-header {
+    text-align: center;
+}
+
+html[dir="rtl"] .about-stats-description,
+body[dir="rtl"] .about-stats-description {
+    margin-inline: auto;
+}
+
+html[dir="rtl"] .about-stats-grid,
+body[dir="rtl"] .about-stats-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .about-stats-card,
+body[dir="rtl"] .about-stats-card {
+    text-align: center;
+}
+
+/* Keep icon centered in RTL */
+html[dir="rtl"] .about-stats-icon,
+body[dir="rtl"] .about-stats-icon {
+    margin-inline: auto;
+}
+
+/* RTL DARK MODE */
+html[dir="rtl"] body.dark-mode .about-stats-card,
+body[dir="rtl"].dark-mode .about-stats-card {
+    background: #1A293C;
+}
+
+/* RTL TABLET / MOBILE */
+@media (max-width: 767px) {
+    html[dir="rtl"] .about-stats-grid,
+    body[dir="rtl"] .about-stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* REDUCE MOTION WHEN REQUESTED */
+@media (prefers-reduced-motion: reduce) {
+    .about-stats-card,
+    .about-stats-icon {
+        transition: none !important;
+    }
+}

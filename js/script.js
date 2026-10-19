@@ -2806,3 +2806,83 @@ document.addEventListener("DOMContentLoaded", function () {
     toggleScrollTopButton();
 
 });
+
+
+
+/* =========================================
+   ABOUT STATS — COUNTING ANIMATION
+========================================= */
+
+document.addEventListener("DOMContentLoaded", function () {
+    const statsSection = document.querySelector("#aboutStats");
+
+    if (!statsSection) return;
+
+    const counters = statsSection.querySelectorAll(
+        ".about-stats-number[data-target]"
+    );
+
+    if (!counters.length) return;
+
+    let hasCounted = false;
+
+    function startCounting() {
+        if (hasCounted) return;
+        hasCounted = true;
+
+        counters.forEach(function (counter) {
+            const target = Number(counter.dataset.target);
+            const suffix = counter.dataset.suffix || "";
+            const duration = 1800;
+            const startTime = performance.now();
+
+            function animateCount(currentTime) {
+                const progress = Math.min(
+                    (currentTime - startTime) / duration,
+                    1
+                );
+
+                // Smooth ease-out effect
+                const easedProgress = 1 - Math.pow(1 - progress, 3);
+
+                const currentValue = Math.floor(
+                    easedProgress * target
+                );
+
+                counter.textContent =
+                    currentValue.toLocaleString("en-US") + suffix;
+
+                if (progress < 1) {
+                    requestAnimationFrame(animateCount);
+                } else {
+                    counter.textContent =
+                        target.toLocaleString("en-US") + suffix;
+                }
+            }
+
+            requestAnimationFrame(animateCount);
+        });
+    }
+
+    // Start counting when the section enters the viewport
+    if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(
+            function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        startCounting();
+                        observer.disconnect();
+                    }
+                });
+            },
+            {
+                threshold: 0.25
+            }
+        );
+
+        observer.observe(statsSection);
+    } else {
+        // Fallback for older browsers
+        startCounting();
+    }
+});
