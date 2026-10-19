@@ -47706,3 +47706,68 @@ body.dark-mode .about-cta-floating-icon {
     border-color: #C89B3C !important;
     color: #C89B3C !important;
 }
+
+/* SPORTS CATEGORY — META FONT SIZE */
+.sports-category-main-meta {
+    font-size: 10px !important;
+}
+
+.sports-category-main-meta span {
+    font-size: 10px !important;
+}
+
+/* BUSINESS CATEGORY — META FONT SIZE */
+.business-category-main-meta {
+    font-size: 10px !important;
+}
+
+.business-category-main-meta span {
+    font-size: 10px !important;
+}
+
+/* META ICONS */
+.sports-category-main-meta i,
+.business-category-main-meta i {
+    font-size: 12px !important;
+}
+
+/* SPORTS — RELATED ITEMS */
+.sports-category-related-item span {
+    font-size: 9px !important;
+}
+
+.sports-category-related-item h3 {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+/* BUSINESS — RELATED ITEMS */
+.business-category-related-content > span {
+    font-size: 9px !important;
+}
+
+.business-category-related-content h3 {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+.business-category-related-content small {
+    font-size: 9px !important;
+}
+
+/* EDUCATION — RELATED ITEMS */
+.education-category-related-content > span {
+    font-size: 9px !important;
+}
+
+.education-category-related-content h3 {
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+}
+
+/* EDUCATION CATEGORY MAIN META */
+.education-category-main-meta,
+.education-category-main-meta span {
+    font-size: 9px !important;
+    line-height: 1.5 !important;
+}
