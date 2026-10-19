@@ -47676,3 +47676,33 @@ body.dark-mode .about-cta-floating-icon {
         transform: none !important;
     }
 }
+
+/* LOGIN HEADER — SQUARE RTL & DARK MODE BUTTONS */
+
+.login-header-icon {
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px !important;
+    padding: 0 !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    border: 1px solid #D8DDE5 !important;
+    border-radius: 4px !important;
+    background: transparent !important;
+
+    box-sizing: border-box !important;
+    flex-shrink: 0 !important;
+}
+
+.login-header-icon i {
+    font-size: 16px !important;
+    line-height: 1 !important;
+}
+
+.login-header-icon:hover {
+    border-color: #C89B3C !important;
+    color: #C89B3C !important;
+}
