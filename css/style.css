@@ -47294,3 +47294,164 @@ body.dark-mode .about-cta-floating-icon {
         font-size: 10px !important;
     }
 }
+
+/* =====================================================
+   HOME 2 — SHARP CORNER BUTTONS & INPUT
+====================================================== */
+
+/* More Videos */
+.home2-watch-now-more {
+    border-radius: 0 !important;
+}
+
+/* Learn More */
+.home2-education-banner-btn {
+    border-radius: 0 !important;
+}
+
+/* Newsletter Email Input */
+.home2-newsletter-form input[type="email"] {
+    border-radius: 0 !important;
+}
+
+/* Newsletter Subscribe Button */
+.home2-newsletter-form button[type="submit"] {
+    border-radius: 0 !important;
+}
+
+/* =====================================================
+   CLASSIFIEDS NEWSLETTER — SHARP CORNERS
+====================================================== */
+
+/* Property email input and button */
+.classifieds-property-newsletter-form input[type="email"],
+.classifieds-property-newsletter-button,
+
+/* Vehicles email input and button */
+.classifieds-vehicles-newsletter-form input[type="email"],
+.classifieds-vehicles-newsletter-button,
+
+/* Jobs email input and button */
+.classifieds-jobs-newsletter-form input[type="email"],
+.classifieds-jobs-newsletter-button {
+    border-radius: 0 !important;
+}
+
+/* CLASSIFIEDS NEWSLETTER — EMAIL PLACEHOLDER FONT SIZE */
+
+.classifieds-property-newsletter-form input[type="email"],
+.classifieds-vehicles-newsletter-form input[type="email"],
+.classifieds-jobs-newsletter-form input[type="email"] {
+    font-size: 11px !important;
+}
+
+.classifieds-property-newsletter-form input[type="email"]::placeholder,
+.classifieds-vehicles-newsletter-form input[type="email"]::placeholder,
+.classifieds-jobs-newsletter-form input[type="email"]::placeholder {
+    font-size: 11px !important;
+}
+
+/* =========================================
+   ALL HERO SECTIONS — SAME HEIGHT
+========================================= */
+
+:root {
+    --hero-common-height: 640px;
+}
+
+.about-hero,
+.advertise-hero,
+.business-hero,
+.civic-hero,
+.classifieds-hero,
+.contact-hero,
+.education-hero,
+.events-hero,
+.sports-hero,
+.home1-hero {
+    position: relative;
+    height: var(--hero-common-height) !important;
+    min-height: var(--hero-common-height) !important;
+    overflow: hidden;
+}
+
+/* Center hero content vertically */
+.about-hero-container,
+.advertise-hero-container,
+.business-hero-container,
+.civic-hero-container,
+.classifieds-hero-container,
+.contact-hero-container,
+.education-hero-container,
+.events-hero-container,
+.sports-hero-container {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Keep content above the overlay */
+.about-hero-content,
+.advertise-hero-content,
+.business-hero-content,
+.civic-hero-content,
+.classifieds-hero-content,
+.contact-hero-content,
+.education-hero-content,
+.events-hero-content,
+.sports-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Home 1 slider */
+.home1-hero {
+    height: var(--hero-common-height) !important;
+    min-height: var(--hero-common-height) !important;
+}
+
+.home1-hero-slide {
+    height: 100%;
+    min-height: 100%;
+}
+
+.home1-hero-content {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* =========================================
+   RESPONSIVE HEIGHTS
+========================================= */
+
+@media (max-width: 1199px) {
+    :root {
+        --hero-common-height: 560px;
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        --hero-common-height: 500px;
+    }
+
+    .about-hero,
+    .advertise-hero,
+    .business-hero,
+    .civic-hero,
+    .classifieds-hero,
+    .contact-hero,
+    .education-hero,
+    .events-hero,
+    .sports-hero,
+    .home1-hero {
+        height: var(--hero-common-height) !important;
+        min-height: var(--hero-common-height) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --hero-common-height: 460px;
+    }
+}
